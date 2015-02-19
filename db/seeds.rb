@@ -8,3 +8,5 @@
 
 user = User.create({ first_name: 'Alice',
  last_name: 'Copenhagen', email: 'user@example.com', role:'Applicant' })
+
+grant = Program.create({title: 'Sports', deadline: "5-6-2015"})
