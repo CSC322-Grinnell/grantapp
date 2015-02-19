@@ -3808,3 +3808,1612 @@ Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.j
 
 
 Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:13:54 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (5.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (4.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (8.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (6.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (4.8ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (4.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (4.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (4.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO "users" ("first_name", "last_name", "email", "role", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["first_name", "Alice"], ["last_name", "Copenhagen"], ["email", "user@example.com"], ["role", "Applicant"], ["created_at", "2015-02-19 21:35:59.464476"], ["updated_at", "2015-02-19 21:35:59.464476"]]
+  [1m[35m (6.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (7.2ms)[0m  INSERT INTO "programs" ("title", "tags", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "Football"], ["tags", "sports"], ["created_at", "2015-02-19 21:35:59.519463"], ["updated_at", "2015-02-19 21:35:59.519463"]]
+  [1m[36m (10.4ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/admin" for ::1 at 2015-02-19 15:36:24 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (5.6ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 81 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_popovers.scss
+         from line 12 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/bashlovk/GrantApp/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 85 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_popovers.scss
+         from line 12 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/bashlovk/GrantApp/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 109 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 18 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/bashlovk/GrantApp/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 113 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 18 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/bashlovk/GrantApp/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 4 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/bashlovk/GrantApp/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (9334.3ms)
+Completed 200 OK in 9503ms (Views: 9382.6ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:36:33 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:36:34 -0600
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-19 15:36:37 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (5.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (4.7ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (4.0ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (4.3ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (489.3ms)
+Completed 200 OK in 512ms (Views: 485.2ms | ActiveRecord: 18.3ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:36:37 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:36:38 -0600
+
+
+Started GET "/admin/users" for ::1 at 2015-02-19 15:36:42 -0600
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (6.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (5.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (7.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mUser Load (8.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (296.0ms)
+Completed 200 OK in 312ms (Views: 280.1ms | ActiveRecord: 27.3ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:36:42 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:36:43 -0600
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-19 15:36:45 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (3.3ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (8.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (8.3ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (5.1ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (362.3ms)
+Completed 200 OK in 371ms (Views: 344.3ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:36:46 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:36:47 -0600
+
+
+Started GET "/admin/users" for ::1 at 2015-02-19 15:36:54 -0600
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (7.5ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (4.7ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (5.8ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mUser Load (6.7ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (315.1ms)
+Completed 200 OK in 328ms (Views: 301.1ms | ActiveRecord: 24.7ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:36:54 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:36:55 -0600
+
+
+Started GET "/admin/users/new" for ::1 at 2015-02-19 15:37:00 -0600
+Processing by Admin::UsersController#new as HTML
+  [1m[36mAdminUser Load (4.5ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (387.6ms)
+Completed 200 OK in 398ms (Views: 391.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:37:01 -0600
+
+
+Started POST "/admin/users" for ::1 at 2015-02-19 15:37:42 -0600
+Processing by Admin::UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZnFy+vJIwzrUZ3xIOR/P84eFPFE1WMfhnnTFsPD4xu5Ppl7jmilz+UXKnZd5SgCRSvGvoBpGEyJVcq/brVvIbA==", "user"=>{"first_name"=>"Kyle", "last_name"=>"Stone", "email"=>"kstone@hotmail.com", "organization"=>"", "phone_number"=>"2314235453", "address"=>"1115 9th ave", "role"=>""}, "commit"=>"Create User"}
+  [1m[35mAdminUser Load (5.2ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.2ms)[0m  INSERT INTO "users" ("first_name", "last_name", "email", "organization", "phone_number", "address", "role", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["first_name", "Kyle"], ["last_name", "Stone"], ["email", "kstone@hotmail.com"], ["organization", ""], ["phone_number", "2314235453"], ["address", "1115 9th ave"], ["role", ""], ["created_at", "2015-02-19 21:37:42.346366"], ["updated_at", "2015-02-19 21:37:42.346366"]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/users/10
+Completed 302 Found in 92ms (ActiveRecord: 19.7ms)
+
+
+Started GET "/admin/users/10" for ::1 at 2015-02-19 15:37:42 -0600
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mAdminUser Load (3.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (4.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (5.5ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "User"], ["resource_id", "10"], ["namespace", "admin"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "User"], ["resource_id", "10"], ["namespace", "admin"]]
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (323.9ms)
+Completed 200 OK in 375ms (Views: 322.0ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:37:42 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:37:43 -0600
+
+
+Started GET "/admin/users" for ::1 at 2015-02-19 15:37:48 -0600
+Processing by Admin::UsersController#index as HTML
+  [1m[35mAdminUser Load (3.3ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (4.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (3.8ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mUser Load (3.8ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0[0m
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (311.7ms)
+Completed 200 OK in 321ms (Views: 304.2ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:37:48 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:37:49 -0600
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-19 15:37:50 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[35mAdminUser Load (6.4ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (4.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (5.8ms)[0m  [1mSELECT COUNT(*) FROM "programs"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mProgram Load (7.7ms)[0m  [1mSELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0[0m
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (234.5ms)
+Completed 200 OK in 246ms (Views: 220.2ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:37:50 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:37:51 -0600
+
+
+Started GET "/admin/programs/new" for ::1 at 2015-02-19 15:37:54 -0600
+Processing by Admin::ProgramsController#new as HTML
+  [1m[35mAdminUser Load (7.4ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (214.4ms)
+Completed 200 OK in 227ms (Views: 217.7ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:37:54 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:37:55 -0600
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-19 15:38:04 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (4.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (5.9ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (4.9ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (5.9ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (283.7ms)
+Completed 200 OK in 294ms (Views: 270.5ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:38:04 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:38:05 -0600
+
+
+Started GET "/admin" for ::1 at 2015-02-19 15:43:39 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (4.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (4.2ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (638.9ms)
+Completed 200 OK in 802ms (Views: 688.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:43:40 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:43:41 -0600
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-19 15:43:43 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (4.4ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (4.8ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (4.6ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (6.8ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (453.3ms)
+Completed 200 OK in 514ms (Views: 443.0ms | ActiveRecord: 20.8ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:43:43 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-19 15:43:44 -0600
+
+
+Started GET "/admin/programs/new" for ::1 at 2015-02-19 15:43:46 -0600
+Processing by Admin::ProgramsController#new as HTML
+  [1m[36mAdminUser Load (5.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (275.5ms)
+Completed 200 OK in 287ms (Views: 279.2ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:43:46 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:43:47 -0600
+
+
+Started POST "/admin/programs" for ::1 at 2015-02-19 15:44:00 -0600
+Processing by Admin::ProgramsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FxaEte6j+1UD/VWB5rUnLh8Rg0l/9oryM/t+n5mFwfQ+waishsJLlpJQtF6m4OhM0mUQuFDoXjH4/RT0xCbPdg==", "program"=>{"title"=>"asd", "short_description"=>"asd", "long_description"=>"asd", "deadline(1i)"=>"2011", "deadline(2i)"=>"4", "deadline(3i)"=>"5", "deadline(4i)"=>"02", "deadline(5i)"=>"03", "picture"=>"asdsa", "tags"=>"asdasd"}, "commit"=>"Create Program"}
+  [1m[35mAdminUser Load (20.6ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (17.1ms)[0m  INSERT INTO "programs" ("title", "short_description", "long_description", "picture", "tags", "deadline", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["title", "asd"], ["short_description", "asd"], ["long_description", "asd"], ["picture", "asdsa"], ["tags", "asdasd"], ["deadline", "2011-04-05 02:03:00.000000"], ["created_at", "2015-02-19 21:44:00.388947"], ["updated_at", "2015-02-19 21:44:00.388947"]]
+  [1m[36m (12.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin/programs/4
+Completed 302 Found in 112ms (ActiveRecord: 50.3ms)
+
+
+Started GET "/admin/programs/4" for ::1 at 2015-02-19 15:44:00 -0600
+Processing by Admin::ProgramsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mAdminUser Load (9.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProgram Load (7.7ms)[0m  [1mSELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (3.7ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Program"], ["resource_id", "4"], ["namespace", "admin"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Program"], ["resource_id", "4"], ["namespace", "admin"]]
+  Rendered /home/bashlovk/.gem/ruby/1.9.1/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (345.3ms)
+Completed 200 OK in 389ms (Views: 352.9ms | ActiveRecord: 21.3ms)
+
+
+Started GET "/assets/active_admin-71ba4b742d50732d7d91549251d8a3be.css?body=1" for ::1 at 2015-02-19 15:44:00 -0600
+
+
+Started GET "/assets/active_admin/print-1dda697bfc4b65b7dc4a7e5c71ea01ab.css?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
