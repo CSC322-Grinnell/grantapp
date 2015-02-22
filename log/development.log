@@ -5417,3 +5417,2277 @@ Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js
 
 
 Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-19 15:44:01 -0600
+
+
+Started GET "/" for ::1 at 2015-02-22 15:23:22 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (89.5ms)
+Completed 200 OK in 293ms (Views: 252.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for ::1 at 2015-02-22 15:23:28 -0600
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 16ms
+
+
+Started GET "/admin/login" for ::1 at 2015-02-22 15:23:28 -0600
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/devise/shared/_links.erb (11.3ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (537.6ms)
+Completed 200 OK in 2870ms (Views: 2268.5ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 15:23:31 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 15:23:32 -0600
+
+
+Started POST "/admin/login" for ::1 at 2015-02-22 15:23:53 -0600
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vDDekiGtBZibZtxhi39M0e4mKobxaEJ48wEym1sHoFJ5dnzfkDXUHzCVc6LeZVn6uAwAcfsDwM2RhAmolAss+Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[35mAdminUser Load (2.3ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["email", "admin@example.com"]]
+Completed 401 Unauthorized in 410ms
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vDDekiGtBZibZtxhi39M0e4mKobxaEJ48wEym1sHoFJ5dnzfkDXUHzCVc6LeZVn6uAwAcfsDwM2RhAmolAss+Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/devise/shared/_links.erb (4.9ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (47.0ms)
+Completed 200 OK in 521ms (Views: 411.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/login" for ::1 at 2015-02-22 15:24:02 -0600
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G2mx5wm/+JpBeaSFJZcqScN2ONQR6I+uo3i9OYPcrlveLxOquCcpHeqKC0ZwjT9ilVwSIxuDDRvB/YYKTNAi8A==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (2.9ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "admin@example.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.3ms)[0m  [1mUPDATE "admin_users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["remember_created_at", "2015-02-22 21:24:02.285154"], ["updated_at", "2015-02-22 21:24:02.287227"], ["id", 1]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  UPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?  [["last_sign_in_at", "2015-02-19 21:06:16.237875"], ["current_sign_in_at", "2015-02-22 21:24:02.296076"], ["sign_in_count", 5], ["updated_at", "2015-02-22 21:24:02.298047"], ["id", 1]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 343ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/admin" for ::1 at 2015-02-22 15:24:02 -0600
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (1.8ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (435.6ms)
+Completed 200 OK in 507ms (Views: 463.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/admin_users" for ::1 at 2015-02-22 15:24:06 -0600
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.7ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.7ms)[0m  SELECT COUNT(*) FROM "admin_users"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "admin_users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mAdminUser Load (2.3ms)[0m  SELECT  "admin_users".* FROM "admin_users"  ORDER BY "admin_users"."id" desc LIMIT 30 OFFSET 0
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (709.4ms)
+Completed 200 OK in 881ms (Views: 736.8ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-22 15:24:07 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-22 15:24:07 -0600
+
+
+Started GET "/admin/admin_users/1" for ::1 at 2015-02-22 15:24:10 -0600
+Processing by Admin::AdminUsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mAdminUser Load (2.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "AdminUser"], ["resource_id", "1"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "AdminUser"], ["resource_id", "1"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (674.4ms)
+Completed 200 OK in 728ms (Views: 698.5ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/admin/comments" for ::1 at 2015-02-22 15:24:18 -0600
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (1.8ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.7ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ?  [["namespace", "admin"]]
+  [1m[36m (1.6ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ? LIMIT 30 OFFSET 0) subquery_for_count[0m  [["namespace", "admin"]]
+  [1m[35m (1.7ms)[0m  SELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments"  ORDER BY resource_type asc
+  [1m[36m (1.8ms)[0m  [1mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments"  ORDER BY author_type asc[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (935.3ms)
+Completed 200 OK in 958ms (Views: 942.1ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-22 15:24:22 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[35mAdminUser Load (1.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (2.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "programs"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mProgram Load (1.7ms)[0m  [1mSELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (653.0ms)
+Completed 200 OK in 683ms (Views: 661.0ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/admin/programs/4" for ::1 at 2015-02-22 15:24:30 -0600
+Processing by Admin::ProgramsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mAdminUser Load (1.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mProgram Load (3.9ms)[0m  [1mSELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (1.5ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Program"], ["resource_id", "4"], ["namespace", "admin"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Program"], ["resource_id", "4"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (484.5ms)
+Completed 200 OK in 504ms (Views: 491.8ms | ActiveRecord: 7.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateApplications (20150222214059)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (2.1ms)[0m  [1mCREATE TABLE "applications" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "program_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_applications_on_user_id" ON "applications" ("user_id")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_applications_on_program_id" ON "applications" ("program_id")[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150222214059"]]
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+
+
+Started GET "/" for ::1 at 2015-02-22 15:59:18 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (6.6ms)
+Completed 200 OK in 211ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for ::1 at 2015-02-22 15:59:22 -0600
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (2.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (898.5ms)
+Completed 200 OK in 1119ms (Views: 913.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 15:59:26 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[36mAdminUser Load (1.8ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.8ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProgram Load (1.6ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (832.9ms)
+Completed 200 OK in 879ms (Views: 836.5ms | ActiveRecord: 15.3ms)
+
+
+Started GET "/admin/applications/new" for ::1 at 2015-02-22 15:59:35 -0600
+Processing by Admin::ApplicationsController#new as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (3.0ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (1.7ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (809.9ms)
+Completed 200 OK in 859ms (Views: 836.2ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/admin/users" for ::1 at 2015-02-22 15:59:57 -0600
+Processing by Admin::UsersController#index as HTML
+  [1m[35mAdminUser Load (2.6ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mUser Load (2.9ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mApplication Load (1.9ms)[0m  SELECT "applications".* FROM "applications"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (680.6ms)
+Completed 200 OK in 704ms (Views: 687.6ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-22 16:00:16 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (1.9ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.5ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (1.7ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mApplication Load (1.6ms)[0m  [1mSELECT "applications".* FROM "applications"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (649.3ms)
+Completed 200 OK in 671ms (Views: 656.4ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 16:01:40 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[35mAdminUser Load (1.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mUser Load (1.8ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (1.6ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (484.4ms)
+Completed 200 OK in 502ms (Views: 490.0ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/admin/applications/new" for ::1 at 2015-02-22 16:01:42 -0600
+Processing by Admin::ApplicationsController#new as HTML
+  [1m[35mAdminUser Load (1.5ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProgram Load (1.5ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (478.9ms)
+Completed 200 OK in 493ms (Views: 484.2ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-22 16:01:55 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.6ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (8.5ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mApplication Load (1.5ms)[0m  [1mSELECT "applications".* FROM "applications"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (662.8ms)
+Completed 200 OK in 678ms (Views: 657.5ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/admin/users" for ::1 at 2015-02-22 16:02:00 -0600
+Processing by Admin::UsersController#index as HTML
+  [1m[35mAdminUser Load (1.6ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mApplication Load (1.5ms)[0m  SELECT "applications".* FROM "applications"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (549.3ms)
+Completed 200 OK in 567ms (Views: 553.9ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 16:02:44 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.7ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProgram Load (1.7ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (496.4ms)
+Completed 200 OK in 514ms (Views: 502.0ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/admin/applications/new" for ::1 at 2015-02-22 16:02:48 -0600
+Processing by Admin::ApplicationsController#new as HTML
+  [1m[36mAdminUser Load (5.3ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (1.5ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (601.9ms)
+Completed 200 OK in 620ms (Views: 606.2ms | ActiveRecord: 8.4ms)
+
+
+Started POST "/admin/applications" for ::1 at 2015-02-22 16:03:00 -0600
+Processing by Admin::ApplicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"H1exyHhslkEwcH3iZEer/w2fzBBs495724Qup7gvg/mCpw06wmc0xl6axsdsvETvTW5OyCJzpWrCYUpt6l0FMQ==", "application"=>{"user_id"=>"10", "program_id"=>"1"}, "commit"=>"Create Application"}
+  [1m[35mAdminUser Load (1.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 7ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  activemodel (4.2.0) lib/active_model/forbidden_attributes_protection.rb:21:in `sanitize_for_mass_assignment'
+  activerecord (4.2.0) lib/active_record/attribute_assignment.rb:33:in `assign_attributes'
+  activerecord (4.2.0) lib/active_record/core.rb:557:in `init_attributes'
+  activerecord (4.2.0) lib/active_record/core.rb:280:in `initialize'
+  activerecord (4.2.0) lib/active_record/inheritance.rb:61:in `new'
+  activerecord (4.2.0) lib/active_record/inheritance.rb:61:in `new'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/resource_controller/data_access.rb:138:in `build_new_resource'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/resource_controller/data_access.rb:121:in `build_resource'
+  inherited_resources (1.6.0) lib/inherited_resources/actions.rb:31:in `create'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (13.6ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (343.4ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 16:05:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[35mAdminUser Load (1.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.9ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (1.6ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (1215.0ms)
+Completed 200 OK in 1650ms (Views: 1308.3ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/admin/applications/new" for ::1 at 2015-02-22 16:05:15 -0600
+Processing by Admin::ApplicationsController#new as HTML
+  [1m[35mAdminUser Load (1.5ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProgram Load (1.6ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (727.0ms)
+Completed 200 OK in 749ms (Views: 731.6ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/admin/applications" for ::1 at 2015-02-22 16:05:20 -0600
+Processing by Admin::ApplicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rc5R7EncEBI4jgaNwxAg/v5Qe0kQm5mq2bD9uMTa+oLYPu0e89eylVZkvajL68/uvqH5kV4L4rvAVZlylqh8Sg==", "application"=>{"user_id"=>"6", "program_id"=>"1"}, "commit"=>"Create Application"}
+  [1m[36mAdminUser Load (4.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Unpermitted parameters: user_id, program_id
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (2.5ms)[0m  [1mINSERT INTO "applications" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-02-22 22:05:20.242681"], ["updated_at", "2015-02-22 22:05:20.242681"]]
+  [1m[35m (3.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/applications/1
+Completed 302 Found in 86ms (ActiveRecord: 11.1ms)
+
+
+Started GET "/admin/applications/1" for ::1 at 2015-02-22 16:05:20 -0600
+Processing by Admin::ApplicationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (2.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mApplication Load (1.5ms)[0m  SELECT  "applications".* FROM "applications" WHERE "applications"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Application"], ["resource_id", "1"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Application"], ["resource_id", "1"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (608.2ms)
+Completed 200 OK in 722ms (Views: 611.5ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-22 16:05:35 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[36mAdminUser Load (2.9ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.5ms)[0m  SELECT COUNT(*) FROM "programs"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mProgram Load (1.6ms)[0m  SELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mApplication Load (1.6ms)[0m  [1mSELECT "applications".* FROM "applications"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (656.8ms)
+Completed 200 OK in 679ms (Views: 663.8ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/admin/programs/new" for ::1 at 2015-02-22 16:05:39 -0600
+Processing by Admin::ProgramsController#new as HTML
+  [1m[35mAdminUser Load (1.9ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (666.6ms)
+Completed 200 OK in 684ms (Views: 676.4ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/admin/programs" for ::1 at 2015-02-22 16:05:50 -0600
+Processing by Admin::ProgramsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"s/PRz0jwXYR7VmAVBHQ2uGGeA06etXbBLiuucf8fCkwuA2098vv/AxW82zAMj9moIW+BltAlDdA3zsq7rW2MhA==", "program"=>{"title"=>"Park", "short_description"=>"lol", "long_description"=>"LOLOL", "deadline(1i)"=>"", "deadline(2i)"=>"", "deadline(3i)"=>"", "deadline(4i)"=>"", "deadline(5i)"=>"", "picture"=>"", "tags"=>""}, "commit"=>"Create Program"}
+  [1m[36mAdminUser Load (1.4ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "programs" ("title", "short_description", "long_description", "picture", "tags", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Park"], ["short_description", "lol"], ["long_description", "LOLOL"], ["picture", ""], ["tags", ""], ["created_at", "2015-02-22 22:05:50.360390"], ["updated_at", "2015-02-22 22:05:50.360390"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/programs/5
+Completed 302 Found in 38ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/admin/programs/5" for ::1 at 2015-02-22 16:05:50 -0600
+Processing by Admin::ProgramsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdminUser Load (1.6ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProgram Load (1.5ms)[0m  SELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Program"], ["resource_id", "5"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Program"], ["resource_id", "5"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (487.4ms)
+Completed 200 OK in 502ms (Views: 493.5ms | ActiveRecord: 4.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+
+
+Started GET "/admin/" for ::1 at 2015-02-22 16:08:29 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::DashboardController#index as HTML
+  [1m[35mAdminUser Load (1.6ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (902.1ms)
+Completed 200 OK in 1241ms (Views: 1004.9ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 16:08:33 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[36mAdminUser Load (1.4ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.8ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "applications"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mApplication Load (1.8ms)[0m  SELECT  "applications".* FROM "applications"  ORDER BY "applications"."id" desc LIMIT 30 OFFSET 0
+  [1m[36m (1.8ms)[0m  [1mSELECT DISTINCT "applications"."user_id" FROM "applications"  ORDER BY user_id asc[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (813.2ms)
+Completed 500 Internal Server Error in 850ms
+
+ActionView::Template::Error (uninitialized constant Application::UserId):
+    1: insert_tag renderer_for(:index)
+  activerecord (4.2.0) lib/active_record/inheritance.rb:158:in `compute_type'
+  activerecord (4.2.0) lib/active_record/reflection.rb:271:in `compute_class'
+  activerecord (4.2.0) lib/active_record/reflection.rb:267:in `klass'
+  ransack (1.6.3) lib/ransack/adapters/active_record/context.rb:58:in `attribute_method?'
+  ransack (1.6.3) lib/ransack/nodes/grouping.rb:131:in `attribute_method?'
+  ransack (1.6.3) lib/ransack/search.rb:104:in `method_missing'
+  ransack (1.6.3) lib/ransack/helpers/form_builder.rb:12:in `value'
+  actionview (4.2.0) lib/action_view/helpers/tags/select.rb:16:in `block in render'
+  actionview (4.2.0) lib/action_view/helpers/tags/select.rb:16:in `fetch'
+  actionview (4.2.0) lib/action_view/helpers/tags/select.rb:16:in `render'
+  actionview (4.2.0) lib/action_view/helpers/form_options_helper.rb:163:in `select'
+  actionview (4.2.0) lib/action_view/helpers/form_options_helper.rb:777:in `select'
+  formtastic (3.1.3) lib/formtastic/inputs/select_input.rb:145:in `select_html'
+  formtastic (3.1.3) lib/formtastic/inputs/select_input.rb:140:in `block in to_html'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:200:in `with_output_buffer'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/inputs/filters/base.rb:12:in `input_wrapping'
+  formtastic (3.1.3) lib/formtastic/inputs/select_input.rb:138:in `to_html'
+  formtastic (3.1.3) lib/formtastic/helpers/input_helper.rb:240:in `input'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/filters/forms.rb:14:in `filter'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/filters/forms.rb:62:in `block (2 levels) in active_admin_filters_form_for'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/filters/forms.rb:58:in `each'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/filters/forms.rb:58:in `block in active_admin_filters_form_for'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:38:in `block in capture'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:200:in `with_output_buffer'
+  actionview (4.2.0) lib/action_view/helpers/capture_helper.rb:38:in `capture'
+  actionview (4.2.0) lib/action_view/helpers/form_helper.rb:444:in `form_for'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/filters/forms.rb:57:in `active_admin_filters_form_for'
+  arbre (1.0.3) lib/arbre/element.rb:180:in `method_missing'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/filters/resource_extension.rb:136:in `block in filters_sidebar_section'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/components/sidebar_section.rb:20:in `instance_exec'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/components/sidebar_section.rb:20:in `build_sidebar_content'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/components/sidebar_section.rb:13:in `build'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:30:in `block in build_tag'
+  arbre (1.0.3) lib/arbre/context.rb:92:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:49:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:26:in `build_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:39:in `insert_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:18:in `sidebar_section'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:126:in `block (2 levels) in build_sidebar'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:125:in `collect'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:125:in `block in build_sidebar'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:31:in `block in build_tag'
+  arbre (1.0.3) lib/arbre/context.rb:92:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:49:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:26:in `build_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:39:in `insert_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:18:in `div'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:124:in `build_sidebar'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:72:in `block in build_page_content'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:31:in `block in build_tag'
+  arbre (1.0.3) lib/arbre/context.rb:92:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:49:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:26:in `build_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:39:in `insert_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:18:in `div'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:70:in `build_page_content'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:48:in `block (2 levels) in build_page'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:31:in `block in build_tag'
+  arbre (1.0.3) lib/arbre/context.rb:92:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:49:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:26:in `build_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:39:in `insert_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:18:in `div'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:44:in `block in build_page'
+  arbre (1.0.3) lib/arbre/context.rb:92:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:49:in `with_current_arbre_element'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:43:in `build_page'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/views/pages/base.rb:10:in `build'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:30:in `block in build_tag'
+  arbre (1.0.3) lib/arbre/context.rb:92:in `with_current_arbre_element'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:26:in `build_tag'
+  arbre (1.0.3) lib/arbre/element/builder_methods.rb:39:in `insert_tag'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb:2:in `block in __home_champagn__gem_ruby_______bundler_gems_activeadmin_ed_fbca_c__a_app_views_active_admin_resource_index_html_arb__2903164356131493535_49443060'
+  arbre (1.0.3) lib/arbre/context.rb:45:in `instance_eval'
+  arbre (1.0.3) lib/arbre/context.rb:45:in `initialize'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb:1:in `new'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb:1:in `__home_champagn__gem_ruby_______bundler_gems_activeadmin_ed_fbca_c__a_app_views_active_admin_resource_index_html_arb__2903164356131493535_49443060'
+  actionview (4.2.0) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.0) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.0) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  responders (2.1.0) lib/action_controller/responder.rb:236:in `default_render'
+  responders (2.1.0) lib/action_controller/responder.rb:170:in `to_html'
+  responders (2.1.0) lib/responders/flash_responder.rb:107:in `to_html'
+  responders (2.1.0) lib/action_controller/responder.rb:163:in `respond'
+  responders (2.1.0) lib/action_controller/responder.rb:156:in `call'
+  responders (2.1.0) lib/action_controller/respond_with.rb:203:in `respond_with'
+  inherited_resources (1.6.0) lib/inherited_resources/actions.rb:7:in `index'
+  /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/lib/active_admin/resource_controller/streaming.rb:12:in `index'
+  actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (24.8ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (11.9ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.7ms)
+  Rendered /home/champagn/.gem/ruby/1.9.1/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (77.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.4ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 16:10:59 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[35mAdminUser Load (1.7ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "applications"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mApplication Load (1.8ms)[0m  [1mSELECT  "applications".* FROM "applications"  ORDER BY "applications"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (1.8ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (1356.7ms)
+Completed 200 OK in 1786ms (Views: 1446.0ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:11:01 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:11:02 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:11:03 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-22 16:11:03 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-22 16:11:03 -0600
+
+
+Started GET "/admin/applications/new" for ::1 at 2015-02-22 16:11:06 -0600
+Processing by Admin::ApplicationsController#new as HTML
+  [1m[35mAdminUser Load (2.2ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProgram Load (1.7ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (689.8ms)
+Completed 200 OK in 706ms (Views: 694.4ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:11:07 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:11:08 -0600
+
+
+Started POST "/admin/applications" for ::1 at 2015-02-22 16:11:15 -0600
+Processing by Admin::ApplicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjFGN2U6Bm+UyLZJ6Mj/8xYzzzd1sTvRB2nMatxElhIvwfrF3zGk6PoiDWzgMxDjVsJN7zshQMAejKigjjYQ2g==", "application"=>{"user_id"=>"6", "program_id"=>"5"}, "commit"=>"Create Application"}
+  [1m[36mAdminUser Load (2.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.6ms)[0m  [1mINSERT INTO "applications" ("user_id", "program_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 6], ["program_id", 5], ["created_at", "2015-02-22 22:11:15.166673"], ["updated_at", "2015-02-22 22:11:15.166673"]]
+  [1m[35m (3.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/applications/2
+Completed 302 Found in 52ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/admin/applications/2" for ::1 at 2015-02-22 16:11:15 -0600
+Processing by Admin::ApplicationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (1.8ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mApplication Load (1.6ms)[0m  SELECT  "applications".* FROM "applications" WHERE "applications"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mProgram Load (2.0ms)[0m  SELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (2.4ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Application"], ["resource_id", "2"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Application"], ["resource_id", "2"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (664.2ms)
+Completed 200 OK in 794ms (Views: 662.7ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:11:16 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:11:17 -0600
+
+
+Started GET "/admin/programs/5" for ::1 at 2015-02-22 16:11:29 -0600
+Processing by Admin::ProgramsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mAdminUser Load (1.9ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mProgram Load (1.5ms)[0m  SELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Program"], ["resource_id", "5"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Program"], ["resource_id", "5"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (488.0ms)
+Completed 200 OK in 511ms (Views: 497.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:11:30 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:11:31 -0600
+
+
+Started GET "/admin/users/6" for ::1 at 2015-02-22 16:11:34 -0600
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAdminUser Load (1.8ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "User"], ["resource_id", "6"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "User"], ["resource_id", "6"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (480.8ms)
+Completed 200 OK in 504ms (Views: 492.8ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:11:35 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:11:36 -0600
+
+
+Started GET "/admin/comments" for ::1 at 2015-02-22 16:13:37 -0600
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (651.6ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ?  [["namespace", "admin"]]
+  [1m[36m (1.7ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ? LIMIT 30 OFFSET 0) subquery_for_count[0m  [["namespace", "admin"]]
+  [1m[35m (1.6ms)[0m  SELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments"  ORDER BY resource_type asc
+  [1m[36m (2.7ms)[0m  [1mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments"  ORDER BY author_type asc[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (1175.7ms)
+Completed 200 OK in 1199ms (Views: 533.3ms | ActiveRecord: 659.3ms)
+
+
+Started GET "/admin/programs" for ::1 at 2015-02-22 16:13:39 -0600
+Processing by Admin::ProgramsController#index as HTML
+  [1m[35mAdminUser Load (1.5ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (1.4ms)[0m  [1mSELECT COUNT(*) FROM "programs"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "programs" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mProgram Load (1.6ms)[0m  [1mSELECT  "programs".* FROM "programs"  ORDER BY "programs"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mApplication Load (1.5ms)[0m  SELECT "applications".* FROM "applications"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (646.6ms)
+Completed 200 OK in 662ms (Views: 648.6ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:13:39 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:13:39 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:13:39 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:13:40 -0600
+
+
+Started GET "/admin/users" for ::1 at 2015-02-22 16:13:45 -0600
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (2.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (1.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.5ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mApplication Load (2.7ms)[0m  [1mSELECT "applications".* FROM "applications"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (568.1ms)
+Completed 200 OK in 692ms (Views: 671.1ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:13:46 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:13:47 -0600
+
+
+Started GET "/admin/users" for ::1 at 2015-02-22 16:26:54 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (2.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (1.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (3.6ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35m (1.6ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mCACHE (0.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "users" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mUser Load (1.7ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" desc LIMIT 30 OFFSET 0
+  [1m[36mApplication Load (1.9ms)[0m  [1mSELECT "applications".* FROM "applications"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (830.8ms)
+Completed 200 OK in 930ms (Views: 834.1ms | ActiveRecord: 23.9ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:26:55 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:26:55 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:26:55 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-22 16:26:56 -0600
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-22 16:27:00 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[35mAdminUser Load (8.9ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (1.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "applications"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mApplication Load (12.5ms)[0m  [1mSELECT  "applications".* FROM "applications"  ORDER BY "applications"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (1.5ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (682.8ms)
+Completed 200 OK in 727ms (Views: 680.8ms | ActiveRecord: 30.4ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:27:00 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:27:00 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:27:00 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:27:00 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:27:01 -0600
+
+
+Started GET "/admin/applications/new" for ::1 at 2015-02-22 16:27:02 -0600
+Processing by Admin::ApplicationsController#new as HTML
+  [1m[35mAdminUser Load (1.5ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (211.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mProgram Load (1.6ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/new.html.arb (831.7ms)
+Completed 200 OK in 847ms (Views: 627.2ms | ActiveRecord: 214.8ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:27:03 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:27:04 -0600
+
+
+Started POST "/admin/applications" for ::1 at 2015-02-22 16:27:07 -0600
+Processing by Admin::ApplicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PxxKFG7D3+Zpq+CvZYww3ozN4EfkLLjdXTU9pcSZz+ui7Pbm1Mh9YQdBW4ptd9/OzDxin6q8w8xE0FlvlutJIw==", "application"=>{"user_id"=>"7", "program_id"=>"1"}, "commit"=>"Create Application"}
+  [1m[36mAdminUser Load (4.7ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (3.5ms)[0m  [1mINSERT INTO "applications" ("user_id", "program_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 7], ["program_id", 1], ["created_at", "2015-02-22 22:27:07.885223"], ["updated_at", "2015-02-22 22:27:07.885223"]]
+  [1m[35m (3.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin/applications/3
+Completed 302 Found in 42ms (ActiveRecord: 11.4ms)
+
+
+Started GET "/admin/applications/3" for ::1 at 2015-02-22 16:27:07 -0600
+Processing by Admin::ApplicationsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (1.6ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mApplication Load (1.5ms)[0m  SELECT  "applications".* FROM "applications" WHERE "applications"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mProgram Load (1.5ms)[0m  SELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Application"], ["resource_id", "3"], ["namespace", "admin"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?  [["resource_type", "Application"], ["resource_id", "3"], ["namespace", "admin"]]
+  Rendered /home/champagn/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/show.html.arb (527.0ms)
+Completed 200 OK in 542ms (Views: 530.2ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/assets/active_admin-0153acb17ba119013aa7cd9a246874cc.css?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/active_admin/print-4133c325e43879c798595b674303ad5b.css?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-22 16:27:08 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-22 16:27:09 -0600
