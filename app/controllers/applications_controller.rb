@@ -1,4 +1,4 @@
-class ApplicationsController < InheritedResources::Base
+class ApplicationsController < ApplicationController
 
   private
 
