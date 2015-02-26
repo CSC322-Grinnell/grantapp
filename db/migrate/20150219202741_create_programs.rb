@@ -4,7 +4,7 @@ class CreatePrograms < ActiveRecord::Migration
       t.string :title
       t.string :short_description
       t.string :long_description
-      t.string :deadline
+      t.datetime :deadline
       t.string :picture
       t.string :tags
 
