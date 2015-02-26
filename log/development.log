@@ -9415,3 +9415,11 @@ Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 a
 
 
 Started GET "/assets/application-9f66afab972869b7595f359506522b65.js?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/" for ::1 at 2015-02-25 22:22:31 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramsController#index as HTML
+  [1m[35mProgram Load (3.3ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered programs/index.html.erb within layouts/application (70.9ms)
+Completed 200 OK in 1064ms (Views: 1035.7ms | ActiveRecord: 12.2ms)
