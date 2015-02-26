@@ -9289,3 +9289,129 @@ Processing by ProgramsController#show as HTML
   [1m[36mProgram Load (3.2ms)[0m  [1mSELECT  "programs".* FROM "programs" WHERE "programs"."id" = ? LIMIT 1[0m  [["id", 2]]
   Rendered programs/show.html.erb within layouts/application (1.7ms)
 Completed 200 OK in 473ms (Views: 379.2ms | ActiveRecord: 3.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (3.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (3.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (3.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (3.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (3.3ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (3.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (3.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (3.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+
+
+Started GET "/" for ::1 at 2015-02-25 21:57:18 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramsController#index as HTML
+  [1m[35mProgram Load (3.1ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered programs/index.html.erb within layouts/application (73.5ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 81 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_popovers.scss
+         from line 12 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 85 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_popovers.scss
+         from line 12 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 109 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 18 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 113 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 18 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 4 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+Completed 200 OK in 10821ms (Views: 10794.2ms | ActiveRecord: 11.8ms)
+
+
+Started GET "/assets/applications-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/programs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/application-0c7ee5f68c5a8d0eb0d2f8a4e8fc9cf3.css?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/applications-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/scaffolds-e2b617152467f3f2ec9f2b6053984919.css?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/programs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-25 21:57:29 -0600
+
+
+Started GET "/assets/application-9f66afab972869b7595f359506522b65.js?body=1" for ::1 at 2015-02-25 21:57:29 -0600
