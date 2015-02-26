@@ -9423,3 +9423,295 @@ Processing by ProgramsController#index as HTML
   [1m[35mProgram Load (3.3ms)[0m  SELECT "programs".* FROM "programs"
   Rendered programs/index.html.erb within layouts/application (70.9ms)
 Completed 200 OK in 1064ms (Views: 1035.7ms | ActiveRecord: 12.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (4.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.7ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.5ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_resource_type_and_resource_id' AND type='index'
+[0m
+  [1m[35m (1.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_namespace' AND type='index'
+
+  [1m[36m (3.4ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_active_admin_comments_on_author_type_and_author_id' AND type='index'
+[0m
+  [1m[35m (1.7ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (1.6ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_admin_users_on_email' AND type='index'
+[0m
+  [1m[35m (1.5ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_program_id' AND type='index'
+
+  [1m[36m (1.6ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_applications_on_user_id' AND type='index'
+[0m
+
+
+Started GET "/" for ::1 at 2015-02-26 14:47:29 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramsController#index as HTML
+  [1m[35mProgram Load (2.0ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered programs/index.html.erb within layouts/application (73.7ms)
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 81 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_popovers.scss
+         from line 12 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 85 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_popovers.scss
+         from line 12 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 109 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 18 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 113 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/components/_dropdown_menu.scss
+         from line 18 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+WARNING: The box-sizing mixin is deprecated and will be removed in the next major version release. This property can now be used un-prefixed.
+         on line 410 of /home/hansunho/.gem/ruby/1.9.1/gems/bourbon-4.2.0/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `box-sizing'
+         from line 4 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/structure/_title_bar.scss
+         from line 34 of /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/assets/stylesheets/active_admin/_base.scss
+         from line 12 of /home/hansunho/csc322proj/grantapp/app/assets/stylesheets/active_admin.css.scss
+
+Completed 200 OK in 11246ms (Views: 11217.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/active_admin-1e880ee93d7f1c3abe854efdcc731dc7.css?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/applications-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/programs-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/scaffolds-e2b617152467f3f2ec9f2b6053984919.css?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/users-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/application-0c7ee5f68c5a8d0eb0d2f8a4e8fc9cf3.css?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-26 14:47:40 -0600
+
+
+Started GET "/assets/jquery-ui/core-f6c29219d44f4267c6c5f748cb73851a.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/datepicker-28441b2cd45f0545c8a439f40b98d784.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/widget-406fc24d615dd4370e049e85fb5f549d.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/button-a8037a4250da171316b7e7521b0d9d0b.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/mouse-504ef967eca0eb03967e3c9751c36d17.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/draggable-d158b51e489137b213fd1eaa96a9b92a.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/position-65ef6bd55aa64766623cc74b5d7d353d.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/resizable-aa565fd6aa9f42700d8c54b318c0c1c8.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/dialog-ee62065c80cb02fe6e91bf5811c59c91.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/sortable-fe96bfa9ff14377c0dc83b42d0f191e4.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/jquery-ui/tabs-7d723642f0cea4ad8b4be12b7af40214.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/base-73f24d8653d67794d4eb7ac3c8266e3b.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/batch_actions-5706928449a7d192adcb4c959b623cf6.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/checkbox-toggler-71efe70af420ba0aef07b4e19fc2fc06.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/dropdown-menu-0d4c387b749f3fc1d71179e523ab4e49.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/flash-a3dc1386603709c2a6501741817b1ca8.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/has_many-64f8975fc252419139c3a62d16c53777.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/modal_dialog-400dfa6502091f82a5e3941b8a771c46.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/per_page-239488a1a0b13f3cda3dddf002b6ed21.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/popover-4659964ef0ff6b1465b40769d440f87a.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/lib/table-checkbox-toggler-18530342f84893188506c0a48a10be15.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-ui-5963f9f0bd7887f07217b87c96e27f88.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/ext/jquery-22727936bd5e807603d51c2a59b45b7d.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin/application-eb8a267ef17a17c127e0278b098e46d5.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/active_admin-835293ec52ff33915328aca69e191403.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/applications-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/programs-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/users-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/assets/application-9f66afab972869b7595f359506522b65.js?body=1" for ::1 at 2015-02-26 14:47:41 -0600
+
+
+Started GET "/admin" for ::1 at 2015-02-26 14:47:47 -0600
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 13ms
+
+
+Started GET "/admin/login" for ::1 at 2015-02-26 14:47:48 -0600
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendered /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/devise/shared/_links.erb (7.9ms)
+  Rendered /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (323.6ms)
+Completed 200 OK in 786ms (Views: 701.5ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/active_admin/print-8aabd038d19c1d0d730ab41ec17d7a42.css?body=1" for ::1 at 2015-02-26 14:47:48 -0600
+
+
+Started POST "/admin/login" for ::1 at 2015-02-26 14:47:50 -0600
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S4tN57SItX+ArnwoquI0ohcAZU/3hRDIVFa6vZ0V8PGSD/5dh9iVCMxKJTQB4L5QwsjfgMiY70gsg0328UL/OA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (2.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["email", "admin@example.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.6ms)[0m  [1mUPDATE "admin_users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "admin_users"."id" = ?[0m  [["last_sign_in_at", "2015-02-22 21:24:02.296076"], ["current_sign_in_at", "2015-02-26 20:47:51.174512"], ["sign_in_count", 6], ["updated_at", "2015-02-26 20:47:51.176050"], ["id", 1]]
+  [1m[35m (5.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 282ms (ActiveRecord: 10.1ms)
+
+
+Started GET "/admin" for ::1 at 2015-02-26 14:47:51 -0600
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (2.2ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (279.1ms)
+Completed 200 OK in 361ms (Views: 296.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-26 14:47:53 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[35mAdminUser Load (3.2ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (4.8ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (2.1ms)[0m  [1mSELECT COUNT(*) FROM "applications"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mApplication Load (3.7ms)[0m  [1mSELECT  "applications".* FROM "applications"  ORDER BY "applications"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (7.0ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (3.1ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (545.0ms)
+Completed 200 OK in 588ms (Views: 542.9ms | ActiveRecord: 31.1ms)
+
+
+Started GET "/assets/active_admin/orderable-fcf918d86a0ea64ea3cc55b5b2667445.png" for ::1 at 2015-02-26 14:47:54 -0600
+
+
+Started GET "/assets/active_admin/datepicker/datepicker-input-icon-2cdd5b392c8f6a4cd47ee723b2cc9cb6.png" for ::1 at 2015-02-26 14:47:54 -0600
+
+
+Started GET "/" for ::1 at 2015-02-26 14:55:10 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProgramsController#index as HTML
+  [1m[35mProgram Load (4.3ms)[0m  SELECT "programs".* FROM "programs"
+  Rendered programs/index.html.erb within layouts/application (78.4ms)
+Completed 200 OK in 1137ms (Views: 1106.3ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/admin" for ::1 at 2015-02-26 14:55:21 -0600
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (2.0ms)[0m  [1mSELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/page/index.html.arb (304.1ms)
+Completed 200 OK in 455ms (Views: 309.6ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/admin/applications" for ::1 at 2015-02-26 14:55:23 -0600
+Processing by Admin::ApplicationsController#index as HTML
+  [1m[35mAdminUser Load (2.0ms)[0m  SELECT  "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ?  ORDER BY "admin_users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (2.5ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36m (4.7ms)[0m  [1mSELECT COUNT(*) FROM "applications"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "applications" LIMIT 30 OFFSET 0) subquery_for_count
+  [1m[36mApplication Load (3.6ms)[0m  [1mSELECT  "applications".* FROM "applications"  ORDER BY "applications"."id" desc LIMIT 30 OFFSET 0[0m
+  [1m[35mUser Load (2.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mProgram Load (3.3ms)[0m  [1mSELECT "programs".* FROM "programs"[0m
+  Rendered /home/hansunho/.gem/ruby/1.9.1/bundler/gems/activeadmin-ed1fbca8c64a/app/views/active_admin/resource/index.html.arb (625.1ms)
+Completed 200 OK in 660ms (Views: 614.8ms | ActiveRecord: 29.2ms)
