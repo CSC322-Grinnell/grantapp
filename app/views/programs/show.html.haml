@@ -1,0 +1,22 @@
+%p#notice= notice
+%p
+  %strong Title:
+  = @program.title
+%p
+  %strong Short description:
+  = @program.short_description
+%p
+  %strong Long description:
+  = @program.long_description
+%p
+  %strong Deadline:
+  = @program.deadline
+%p
+  %strong Picture:
+  = @program.picture
+%p
+  %strong Tags:
+  = @program.tags
+= link_to 'Edit', edit_program_path(@program)
+|
+\#{link_to 'Back', programs_path}
