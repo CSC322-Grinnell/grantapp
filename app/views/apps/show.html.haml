@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %strong User:
+  = @app.user
+%p
+  %strong Program:
+  = @app.program
+= link_to 'Edit', edit_app_path(@app)
+|
+\#{link_to 'Back', apps_path}
