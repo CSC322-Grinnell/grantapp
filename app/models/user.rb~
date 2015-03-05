@@ -1,3 +1,8 @@
 class User < ActiveRecord::Base
-has_many :applications
+
+ROLES = %w[applicant reviewer]
+
+has_many :apps
+
+
 end

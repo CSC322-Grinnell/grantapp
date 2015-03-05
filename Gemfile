@@ -19,6 +19,9 @@ group :production do
   gem 'pg'
 end
 
+#Use CanCan for user authorization
+gem "cancan"
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
