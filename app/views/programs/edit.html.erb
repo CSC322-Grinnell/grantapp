@@ -1,6 +1,7 @@
 <h1>Editing Program</h1>
 
-<%= render 'form' %>
-
-<%= link_to 'Show', @program %> |
-<%= link_to 'Back', programs_path %>
+<% if can? :update, @program %>
+  <%= render 'form' %>
+  <%= link_to 'Show', @program %> |
+  <%= link_to 'Back', programs_path %>
+<% end %>

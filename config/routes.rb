@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   resources :users
+  
+  devise_for :users
 
   get '/', :to => 'programs#index'
   ActiveAdmin.routes(self)
