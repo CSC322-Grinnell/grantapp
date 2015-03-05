@@ -3,12 +3,18 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-#Use sqlite for development and test
+# Use sqlite for development and test
 group :development, :test do
   gem 'sqlite3'
+  gem 'capybara'
 end
 
-#Use pg for production
+# Use cucumber for BDD testing
+group :test do
+gem 'cucumber-rails'
+gem 'cucumber-rails-training-wheels'
+end
+# Use pg for production
 group :production do
   gem 'pg'
 end
@@ -34,7 +40,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Used for admin side management
 gem 'activeadmin', github:'activeadmin'
 # Used for html templating
-gem 'haml'
+gem 'haml', '>= 4.0.5'
+# Used once to convert erb to haml
+#gem 'html2haml'
 # Enforce Ruby style guidelines
 gem 'rubocop'
 
