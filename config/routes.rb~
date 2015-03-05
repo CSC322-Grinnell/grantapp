@@ -1,10 +1,15 @@
 Rails.application.routes.draw do
-  resources :apps
 
   resources :programs
 
-  devise_for :admin_users,:users ActiveAdmin::Devise.config
-  resources :users
+  # Make it so you cannot go to users, apps pages manually
+  #resources :users
+  #resources :apps
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  
+  devise_for :users
 
   get '/', :to => 'programs#index'
   ActiveAdmin.routes(self)
