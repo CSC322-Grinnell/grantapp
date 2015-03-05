@@ -3,8 +3,15 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-#Use pg for Active Record
-gem 'pg'
+#Use sqlite for development and test
+group :development, :test do
+  gem 'sqlite3'
+end
+
+#Use pg for production
+group :production do
+  gem 'pg'
+end
 
 
 # Use SCSS for stylesheets

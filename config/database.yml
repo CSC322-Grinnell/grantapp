@@ -1,13 +1,13 @@
 development:
-  adapter: postgresql
+  adapter: sqlite3
   encoding: utf8
   database: project_development
   pool: 5
-  username: hansunho 
-  password:
+  username:  
+  password: 
 
 test: &TEST
-  adapter: postgresql
+  adapter: sqlite3
   encoding: utf8
   database: project_test
   pool: 5
