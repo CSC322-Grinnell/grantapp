@@ -1,5 +1,5 @@
 class AppsController < InheritedResources::Base
-
+load_and_authorize_resource
   private
 
     def app_params
