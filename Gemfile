@@ -46,6 +46,8 @@ gem 'activeadmin', github:'activeadmin'
 gem 'haml', '>= 4.0.5'
 # Used once to convert erb to haml
 #gem 'html2haml'
+gem 'erb2haml'
+
 # Enforce Ruby style guidelines
 gem 'rubocop'
 
