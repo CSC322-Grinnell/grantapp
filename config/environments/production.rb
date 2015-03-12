@@ -76,4 +76,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Add actual website url for Devise
+  config.action_mailer.default_url_options = { host: 'https://infinite-fortress-8131.herokuapp.com/' }
+
 end

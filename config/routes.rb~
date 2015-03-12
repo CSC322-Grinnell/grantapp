@@ -1,11 +1,10 @@
 Rails.application.routes.draw do
 
   resources :programs
-  resources :apps
 
-  # Make it so you cannot go to users page manually
+  # Make it so you cannot go to users, apps pages manually
   #resources :users
-
+  #resources :apps
 
   devise_for :admin_users, ActiveAdmin::Devise.config
 
