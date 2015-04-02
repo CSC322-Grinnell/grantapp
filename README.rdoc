@@ -1,27 +1,46 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple grant managing application for Greater Poweshiek Community Foundation.
 
-Things you may want to cover:
+* Ruby version: 1.9.3
 
-* Ruby version
-
-* System dependencies
+* Rails version: 4.2.0 
 
 * Configuration
+bundle-install-user for MathLan
 
-* Database creation
+* Database creation initialization
+rake db:create
 
 * Database initialization
+rake db:migrate
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+bundle exec rake cucumber
 
 * Deployment instructions
+If you don't have heroku, install the gem:
 
-* ...
+<code>gem install --user-install 'heroku'</code>
+
+You now need to set up ssh keys to securely talk to Heroku. 
+
+<code>ssh-keygen -t rsa</code>
+
+<code>heroku login</code>
+
+<code>heroku keys:add</code>
+
+Then add our remote heroku link:
+
+<code>heroku git:remote -a aqueous-depths-5210</code>
+
+To push changes, do:
+
+<code>git push heroku master</code>
+
+
+
 
 
 Please feel free to use a different markup language if you do not plan to run
