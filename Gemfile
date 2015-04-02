@@ -68,3 +68,4 @@ gem 'rubocop'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
