@@ -17,10 +17,10 @@ public
     	debugger
     	@app = @current_user.apps.build
     end
-
     def create
     	@app.program_id = params[:program].id
     	redirect_to apps_path
     end
+
 end
 
