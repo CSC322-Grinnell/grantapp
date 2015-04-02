@@ -19,7 +19,7 @@ Scenario: see the log in form
 Scenario: log in with valid credentials
   When I go to the user log in page
   And I log in as a user with email "test0@test.com" and password "1234abcd"
-  Then I should be on dashboard
+  Then I should be on the home page
 
 Scenario: log in with invalid password
   When I go to the user log in page
