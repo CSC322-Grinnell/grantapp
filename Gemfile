@@ -24,6 +24,8 @@ group :development, :test do
   #gem 'spring'
 end
 
+
+
 # Use pg for production
 group :production do
   gem 'pg'
@@ -69,4 +71,5 @@ gem 'rubocop'
    gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
 
