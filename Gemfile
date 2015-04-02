@@ -11,7 +11,7 @@ group :development, :test do
   gem 'cucumber-rails-training-wheels'
   gem 'debugger'
   gem 'gherkin'
-  gem 'multi_test'
+  gem 'multi_test', '>= 0.1.2' 
   gem 'database_cleaner'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
