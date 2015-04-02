@@ -6,5 +6,9 @@ class AppsController < InheritedResources::Base
       params.require(:app).permit(:user_id, :program_id)
     end
 
+    def new
+    	@programs = Program.all
+    end
+
 end
 
