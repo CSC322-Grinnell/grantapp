@@ -19,7 +19,28 @@ rake db:migrate
 bundle exec rake cucumber
 
 * Deployment instructions
-push to Heroku??
+If you don't have heroku, install the gem:
+
+<code>gem install --user-install 'heroku'</code>
+
+You now need to set up ssh keys to securely talk to Heroku. 
+
+<code>ssh-keygen -t rsa</code>
+
+<code>heroku login</code>
+
+<code>heroku keys:add</code>
+
+Then add our remote heroku link:
+
+<code>heroku git:remote -a aqueous-depths-5210</code>
+
+To push changes, do:
+
+<code>git push heroku master</code>
+
+
+
 
 
 Please feel free to use a different markup language if you do not plan to run
