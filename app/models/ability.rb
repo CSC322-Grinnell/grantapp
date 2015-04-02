@@ -3,12 +3,14 @@ class Ability
 
   def initialize(user)
     user ||= User.new #guest user( not logged in)
-    if user.role == 'applicant'
-      can :update, :apps #, App, :user_id => user.id #working on scope
-      can :read, :programs
+    if user.role == "applicant"
+      can :manage, App, :user => user 
+      can :read, Program
     elsif user.role == 'reviewer'
-      can :read, :apps
-      can :read, :programs
+      can :read, App
+      can :read, Program
+    else
+        can :manage, :all
     end
 
     # Define abilities for the passed in user here. For example:
