@@ -11,9 +11,14 @@
   /   = f.label :user_id
   /   %br
   /     = f.text_field :user_id
+  / .field
+  /   = f.label :program_id
+  /   %br
+  /     = f.select :program_id, Program.all
   .field
-    = f.label :program_id
+    = f.label :text 
     %br
-      = f.select :program_id, Program.all
+      = f.text_field :text 
   .actions
     = f.submit
+= debug @app
