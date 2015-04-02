@@ -1,27 +1,25 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple grant managing application for Greater Poweshiek Community Foundation.
 
-Things you may want to cover:
+* Ruby version: 1.9.3
 
-* Ruby version
-
-* System dependencies
+* Rails version: 4.2.0 
 
 * Configuration
+bundle-install-user for MathLan
 
-* Database creation
+* Database creation initialization
+rake db:create
 
 * Database initialization
+rake db:migrate
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+bundle exec rake cucumber
 
 * Deployment instructions
-
-* ...
+push to Heroku??
 
 
 Please feel free to use a different markup language if you do not plan to run
