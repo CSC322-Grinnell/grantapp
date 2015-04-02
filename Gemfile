@@ -6,14 +6,24 @@ gem 'rails', '4.2.0'
 # Use sqlite for development and test
 group :development, :test do
   gem 'sqlite3'
+  gem 'cucumber-rails', :require => true
+  gem 'cucumber-rails-training-wheels'
+  gem 'database_cleaner'
   gem 'capybara'
+  gem 'launchy'
+  gem 'rspec-rails'
+  gem 'rspec'
+  gem 'webrat'
+  gem 'simplecov'
+  gem 'debugger'
+  gem 'gherkin'
+  gem 'multi_test'
+  # Access an IRB console on exception pages or by using <%= console %> in views
+  gem 'web-console', '~> 2.0'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  #gem 'spring'
 end
 
-# Use cucumber for BDD testing
-group :test do
-gem 'cucumber-rails'
-gem 'cucumber-rails-training-wheels'
-end
 # Use pg for production
 group :production do
   gem 'pg'
@@ -59,15 +69,4 @@ gem 'rubocop'
    gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'debugger'
-
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
-
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-end
 
