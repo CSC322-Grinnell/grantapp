@@ -17,7 +17,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'debugger'
   gem 'gherkin'
-  gem 'multi_test'
+  gem 'multi_test', '>= 0.1.2' 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring

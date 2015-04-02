@@ -4,9 +4,10 @@ class Ability
   def initialize(user)
     user ||= User.new #guest user( not logged in)
     if user.role == 'applicant'
+      can :update, :apps #, App, :user_id => user.id #working on scope
       can :read, :programs
     elsif user.role == 'reviewer'
-      can :update, :apps 
+      can :read, :apps
       can :read, :programs
     end
 
