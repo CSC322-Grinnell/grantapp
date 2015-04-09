@@ -7,13 +7,13 @@
       %ul
         - @app.errors.full_messages.each do |message|
           %li= message
-  .field
-    = f.label :user_id
-    %br
-      = f.text_field :user_id
+  / .field
+  /   = f.label :user_id
+  /   %br
+  /     = f.text_field :user_id
   .field
     = f.label :program_id
     %br
-      = f.text_field :program_id
+      = f.select :program_id , Program.all
   .actions
     = f.submit

@@ -9,8 +9,8 @@
   %tbody
     - @apps.each do |app|
       %tr
-        %td= app.user
-        %td= app.program
+        %td= app.user.email
+        %td= app.program_id
         %td= link_to 'Show', app
         %td= link_to 'Edit', edit_app_path(app)
         %td= link_to 'Destroy', app, method: :delete, data: { confirm: 'Are you sure?' }
