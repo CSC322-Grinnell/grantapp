@@ -10,7 +10,7 @@ class Ability
       can :read, App
       can :read, Program
     else
-        can :read, Program
+      can :read, Program
     end
 
     # Define abilities for the passed in user here. For example:

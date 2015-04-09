@@ -4,9 +4,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-
   has_many :apps
-  has_many :programs
-
-
+  has_and_belongs_to_many :programs
+  accepts_nested_attributes_for :programs
 end
