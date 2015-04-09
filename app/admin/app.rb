@@ -1,5 +1,4 @@
 ActiveAdmin.register App do
-
   permit_params :user, :program
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
@@ -13,6 +12,4 @@ ActiveAdmin.register App do
   #   permitted << :other if resource.something?
   #   permitted
   # end
-
-
 end

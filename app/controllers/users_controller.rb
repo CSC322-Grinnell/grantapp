@@ -1,3 +1,4 @@
+#
 class UsersController < InheritedResources::Base
 
   private
@@ -6,4 +7,3 @@ class UsersController < InheritedResources::Base
       params.require(:user).permit(:first_name, :last_name, :email, :organization, :phone_number, :address, :role)
     end
 end
-
