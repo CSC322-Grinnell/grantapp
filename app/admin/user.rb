@@ -22,7 +22,6 @@ form do |f|
         f.input :phone_number
         f.input :address
         f.input :role,  :as => :select, :collection => ["applicant", "reviewer"]
-        f.input :programs
     end
     f.actions
 end
