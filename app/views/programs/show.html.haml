@@ -1,5 +1,4 @@
 %p#notice= notice
-= debug @program
 %p
   %strong Title:
   = @program.title
@@ -22,4 +21,4 @@
 |
 \#{link_to 'Back', programs_path}
 
-= link_to 'Apply', new_app_path(@program.id)
+= link_to 'Apply', new_app_path(@app, :program_id => @program.id)

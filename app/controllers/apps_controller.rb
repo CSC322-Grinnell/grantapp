@@ -7,20 +7,20 @@ class AppsController < InheritedResources::Base
       params.require(:app).permit(:user_id, :program_id, :text)
     end
    
-    # def create 
-   	#   @user_id = :user_id
-   	#   @program_id = :program_id
-   	#   @text = :text
-    # end
-public
+
+  public
     def new
-    	debugger
-    	@app = @current_user.apps.build
-    end
-    def create
-    	@app.program_id = params[:program].id
-    	redirect_to apps_path
+      p_id = params[:program_id].to_i
+
+      flash[:prog] = p_id
     end
 
+    def create
+    @program = Program.find_by_id(flash[:prog])
+    @app.user_id = @current_user.id
+    @app.program_id = flash[:prog] 
+    @current_user.apps << @program.apps.build(app_params)
+    redirect_to apps_path
+  end
 end
 
