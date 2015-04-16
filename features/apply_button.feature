@@ -21,12 +21,13 @@ Scenario: viewing a program
   When I go to the user log in page
   And I log in as a user with email "appli@test.com" and password "1234abcd"
   Then I should be on the home page
-  When I click on "Show" for the "School" program
-  Then I should see a button with "Apply"
+  When I click on Show for the "School" program
+  Then I should see a link to "Apply"
 
 Scenario: apply - happy path
+  When I go to the user log in page
+  And I log in as a user with email "appli@test.com" and password "1234abcd"
   Given I am on the details page for "School"
-  And I am logged in as "appli@test.com"
   When I follow "Apply"
   And I fill in "Text" with "I'm the best"
   And I press "Create"

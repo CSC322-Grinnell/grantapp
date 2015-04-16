@@ -33,15 +33,14 @@ module NavigationHelpers
     when /^admin dashboard$/
       admin_root_path
 
-    when /^dashboard$/
-      dashboard_path
-
     when /^create program page$/
       new_program_path
  
     when /^programs page$/
       programs_path
 
+    when /the details page for "(.*)"/
+      '/programs/' + (Program.find_by_title($1).id).to_s
 
     else
       begin
