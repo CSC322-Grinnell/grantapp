@@ -12,6 +12,8 @@ class Ability
     elsif user.role == 'reviewer'
       can :read, App, :program => user.program_ids[0]
       can :read, Program
+    else
+      can :read, Program
     end 
   end
 end
