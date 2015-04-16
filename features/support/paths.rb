@@ -42,6 +42,11 @@ module NavigationHelpers
     when /the details page for "(.*)"/
       '/programs/' + (Program.find_by_title($1).id).to_s
 
+    when /the user admin page$/
+      admin_users_path
+
+
+
     else
       begin
         page_name =~ /^the (.*) page$/
