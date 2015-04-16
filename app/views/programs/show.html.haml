@@ -21,7 +21,10 @@
 |
 \#{link_to 'Back', programs_path}
 
-- if @current_user.role == 'applicant'
+- if @current_user.nil?
+  = link_to 'Log in',  new_user_session_path
+- elsif @current_user.role == 'applicant'
   = link_to 'Apply', new_app_path(@app, :program_id => @program.id)
-- if @current_user.role == 'reviewer'
+- elsif @current_user.role == 'reviewer'
   = link_to 'View Applications', apps_path#(@program, :program_id => @current_user.program_ids[0])
+
