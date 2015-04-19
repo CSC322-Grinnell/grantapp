@@ -1,4 +1,5 @@
 ActiveAdmin.register App do
+  actions :all, :except => [:new]
   permit_params :user, :program
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
