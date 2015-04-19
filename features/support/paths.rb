@@ -43,7 +43,11 @@ module NavigationHelpers
       '/programs/' + (Program.find_by_title($1).id).to_s
 
     when /the user admin page$/
-      admin_users_path
+      '/admin/users'
+
+    when /the admin details page for "(.*)"/
+      '/admin/users/' + (User.find_by_email($1).id).to_s
+
 
 
 
