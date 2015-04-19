@@ -7,8 +7,8 @@ Feature: Application Privacy
 Background: user in database
 
     Given the following users exist:
-    |       email    | password |
-    | applicant@gmail.com | applicant |
+    |       email          | password |
+    | applicant@gmail.com  | applicant |
     | applicant2@gmail.com | applicant2 |
 
     Given the following programs exist:
@@ -16,8 +16,8 @@ Background: user in database
     | football| | | | | |
 
     Given the following apps exist:
-    |       user    | program | text |
-    | applicant@gmail.com | football | applicant app|
+    |       user           | program  | text           |
+    | applicant@gmail.com  | football | applicant app  |
     | applicant2@gmail.com | football | applicant2  app|
 
 

@@ -7,7 +7,7 @@ gem 'rails', '4.2.0'
 group :development, :test do
   gem 'sqlite3'
   gem 'capybara'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'debugger'
   gem 'gherkin'

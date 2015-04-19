@@ -11,10 +11,9 @@
     - @apps.each do |app|
       %tr
         %td= app.user.email
-        %td= app.program_id
+        %td= Program.find_by_id(app.program_id).title
         %td= app.text
         %td= link_to 'Show', app
         %td= link_to 'Edit', edit_app_path(app)
         %td= link_to 'Destroy', app, method: :delete, data: { confirm: 'Are you sure?' }
-%br
-  = link_to 'New app', new_app_path()
+
