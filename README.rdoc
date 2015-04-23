@@ -1,6 +1,7 @@
 == README
 
-This is a simple grant managing application for Greater Poweshiek Community Foundation.
+This is a simple grant application management service for Greater Poweshiek Community Foundation, deployed at 
+http://shrouded-wave-6656.herokuapp.com/
 
 * Ruby version: 1.9.3
 
