@@ -1,6 +1,25 @@
+# Given /the following users exist/ do |users|
+#   users.hashes.each do |user|
+#     User.create!(user)
+#   end
+# end
+
 Given /the following users exist/ do |users|
   users.hashes.each do |user|
-    User.create!(user)
+    # basic fields
+    u = { :email => user[:email],
+          :password => user[:password] }
+    # default role  
+    if (user[:role] != nil)
+      u[:role] = user[:role]
+    else
+      u[:role] = 'applicant'
+    end
+    # optional programs for reviewers
+    if (user[:role] == 'reviewer' && user[:program] != nil)
+    	 u[:program_ids] = Program.find_by_title(user[:program]).id
+    end  
+    User.create!(u)
   end
 end
 

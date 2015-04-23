@@ -14,3 +14,6 @@ And /^(?:|I )should see that the "([^"]*)" is "([^"]*)"$/ do |field, value|
 	page.text.should match(/#{field}.*#{value}/mi)
 end
 
+Then /^(?:|I )should see all applications with program "([^"]*)"$/ do |program|
+	page.text.should match(/#{program}/mi) 
+end 
