@@ -15,7 +15,7 @@ When /^(?:|I )select "([^"]*)" from the drop-down menu labeled "(.*)"$/ do |opti
 end
 
 When /^(?:|I )select "([^"]*)" from the check-box menu labeled "(.*)"$/ do |option, label|
-	page.check('football')
+	page.check(option)
 end
 
 And /^(?:|I )should see that the "([^"]*)" is "([^"]*)"$/ do |field, value|

@@ -6,7 +6,7 @@ Feature: Application Privacy
 
 Background: user in database
 
-    Given the following users exist:
+      Given the following users exist:
     |       email          | password |
     | applicant@gmail.com  | applicant |
     | applicant2@gmail.com | applicant2 |
