@@ -15,8 +15,6 @@ When /^(?:|I )select "([^"]*)" from the drop-down menu labeled "(.*)"$/ do |opti
 end
 
 When /^(?:|I )select "([^"]*)" from the check-box menu labeled "(.*)"$/ do |option, label|
-	check = Program.where(title: option).first.id
-	check = 'user_program_ids_' + check.to_s
 	page.check('football')
 end
 
