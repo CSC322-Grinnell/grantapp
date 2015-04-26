@@ -27,6 +27,6 @@ Feature: Reviewer review applications
   When I go to the user log in page
   And I log in as a user with email "reviewer@example.com" and password "abc123abc123"
   And I go to the apps page
-  When I follow one of the "review" links
-  And I click "download"
+  When I follow one of the "Review" links
+  And I click "Download"
   Then I should be on "document"
