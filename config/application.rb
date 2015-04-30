@@ -8,12 +8,19 @@ require "action_controller/railtie"
 require "action_mailer/railtie"
 require "action_view/railtie"
 require "sprockets/railtie"
+
+require 'tk'
+require 'parse-ruby-client'
 # require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Parse.init :application_id => "T0pMNbOkXUDCS5dVYAL15v8f5AeIDarXfkfLuCJm",
+           :api_key        => "PPEqK6IcGhnAyG04eyxMtMxk216i90FtUy9B77E2",
+           :quiet           => true | false
+         
 module Grantapp
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
