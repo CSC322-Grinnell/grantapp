@@ -28,6 +28,7 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "twitter-bootstrap-rails"
 
 
+
 # Use pg for production
 group :production do
   gem 'pg'
@@ -59,8 +60,9 @@ gem 'activeadmin', github:'activeadmin'
 # Used for html templating
 gem 'haml', '>= 4.0.5'
 # Used once to convert erb to haml
-#gem 'html2haml'
-gem 'erb2haml'
+gem 'html2haml'
+gem 'hpricot'
+#gem 'erb2haml'
 
 # Enforce Ruby style guidelines
 gem 'rubocop'

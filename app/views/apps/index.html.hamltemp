@@ -1,0 +1,24 @@
+%p#notice= notice
+%h1 Listing apps
+%table
+  %thead
+    %tr
+      %th User
+      %th Program
+      %th Text
+      %th{:colspan => "3"}
+  %tbody
+    - @apps.each do |app|
+      %tr
+        %td= app.user.email
+        %td= Program.find_by_id(app.program_id).title
+        %td= app.text
+        - if @current_user.role == 'applicant'
+          -# - if Program.find_by_id(app.program_id).deadline > DateTime.now
+          %td= link_to 'Edit', edit_app_path(app)
+          %td= link_to 'Show', app
+          %td= link_to 'Destroy', app, method: :delete, data: { confirm: 'Are you sure?' }
+        - elsif @current_user.role == 'reviewer'
+          %td= link_to 'Review', app
+
+
