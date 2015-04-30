@@ -29,4 +29,5 @@ Feature: Reviewer review applications
   And I go to the apps page
   When I follow one of the "Review" links
   And I click "Download"
-  Then I should be on "document"
+  Then I should get a download with the filename "document"
+
