@@ -10,7 +10,7 @@ class Ability
       can :manage, App, :user => user
       can :read, Program
     elsif user.role == 'reviewer'
-      can :read, App, :program => user.program_ids
+      can :read, App, :program_id => user.program_ids
       can :read, Program
     else
       can :read, Program
