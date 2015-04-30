@@ -14,6 +14,9 @@ Rails.application.routes.draw do
 
   get '/', :to => 'programs#index', as: :home_page
   ActiveAdmin.routes(self)
+
+
+  get 'apps/:id/download' => 'apps#download', as: :download
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -37,4 +37,9 @@ class AppsController < InheritedResources::Base
 
     redirect_to apps_path
   end
+
+   def download
+      # STUB
+      redirect_to apps_path
+    end
 end
