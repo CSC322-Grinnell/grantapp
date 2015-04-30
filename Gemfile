@@ -22,6 +22,12 @@ group :development, :test do
 end
 
 
+# Twitter Bootstrap for UI and navigation bar
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
+
+
 # Use pg for production
 group :production do
   gem 'pg'
