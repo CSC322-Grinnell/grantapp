@@ -16,10 +16,17 @@ class AppsController < InheritedResources::Base
     end
 
     def create
-    @program = Program.find_by_id(flash[:prog])
-    @app.user_id = @current_user.id
-    @app.program_id = flash[:prog]
-    @current_user.apps << @program.apps.build(app_params)
-    redirect_to apps_path
-  end
+     @program = Program.find_by_id(flash[:prog])
+     @app.user_id = @current_user.id
+     @app.program_id = flash[:prog]
+     @current_user.apps << @program.apps.build(app_params)
+     redirect_to apps_path
+    end
+
+    def download
+      # STUB
+      redirect_to apps_path
+    end
+
+
 end
