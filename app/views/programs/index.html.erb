@@ -30,6 +30,11 @@
         <td><%= program.picture %></td>
         <td><%= program.tags %></td>
         <td><%=l program.created_at %></td>
+        <td>
+          <%= link_to t('.show', :default => t("helpers.links.show")),
+                      program_path(program), :class => 'btn btn-default btn-xs' %>
+        </td>
+
       </tr>
     <% end %>
   </tbody>
