@@ -16,9 +16,9 @@ class AppsController < InheritedResources::Base
 
     def create
     @program = Program.find_by_id(flash[:prog])
+    @app.text = "hello"
     @app.user_id = @current_user.id
     @app.program_id = flash[:prog]
-    #@app.text = "hello"
     @current_user.apps << @program.apps.build(app_params)
 
     # Parse object/file managment
@@ -28,21 +28,23 @@ class AppsController < InheritedResources::Base
     ui_file = Tk.getOpenFile
     file = Parse::File.new({
         :body => IO.read(ui_file.to_s),
-        :local_filename => "application_id_"+flash[:prog].to_s+"_user_id_"+@current_user.id.to_s+".txt",
+        :local_filename => "program_id_"+flash[:prog].to_s+"_user_id_"+@current_user.id.to_s+".txt",
         :content_type => "text/plain"
       })
     file.save
     application_parse["File"] = file
     application_parse.save
-    files = Parse::Query.new("Applications")
-    files = files.eq("Program_Id", '2').get[0]["File"].url
     redirect_to apps_path, notice => 'File successfully uploaded.'
   end
 
  
 
    def download
-      # STUB
-      redirect_to apps_path
+    #Make a query to Parse to retreive the relevant application
+    file_query = Parse::Query.new("Applications")
+    file_query.eq("Program_Id", @app.program_id.to_s)
+    file_query.eq("User_Id", @app.user_id.to_s)
+    file = file_query.get
+    redirect_to file.last["File"].url
     end
 end
