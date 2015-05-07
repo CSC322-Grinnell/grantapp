@@ -56,7 +56,7 @@
             <li><%= link_to "About", "/path3"  %></li>
             <li><%= link_to "Grant Programs", programs_path  %></li>
             <li><%= link_to "Applications", apps_path  %></li>
-            <ul class="right right">
+            <ul class="nav navbar-nav navbar-right">
               <% if !user_signed_in? %>
                 <li><%= link_to '<button type="submit" class="btn btn-success">Sign In</button>'.html_safe, new_user_session_path %></li>
                 <li><%= link_to '<button type="submit" class="btn btn-success">Sign Up</button>'.html_safe, new_user_registration_path %></li>
