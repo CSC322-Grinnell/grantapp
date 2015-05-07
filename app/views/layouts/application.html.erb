@@ -53,9 +53,11 @@
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "About", "/path3"  %></li>
+            <li><%= link_to "About", 'http://www.greaterpcf.org/funding.html'%></li>
             <li><%= link_to "Grant Programs", programs_path  %></li>
+          <% if user_signed_in? %>
             <li><%= link_to "Applications", apps_path  %></li>
+<<<<<<< HEAD
             <ul class="nav navbar-nav navbar-right">
               <% if !user_signed_in? %>
               <li><%= link_to '<button type="submit" class="btn btn-success">Sign In</button>'.html_safe, new_user_session_path %></li>
