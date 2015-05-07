@@ -57,7 +57,7 @@
             <li><%= link_to "Grant Programs", programs_path  %></li>
           <% if user_signed_in? %>
             <li><%= link_to "Applications", apps_path  %></li>
-<<<<<<< HEAD
+            <% end %>
             <ul class="nav navbar-nav navbar-right">
               <% if !user_signed_in? %>
               <li><%= link_to '<button type="submit" class="btn btn-success">Sign In</button>'.html_safe, new_user_session_path %></li>
@@ -70,8 +70,9 @@
         </div>
 
       </nav>
-
-        <div class="container">
+      <div class ="jumbotron">
+        <div class="container bs-doc-container">
+        </div>
           <div class="row">
             <div class="col-lg-9">
             <!-- <%= bootstrap_flash %> -->
