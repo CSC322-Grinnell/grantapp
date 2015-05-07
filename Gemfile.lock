@@ -307,6 +307,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  atk (~> 2.2.5)
   cancan
   capybara
   coffee-rails (~> 4.1.0)
