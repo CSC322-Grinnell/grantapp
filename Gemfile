@@ -36,8 +36,11 @@ end
 
 #Use CanCan for user authorization
 gem "cancan"
-gem "green_shoes"
+
+# file uploads:
+#gem "green_shoes"
 gem 'parse-ruby-client'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -58,10 +61,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Used for admin side management
 gem 'activeadmin', github:'activeadmin'
 # Used for html templating
-gem 'haml', '>= 4.0.5'
+#gem 'haml', '>= 4.0.5'
 # Used once to convert erb to haml
-gem 'html2haml'
-gem 'hpricot'
+#gem 'html2haml'
+#gem 'hpricot'
 #gem 'erb2haml'
 
 # Enforce Ruby style guidelines
@@ -80,4 +83,4 @@ gem 'simplecov'
 
 
 #heroku failure :(
-gem 'atk', '~> 2.2.5'
+# gem 'atk', '~> 2.2.5'
