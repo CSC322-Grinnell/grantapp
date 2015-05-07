@@ -17,11 +17,12 @@
     <% @apps.each do |app| %>
       <tr>
         <td><%= link_to app.id, app_path(app) %></td>
-        <td><%= app.user_id %></td>
-        <td><%= app.program_id %></td>
+        <td><%= User.find_by_id(app.user_id).email %></td>
+        <td><%= Program.find_by_id(app.program_id).title %></td>
         <td><%= app.text %></td>
         <td><%=l app.created_at %></td>
         <td>
+        <% if user_signed_in? && @current_user.role == 'applicant' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_app_path(app), :class => 'btn btn-default btn-xs' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
@@ -29,6 +30,9 @@
                       :method => :delete,
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-xs btn-danger' %>
+                      <% end %>
+            <%= link_to t('.download', :default => t("helpers.links.download")),
+                      download_path(app), :class => 'btn btn-default btn-xs' %>
         </td>
       </tr>
     <% end %>
