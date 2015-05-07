@@ -36,8 +36,8 @@ end
 
 #Use CanCan for user authorization
 gem "cancan"
-
-
+gem "green_shoes"
+gem 'parse-ruby-client'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
