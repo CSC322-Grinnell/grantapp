@@ -53,15 +53,17 @@
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "About", "/path3"  %></li>
+            <li><%= link_to "About", 'http://www.greaterpcf.org/funding.html'%></li>
             <li><%= link_to "Grant Programs", programs_path  %></li>
+          <% if user_signed_in? %>
             <li><%= link_to "Applications", apps_path  %></li>
-            <ul class="nav navbar-nav navbar-right">
-              <% if !user_signed_in? %>
-                <li><%= link_to '<button type="submit" class="btn btn-success">Sign In</button>'.html_safe, new_user_session_path %></li>
-                <li><%= link_to '<button type="submit" class="btn btn-success">Sign Up</button>'.html_safe, new_user_registration_path %></li>
-                <% else %>
-                <li><%= link_to '<button type="submit" class="btn btn-success">Log out</button>'.html_safe, destroy_user_session_path,method: :delete  %></li>
+            <ul class="right right">       
+          <% end %>
+          <% if !user_signed_in? %>
+             <li><%= link_to '<button type="submit" class="btn btn-success">Sign In</button>'.html_safe, new_user_session_path %></li>
+             <li><%= link_to '<button type="submit" class="btn btn-success">Sign Up</button>'.html_safe, new_user_registration_path %></li>
+          <% else %>
+              <li><%= link_to '<button type="submit" class="btn btn-success">Log out</button>'.html_safe, destroy_user_session_path,method: :delete  %></li>
                 <% end %>
             </ul>
           </ul>
@@ -74,7 +76,7 @@
       <div class="row">
         <div class="col-lg-9">
           <%= bootstrap_flash %>
-          <br>
+         q <br>
           <p id="notice">
             <%= notice %>
           </p>
