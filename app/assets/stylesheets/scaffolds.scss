@@ -4,7 +4,9 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  margin-top: 25px;
 }
+
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -32,11 +34,17 @@ a {
 div {
   &.field, &.actions {
     margin-bottom: 10px;
+    margin-top: 25px;
   }
 }
 
+alert {
+  color: red;
+  margin-top: 25px;
+}
 #notice {
-  color: green;
+  color: blue;
+  margin-top: 25px;
 }
 
 .field_with_errors {
@@ -67,3 +75,9 @@ div {
     list-style: square;
   }
 }
+
+.right {
+  position: absolute;
+  margin-right: 0px;
+  margin-left: 700px;
+  }

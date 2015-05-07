@@ -1,0 +1,5 @@
+To remove all files with this extension:
+find . -type f -name '*.extension' -delete
+
+To rename all files with ext1 into ext2:
+find . -iname "*.ext1" -exec bash -c 'mv "$0" "${0%\.ext1}.ext2"' {} \;
