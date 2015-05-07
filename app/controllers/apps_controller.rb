@@ -32,6 +32,7 @@ class AppsController < InheritedResources::Base
         :content_type => "text/plain"
       })
     file.save
+    
     application_parse["File"] = file
     application_parse.save
     redirect_to apps_path, notice => 'File successfully uploaded.'
