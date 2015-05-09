@@ -26,10 +26,11 @@ class AppsController < InheritedResources::Base
       application_parse['User_Id'] = @current_user.id.to_s
       ui_file = 'WorldBankApp.txt'#Tk.getOpenFile
       file = Parse::File.new({
-        :body => IO.read(ui_file.to_s),
-        :local_filename => 'program_id_' + flash[:prog].to_s + '_user_id_' + @current_user.id.to_s +'.txt',
-        :content_type => 'text/plain'
-                             })
+        body: IO.read(ui_file.to_s),
+        local_filename: "program_id_" + flash[:prog].to_s + 
+        "_user_id_" + @current_user.id.to_s + ".txt",
+        content_type: 'text/plain'
+                            })
       file.save
       application_parse['File'] = file
       application_parse.save
