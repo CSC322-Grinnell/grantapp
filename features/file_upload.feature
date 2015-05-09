@@ -22,9 +22,9 @@ Background: user, reviewer and program in db
   	Given I am on the details page for "football"
     When I follow "Apply"
   	Then I should see a button with "Create App"
-  	When I attach the file "~/Desktop/MAT_316_HW_6.pdf" to "Create App"
-  	And I press "Create"
+    And I fill in "Text" with "World Bank App"
+    And I press "Create App"
   	Then I should be on the apps page
-  	And I should see "MAT_316_HW_6.pdf"
+  	And I should see "World Bank App"
   	
 

@@ -80,7 +80,3 @@ gem 'rubocop'
 # gem 'capistrano-rails', group: :development
 
 gem 'simplecov'
-
-
-#heroku failure :(
-# gem 'atk', '~> 2.2.5'
