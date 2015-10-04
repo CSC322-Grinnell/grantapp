@@ -1,9 +1,8 @@
 Feature: Admin login
 
   As an admin
-  So that I can log in
   I want to login with my credentials
-
+  So that I can log in
 
 Background: admins in database
 

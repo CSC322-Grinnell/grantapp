@@ -9,6 +9,7 @@ group :development, :test do
   gem 'capybara'
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
+  gem 'rspec'
   gem 'debugger'
   gem 'gherkin'
   gem 'multi_test', '>= 0.1.2' 
