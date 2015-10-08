@@ -10,4 +10,18 @@ ActiveAdmin.register Program do
   #   permitted << :other if resource.something?
   #   permitted
   # end
+  
+    form do |f| 
+    f.inputs do
+      f.input :title
+      f.input :short_description
+      f.input :long_description
+      f.input :deadline
+      f.input :picture
+      f.input :tags
+      f.input :application_form, :as => :file
+      f.input :rubric, :as => :file
+    end
+    f.actions
+  end
 end

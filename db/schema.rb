@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150409024045) do
+ActiveRecord::Schema.define(version: 20151008203326) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -64,8 +64,16 @@ ActiveRecord::Schema.define(version: 20150409024045) do
     t.datetime "deadline"
     t.string   "picture"
     t.string   "tags"
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
+    t.string   "application_form_file_name"
+    t.string   "application_form_content_type"
+    t.integer  "application_form_file_size"
+    t.datetime "application_form_updated_at"
+    t.string   "rubric_file_name"
+    t.string   "rubric_content_type"
+    t.integer  "rubric_file_size"
+    t.datetime "rubric_updated_at"
   end
 
   create_table "programs_users", id: false, force: :cascade do |t|
