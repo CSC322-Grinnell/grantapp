@@ -5,6 +5,6 @@ class ProgramsController < InheritedResources::Base
   private
 
     def program_params
-      params.require(:program).permit(:title, :short_description, :long_description, :deadline, :picture, :tags)
+      params.require(:program).permit(:title, :short_description, :long_description, :deadline, :picture, :tags, :application_form, :rubric)
     end
 end

@@ -5,9 +5,8 @@ class Program < ActiveRecord::Base
   has_attached_file :application_form
   has_attached_file :rubric
   
-  validates_attachment :application_form, presence: true
-  #content_type: { content_type: "docx/pdf" }
-  
+  validates_attachment :application_form, presence: true, content_type: { content_type: ['text/plain', 'application/pdf']}
+  validates_attachment :rubric, presence: true, content_type: { content_type: ['text/plain', 'application/pdf']}
   
   
 end

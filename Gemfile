@@ -30,7 +30,7 @@ gem "twitter-bootstrap-rails"
 
 # File Uploads
 gem 'paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 
 
 # Use pg for production
@@ -80,3 +80,6 @@ gem 'rubocop'
 # gem 'capistrano-rails', group: :development
 
 gem 'simplecov'
+
+#local environment variable shenanigans for using bucket without pushing secret AWS key to Git
+gem 'figaro', "~> 0.7.0"
