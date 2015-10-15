@@ -1,7 +1,7 @@
 == README
 
 This is a simple grant application management service for Greater Poweshiek Community Foundation, deployed at 
-http://desolate-escarpment-8315.herokuapp.com/
+https://grant-app.herokuapp.com/
 
 * Ruby version: 1.9.3
 
