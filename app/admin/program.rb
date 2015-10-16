@@ -19,7 +19,7 @@ ActiveAdmin.register Program do
       f.input :deadline
       f.input :picture
       f.input :tags
-      f.input :application_form, :as => :file
+      f.input :application_form, :as => :file, :required => true
       f.input :rubric, :as => :file
     end
     f.actions
