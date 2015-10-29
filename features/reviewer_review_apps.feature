@@ -1,6 +1,8 @@
 Feature: Reviewer review applications
 
-  As a reviewer, I would want to download a specific application so that the application can be viewed.
+  As a reviewer, 
+  I want to download a specific application that I am assigned to
+  so that the application can be viewed and evaluated.
 
 
   Background: 

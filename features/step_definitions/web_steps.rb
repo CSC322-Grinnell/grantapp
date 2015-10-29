@@ -81,6 +81,7 @@ end
 # TODO: Add support for checkbox, select or option
 # based on naming conventions.
 #
+
 When /^(?:|I )fill in the following:$/ do |fields|
   fields.rows_hash.each do |name, value|
     When %{I fill in "#{name}" with "#{value}"}
@@ -109,6 +110,14 @@ Then /^(?:|I )should see "([^"]*)"$/ do |text|
     page.should have_content(text)
   else
     assert page.has_content?(text)
+  end
+end
+
+Then /^(?:|I )should see the button "([^"]*)"$/ do |button|
+  if page.respond_to? :should
+    page.should have_button(button)
+  else
+    assert page.has_button?(button)
   end
 end
 
