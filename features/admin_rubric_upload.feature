@@ -23,7 +23,8 @@ Scenario: Upload the specifications for applying
   	And I log in as an admin with email "admin@example.com" and password "password"
   	And I click "Programs"
   	And I click "New Program"
-  	And I upload a file called "genapp.pdf" to "Rubric"
+  	And I upload a file called "genapp.pdf" to rubric
+  	And I upload a file called "genapp.pdf" to application form
   	And I click "Create Program"
   	Then I should see "genapp.pdf"
   	
