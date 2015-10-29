@@ -11,6 +11,7 @@
       <th><%= model_class.human_attribute_name(:text) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
+      <th><%= model_class.human_attribute_name(:user_app) %></th>
     </tr>
   </thead>
   <tbody>
@@ -31,8 +32,7 @@
                       :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
                       :class => 'btn btn-xs btn-danger' %>
                       <% end %>
-            <%= link_to t('.download', :default => t("helpers.links.download")),
-                      download_path(app), :class => 'btn btn-default btn-xs' %>
+             <td><%= link_to "Download", app.user_app.url(:original, false) %></td>
         </td>
       </tr>
     <% end %>

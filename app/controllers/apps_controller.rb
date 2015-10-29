@@ -5,7 +5,7 @@ class AppsController < InheritedResources::Base
   private
 
     def app_params
-      params.require(:app).permit(:user_id, :program_id, :text)
+      params.require(:app).permit(:user_id, :program_id, :text, :user_app)
     end
 
   public

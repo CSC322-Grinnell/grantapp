@@ -16,11 +16,10 @@
   <% end %>
 
   <div class="control-group">
-    <%= f.label :text, :class => 'control-label' %>
+    <%= f.label "Upload Application" %>
     <div class="controls">
-      <%= f.text_field :text, :class => 'form-control' %>
+      <%= f.file_field :user_app %>
     </div>
-    <%= error_span(@app[:text]) %>
   </div>
 
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151008203326) do
+ActiveRecord::Schema.define(version: 20151029165415) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -49,9 +49,13 @@ ActiveRecord::Schema.define(version: 20151008203326) do
   create_table "apps", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "program_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
     t.string   "text"
+    t.string   "user_app_file_name"
+    t.string   "user_app_content_type"
+    t.integer  "user_app_file_size"
+    t.datetime "user_app_updated_at"
   end
 
   add_index "apps", ["program_id"], name: "index_apps_on_program_id"
