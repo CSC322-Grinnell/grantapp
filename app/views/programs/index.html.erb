@@ -28,8 +28,12 @@
         <td><%= program.deadline %></td>
         <td><%= program.picture %></td>
         <td><%= program.tags %></td>
-        <td><%= link_to "Download", program.rubric.url(:original, false) %></td>
-        <td><%= link_to "Download", program.application_form.url(:original, false) %></td>
+        <% if program.rubric.exists? %>
+          <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank" %></td>
+        <% else %>
+          <td><%=t "No Rubric Uploaded" %></td>
+        <% end %>
+        <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank" %></td>
         <td><%= link_to t('.show', :default => t("helpers.links.show")), program_path(program), :class => 'btn btn-default btn-xs' %></td>
 
       </tr>
