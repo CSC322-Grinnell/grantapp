@@ -21,9 +21,9 @@ Background: reviewer exists
 
 
       Given the following apps exist:
-    |       user           | program  | text           |
-    | applicant@gmail.com  | football | applicant app  |
-    | applicant2@gmail.com | soccer   | applicant2  app|
+    |       user           | program  |application_forms |
+    | applicant@gmail.com  | football | http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
+    | applicant2@gmail.com | soccer   | http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
 
 Scenario: Reviewer Privacy

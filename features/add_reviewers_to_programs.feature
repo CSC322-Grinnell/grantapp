@@ -7,13 +7,13 @@ Feature: Add Reviewer-Program Association
 Background: users, programs, admin in database
 
     Given the following users exist:
-    |       email          | password   |
+    |       email          | password   | 
     | applicant@gmail.com  | applicant  |
 
     Given the following programs exist:
-    | title   | 
-    | football|
-    | music   |
+    | title   | application_form |
+    | football|http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
+    | music   |http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
      Given the following admins exist:
   	| email           | password |

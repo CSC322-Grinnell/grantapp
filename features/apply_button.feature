@@ -12,8 +12,8 @@ Background: user in database
     | revie@test.com | password | reviewer | 
 
     Given the following programs exist:
-    |     title | id |
-    | School    | 1  |
+    |     title | id |application_form |
+    | School    | 1  |http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
 
 
@@ -29,7 +29,6 @@ Scenario: apply - happy path
   And I log in as a user with email "appli@test.com" and password "1234abcd"
   Given I am on the details page for "School"
   When I follow "Apply"
-  And I fill in "Text" with "I'm the best"
   And I press "Create"
   Then I should be on the apps page
   And I should see an app for "School" with "I'm the best"

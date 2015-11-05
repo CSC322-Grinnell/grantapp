@@ -12,13 +12,13 @@ Background: user in database
     | applicant2@gmail.com | applicant2 |
 
     Given the following programs exist:
-    | title |  short_description | long_description | deadline | picture | tags |
-    | football| | | | | |
+    | title     | application_form | 
+    | football  |http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
     Given the following apps exist:
-    |       user           | program  | text           |
-    | applicant@gmail.com  | football | applicant app  |
-    | applicant2@gmail.com | football | applicant2  app|
+    |       user           | program  | appilication_form | 
+    | applicant@gmail.com  | football |http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
+    | applicant2@gmail.com | football |http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
 
 Scenario: see apps

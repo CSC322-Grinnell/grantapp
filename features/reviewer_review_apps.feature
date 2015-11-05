@@ -8,9 +8,9 @@ Feature: Reviewer review applications
   Background: 
 
     Given the following programs exist:
-    | title |  short_description | long_description | deadline | picture | tags |
-    | football | | | | | |
-    | soccer | | | | | |
+    | title     |  application_form |
+    | football  | http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
+    | soccer    | http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
     Given the following users exist:
     |       email           | password     | role      | program |
@@ -20,9 +20,9 @@ Feature: Reviewer review applications
 
 
       Given the following apps exist:
-    |       user           | program  | text           |
-    | applicant@gmail.com  | football | applicant app  |
-    | applicant2@gmail.com | soccer   | applicant2  app|
+    |       user           | program  | user_app |
+    | applicant@gmail.com  | football | http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
+    | applicant2@gmail.com | soccer   | http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
 
 
   Scenario: Reviewer Privacy
