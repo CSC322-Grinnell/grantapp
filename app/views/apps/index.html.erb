@@ -16,8 +16,8 @@
   <tbody>
     <% @apps.each do |app| %>
       <tr>
-        <td><%= User.find_by_id(app.user_id).email %></td>
-        <td><%= Program.find_by_id(app.program_id).title %></td>
+        <td><%= app.user.email %></td>
+        <td><%= app.program.title %></td>
         <td><%= app.text %></td>
         <td><%=l app.created_at %></td>
         <td>
