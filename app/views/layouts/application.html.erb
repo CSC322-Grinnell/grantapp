@@ -49,11 +49,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">GPCF: Grant Management</a>
+          <a class="navbar-brand" >Grant Management System</a>
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "About", 'http://www.greaterpcf.org/funding.html'%></li>
+            <li><%= link_to "About", 'http://www.greaterpcf.org/funding.html', :target => "_blank" %></li>
             <li><%= link_to "Grant Programs", programs_path  %></li>
           <% if user_signed_in? %>
             <li><%= link_to "Applications", apps_path  %></li>
@@ -91,7 +91,7 @@
         </div><!--/row-->
 
         <footer>
-          <p>&copy; Greater Poweshiek Community Foundation</p>
+          <p><h5>&copy; Greater Poweshiek Community Foundation</h5></p>
         </footer>
 
       </div> <!-- /container -->

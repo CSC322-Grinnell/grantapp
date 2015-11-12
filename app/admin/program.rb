@@ -10,8 +10,16 @@ ActiveAdmin.register Program do
   #   permitted << :other if resource.something?
   #   permitted
   # end
+    index do
+      selectable_column
+      column :title
+      column :short_description
+      column :created_at
+      column :deadline
+      actions
+  end
   
-    form do |f| 
+  form do |f| 
     f.inputs do
       f.input :title
       f.input :short_description

@@ -1,11 +1,9 @@
 <%- model_class = Program -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+  <h2><%=t '.title', :default => @program.title %></h2>
 </div>
 
 <dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>
-  <dd><%= @program.title %></dd>
   <dt><strong><%= model_class.human_attribute_name(:short_description) %>:</strong></dt>
   <dd><%= @program.short_description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:long_description) %>:</strong></dt>
@@ -21,9 +19,9 @@
 <%= link_to t('.back', :default => t("helpers.links.back")),
               programs_path, :class => 'btn btn-default'  %>
 <% if @current_user.nil? %>
-  <%= link_to 'Log in to apply',  new_user_session_path %>
+  <%= link_to 'Log in to apply',  new_user_session_path, :class => 'btn btn-default' %>
 <% elsif @current_user.role == 'applicant' %>
-  <%= link_to 'Apply', new_app_path(@app, :program_id => @program.id) %>
+  <%= link_to 'Apply', new_app_path(@app, :program_id => @program.id), :class => 'btn btn-default' %>
 <% elsif @current_user.role == 'reviewer' %>
-  <%= link_to 'View Applications', apps_path %>
+  <%= link_to 'View Applications', apps_path, :class => 'btn btn-default' %>
 <% end %>

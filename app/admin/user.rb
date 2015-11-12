@@ -15,7 +15,16 @@ ActiveAdmin.register User do
   #   permitted = [:permitted, :attributes]
   #   permitted << :other if resource.something?
   #   permitted
+  
   # end
+  index do
+      selectable_column
+      column :first_name
+      column :last_name
+      column :email
+      column :role
+      actions
+  end
   form do |f| 
     f.inputs do
       f.input :first_name
@@ -33,3 +42,5 @@ ActiveAdmin.register User do
     f.actions
   end
 end
+
+
