@@ -14,6 +14,11 @@ class AppsController < InheritedResources::Base
       @program = params[:program_id]
       @user = @current_user
     end
+    
+    def edit
+      @program = @app.program.id
+      @user = @app.user.id
+    end
     # def create
       
     #   @program = Program.find_by_id(flash[:prog])

@@ -5,7 +5,9 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:user_id) %></th>
+      <% if user_signed_in? && @current_user.role == 'reviewer' %>
+        <th><%= model_class.human_attribute_name(:user_id) %></th>
+      <% end %>
       <th><%= model_class.human_attribute_name(:program_id) %></th>
       <th><%= model_class.human_attribute_name(:text) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
@@ -16,12 +18,16 @@
   <tbody>
     <% @apps.each do |app| %>
       <tr>
-        <td><%= app.user.email %></td>
+        <% if user_signed_in? && @current_user.role == 'reviewer' %>
+          <td><%= app.user.email %></td>
+        <% end %>
         <td><%= app.program.title %></td>
         <td><%= app.text %></td>
         <td><%=l app.created_at %></td>
         <td>
         <% if user_signed_in? && @current_user.role == 'applicant' %>
+          <%= link_to t('.show', :default => t("helpers.links.show")),
+                      app_path(app), :class => 'btn btn-default btn-xs' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_app_path(app), :class => 'btn btn-default btn-xs' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
