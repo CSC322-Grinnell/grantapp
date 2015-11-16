@@ -1,15 +1,18 @@
 <%- model_class = App -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+  <h2><%=t 'Application for' + @app.program.title , :model => model_class.model_name.human.titleize %></h2>
 </div>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:user_id) %>:</strong></dt>
-  <dd><%= @app.user_id %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:program_id) %>:</strong></dt>
-  <dd><%= @app.program_id %></dd>
+<dl float class="dl-horizontal" >
+  <dt><strong><%=t 'Program' %>:</strong></dt>
+  <dd><%= @app.program.title %></dd>
   <dt><strong><%= model_class.human_attribute_name(:text) %>:</strong></dt>
   <dd><%= @app.text %></dd>
+  <dt><strong><%=t 'File' %>:</strong></dt>
+  <dd> <%= link_to "Download", @app.user_app.url(:original, false), :target=>"_blank", :class => 'btn btn-default btn-xs' %> </dd>
+  <dt><strong><%=t 'Date Submitted' %>:</strong></dt>
+  <dd><%= @app.created_at %></dd>
+
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
