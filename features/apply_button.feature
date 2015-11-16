@@ -29,7 +29,8 @@ Scenario: apply - happy path
   And I log in as a user with email "appli@test.com" and password "1234abcd"
   Given I am on the details page for "School"
   When I follow "Apply"
+  And I upload a file called "genapp.pdf" to upload application
   And I press "Create"
   Then I should be on the apps page
-  And I should see an app for "School" with "I'm the best"
+  And I should see "School"
 

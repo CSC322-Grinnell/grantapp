@@ -9,9 +9,9 @@ Background: reviewer exists
     
 
      Given the following programs exist:
-    | title |  short_description | long_description | deadline | picture | tags |
-    | football | | | | | |
-    | soccer | | | | | |
+    | title |  application_form
+    | football |  http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf |
+    | soccer |  http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf |
 
     Given the following users exist:
     |       email           | password     | role      | program |
