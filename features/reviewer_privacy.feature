@@ -9,7 +9,7 @@ Background: reviewer exists
     
 
      Given the following programs exist:
-    | title |  application_form
+    | title |  application_form |
     | football |  http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf |
     | soccer |  http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf |
 
