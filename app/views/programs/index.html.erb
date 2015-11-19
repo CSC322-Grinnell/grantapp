@@ -21,7 +21,7 @@
         <td><%= program.short_description %></td>
         <td><%= program.deadline %></td>
         <% if program.rubric.exists? %>
-          <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank" %></td>
+          <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
         <% else %>
           <td><%=t "No Rubric Uploaded" %></td>
         <% end %>
