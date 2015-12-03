@@ -2,6 +2,7 @@
 class App < ActiveRecord::Base
   belongs_to :user
   belongs_to :program
+  has_many :feedback
   
   has_attached_file :user_app
   
