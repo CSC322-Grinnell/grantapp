@@ -5,6 +5,7 @@ I want to upload a pdf
 So that my app can be reviewed in its intended format
 
 Background: user, reviewer and program in db
+  
  Given the following programs exist:
     | title   | application_form |
     | football| http://s3.amazonaws.com/grant-applications/programs/application_forms/000/000/001/original/genapp.pdf  |
