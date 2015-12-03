@@ -6,7 +6,9 @@ class FeedbacksController < InheritedResources::Base
     def feedback_params
       params.require(:feedback).permit(:user_id, :app_id, :comment, :score)
     end
-
+    
+  public
+  
     def new
       @app = params[:app_id]
       @user = @current_user
@@ -14,7 +16,7 @@ class FeedbacksController < InheritedResources::Base
     
     def edit
       @app = @feedback.app.id
-      @user = @feedback.user.id
+      @user = @feedback.user
     end
 end
 

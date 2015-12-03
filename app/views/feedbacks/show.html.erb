@@ -1,5 +1,12 @@
 <p id="notice"><%= notice %></p>
 
+
+<p>
+  Comment for <%= @feedback.app.user.email %>'s application for  <%= @feedback.app.program.title %>
+</p>
+
+</p>
+
 <p>
   <strong>Comment:</strong>
   <%= @feedback.comment %>
@@ -11,10 +18,6 @@
 </p>
 
 <p>
-  <strong>Application:</strong>
-  <%= @feedback.app.title %>
-</p>
-
 
 <%= link_to 'Edit', edit_feedback_path(@feedback) %> |
 <%= link_to 'Back', feedbacks_path %>

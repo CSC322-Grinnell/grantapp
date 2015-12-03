@@ -20,7 +20,7 @@
         <% if user_signed_in? && @current_user.role == 'reviewer' %>
           <td><%= app.user.email %></td>
           <td>            <%= link_to 'Feedback',
-                      new_feedback_path(:app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
+                      new_feedback_path(@feedback, :app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
         <td><%= app.program.title %></td>
         <td><%=l app.created_at %></td>
