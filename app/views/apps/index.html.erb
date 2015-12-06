@@ -37,7 +37,7 @@
                       :class => 'btn btn-default btn-xs' %>
           </td>
         <% end %>
-             <td><%= link_to "Download", app.user_app.expiring_url(60 * 10)), :target=>"_blank", :class => 'btn btn-default btn-xs' %></td>
+             <td><%= link_to "Download", app.user_app.expiring_url(60 * 60 * 10), :target=>"_blank", :class => 'btn btn-default btn-xs' %></td>
       </tr>
     <% end %>
   </tbody>
