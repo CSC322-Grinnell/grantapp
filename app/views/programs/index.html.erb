@@ -17,11 +17,13 @@
   <tbody>
     <% @programs.each do |program| %>
       <tr>
-        <a href="program_path(program)">
-        <td><%= program.title %></td>
-        </a>
+        <td><%= link_to program.title, program_path(program) %></td>
         <td><%= program.short_description %></td>
-        <td><%= program.deadline %></td>
+        <td><% if program.deadline == nil %>
+          <%= program.deadline %>
+          <% else %>
+          <%= program.deadline.strftime("%a %b %d, %Y") %>
+          <% end %> </td>
         <% if program.rubric.exists? %>
           <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
         <% else %>

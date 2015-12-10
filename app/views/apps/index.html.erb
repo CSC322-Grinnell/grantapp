@@ -1,7 +1,9 @@
 <%- model_class = App -%>
 <div class="page-header">
   <h2><%=t 'Applications' %></h2>
-  <h2><%= link_to "View All Feedback", feedbacks_path, :class => 'btn btn-default btn' %></h2>
+  <h2>  <% if user_signed_in? && @current_user.role == 'reviewer' %>
+    <%= link_to "View All Feedback", feedbacks_path, :class => 'btn btn-default btn' %>
+    <% end %></h2>
 </div>
 <table class="table table-striped">
   <thead>
@@ -27,7 +29,7 @@
                       new_feedback_path(@feedback, :app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
         <td><%= app.program.title %></td>
-        <td><%=l app.created_at %></td>
+        <td><%= app.created_at.strftime("%a %b %d, %Y, %I:%M%p") %></td>
         <% if user_signed_in? && @current_user.role == 'applicant' %>
           <td>
           <%= link_to t('.show', :default => t("helpers.links.show")),
