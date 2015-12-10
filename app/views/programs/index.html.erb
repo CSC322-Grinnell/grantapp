@@ -11,13 +11,15 @@
       <th><%= model_class.human_attribute_name(:deadline) %></th>
       <th><%= model_class.human_attribute_name(:rubric) %></th>
       <th><%=t 'Application Form' %></th>
-      <th><%=t 'More' %></th>
+      <th><%=t ' ' %></th>
     </tr>
   </thead>
   <tbody>
     <% @programs.each do |program| %>
       <tr>
+        <a href="program_path(program)">
         <td><%= program.title %></td>
+        </a>
         <td><%= program.short_description %></td>
         <td><%= program.deadline %></td>
         <% if program.rubric.exists? %>
@@ -26,7 +28,7 @@
           <td><%=t "No Rubric Uploaded" %></td>
         <% end %>
         <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <td><%= link_to t('.show', :default => t("helpers.links.show")), program_path(program), :class => 'btn btn-default btn-xs' %></td>
+        <td><%= link_to  t('.apply', :default => t("helpers.links.apply")), program_path(program), :class => 'btn btn-default btn-xs' %></td>
 
       </tr>
     <% end %>

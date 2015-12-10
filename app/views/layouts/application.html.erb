@@ -40,7 +40,9 @@
     <body>
      <nav class="navbar navbar-inverse navbar-fixed-top" style = "background-color: white">
       <div class="container" style = "margin-left: 2%; margin-right: 2%">
+        <a href="programs">
         <img src = "/gamt_logo2.png" height=90 style="float:left; margin-top:10px; margin-right:5%; margin-left = 5%; "></img>
+        </a>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -52,7 +54,7 @@
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li style = "margin: 15px; padding:0px; background-color: #36712F"><%= link_to "About", 'http://www.greaterpcf.org/funding.html', :target => "_blank", :class => 'btn btn-default btn-xs' %></li>
+            <li style = "margin: 15px; padding:0px; background-color: #36712F"><%= link_to "About", 'http://www.greaterpcf.org/grants-funds/', :target => "_blank", :class => 'btn btn-default btn-xs' %></li>
             <li style = "margin: 15px; padding:0px; background-color: #36712F"><%= link_to "Grant Programs", programs_path, :class => 'btn btn-default btn-xs' %></li>
           <% if user_signed_in? %>
             <li style = "margin: 15px; padding:0px; background-color: #36712F" ><%= link_to "Applications", apps_path, :class => 'btn btn-default btn-xs'  %></li>
