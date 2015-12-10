@@ -11,6 +11,9 @@
       <% end %>
       <th><%= model_class.human_attribute_name(:program_id) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <% if user_signed_in? && @current_user.role == 'applicant' %>
+        <th><%=t '.actions', :default => t("helpers.actions") %></th>
+      <% end %>
       <th><%=t "Application"%></th>
     </tr>
   </thead>
@@ -37,7 +40,7 @@
                       :class => 'btn btn-default btn-xs' %>
           </td>
         <% end %>
-             <td><%= link_to "Download", app.user_app.expiring_url(60 * 60 * 10), :target=>"_blank", :class => 'btn btn-default btn-xs' %></td>
+             <td><%= link_to "Download", app.user_app.expiring_url(60 * 60 * 100), :target=>"_blank", :class => 'btn btn-default btn-xs' %></td>
       </tr>
     <% end %>
   </tbody>

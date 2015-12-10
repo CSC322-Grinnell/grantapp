@@ -1,3 +1,0 @@
-﻿Example Application to World Bank Program
-Name: John Doe
-Email: Applicant@gmail.com
