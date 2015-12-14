@@ -5,7 +5,12 @@ class App < ActiveRecord::Base
   has_many :feedback
   
   has_attached_file :user_app
-  validates_attachment :user_app, presence: true, content_type: { content_type: ['text/plain', 'application/pdf']}
+  validates_attachment :user_app, presence: true, content_type: { content_type: ['application/pdf',
+                                                                                 'application/vnd.ms-excel',     
+                                                                                 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                                                                                 'application/msword', 
+                                                                                 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 
+                                                                                 'application/msword']}
   after_destroy :delete_dependent_feedback
   
   def delete_dependent_feedback
