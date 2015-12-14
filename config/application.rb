@@ -18,7 +18,8 @@ Bundler.require(*Rails.groups)
 module Grantapp
   
   class Application < Rails::Application
-    
+    config.time_zone = "Central Time (US & Canada)"
+    config.active_record.default_timezone = "Central Time (US & Canada)"
   end
   
 end

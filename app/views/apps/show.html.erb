@@ -9,7 +9,7 @@
   <dt><strong><%=t 'File' %>:</strong></dt>
   <dd> <%= link_to "Download", @app.user_app.url(:original, false), :target=>"_blank", :class => 'btn btn-default btn-xs' %> </dd>
   <dt><strong><%=t 'Date Submitted' %>:</strong></dt>
-  <dd><%= @app.created_at %></dd>
+  <dd><%= @app.created_at.strftime("%a %b %d, %Y, %I:%M%p") %></dd>
 
 </dl>
 

@@ -89,5 +89,7 @@ Rails.application.configure do
 
   # Add actual website url for Devise
   config.action_mailer.default_url_options = { host: 'https://infinite-fortress-8131.herokuapp.com/' }
+  
+  #config.time_zone = "Central Time (US & Canada)"
 
 end

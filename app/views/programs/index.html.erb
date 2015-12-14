@@ -22,7 +22,7 @@
         <td><% if program.deadline == nil %>
           <%= program.deadline %>
           <% else %>
-          <%= program.deadline.strftime("%a %b %d, %Y") %>
+          <%= program.deadline.strftime("%a %b %d, %Y, %I:%M%p") %>
           <% end %> </td>
         <% if program.rubric.exists? %>
           <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
