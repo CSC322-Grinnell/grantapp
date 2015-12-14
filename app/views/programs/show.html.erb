@@ -9,7 +9,12 @@
   <dt><strong><%= model_class.human_attribute_name(:long_description) %>:</strong></dt>
   <dd><%= @program.long_description %></dd>
   <dt><strong><%= model_class.human_attribute_name(:deadline) %>:</strong></dt>
-  <dd><%= @program.deadline %></dd>
+  <dd>
+  <% if @program.deadline == nil %>
+          <%= @program.deadline %>
+          <% else %>
+          <%= @program.deadline.strftime("%a %b %d, %Y, %I:%M%p") %>
+          <% end %></dd>
   <dt><strong><%= model_class.human_attribute_name(:picture) %>:</strong></dt>
   <dd><%= @program.picture %></dd>
   <dt><strong><%= model_class.human_attribute_name(:tags) %>:</strong></dt>
