@@ -18,7 +18,7 @@
         <td><%= feedback.comment %></td>
         <td><%= feedback.score %></td>
         <td>
-          <%= link_to t('.show', :default => t("helpers.links.show")),
+          <%= link_to "Show",
                       feedback_path(feedback), :class => 'btn btn-default btn-xs' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_feedback_path(feedback), :class => 'btn btn-default btn-xs' %>
