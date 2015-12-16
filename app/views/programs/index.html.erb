@@ -11,7 +11,9 @@
       <th><%= model_class.human_attribute_name(:deadline) %></th>
       <th><%= model_class.human_attribute_name(:rubric) %></th>
       <th><%=t 'Application Form' %></th>
-      <th><%=t ' ' %></th>
+      <% if user_signed_in? && @current_user.role == 'applicant' %>
+        <th><%=t ' ' %></th>
+      <% end %>
     </tr>
   </thead>
   <tbody>
@@ -30,7 +32,9 @@
           <td>No Rubric Uploaded</td>
         <% end %>
         <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
+        <% if user_signed_in? && @current_user.role == 'applicant' %>
+          <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
+        <% end %>
 
       </tr>
     <% end %>
