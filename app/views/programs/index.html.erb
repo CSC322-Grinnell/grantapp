@@ -30,7 +30,7 @@
           <td>No Rubric Uploaded</td>
         <% end %>
         <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <td><%= link_to  t('.apply', :default => t("helpers.links.apply")), program_path(program), :class => 'btn btn-default btn-xs' %></td>
+        <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
 
       </tr>
     <% end %>
