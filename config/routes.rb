@@ -16,6 +16,7 @@ Rails.application.routes.draw do
 
   
   get '/', :to => 'homepage#index', as: :home_page
+  root :to => 'homepage#index'
   ActiveAdmin.routes(self)
 
   # post 'apps/upload' => 'apps#upload'
