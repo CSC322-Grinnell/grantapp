@@ -40,7 +40,7 @@
     <body>
      <nav class="navbar navbar-inverse navbar-fixed-top" style = "background-color: white">
       <div class="container" style = "margin-left: 2%; margin-right: 2%">
-        <a href="/programs">
+        <a href="/">
         <img src = "/gamt_logo2.png" height=90 style="float:left; margin-top:10px; margin-right:5%; margin-left = 5%; "></img>
         </a>
         <div class="navbar-header">
@@ -54,7 +54,7 @@
         </div>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li style = "margin: 15px; padding:0px; background-color: #36712F"><%= link_to "About", 'http://www.greaterpcf.org/grants-funds/', :target => "_blank", :class => 'btn btn-default btn-xs' %></li>
+            <li style = "margin: 15px; padding:0px; background-color: #36712F"><%= link_to "Home", root_url, :class => 'btn btn-default btn-xs' %></li>
             <li style = "margin: 15px; padding:0px; background-color: #36712F"><%= link_to "Grant Programs", programs_path, :class => 'btn btn-default btn-xs' %></li>
           <% if user_signed_in? %>
             <li style = "margin: 15px; padding:0px; background-color: #36712F" ><%= link_to "Applications", apps_path, :class => 'btn btn-default btn-xs'  %></li>
@@ -63,7 +63,7 @@
               <% if !user_signed_in? %>
               <li style = "margin: 10px; padding:0px;"><%= link_to '<button type="submit" class="btn btn-success">Sign In</button>'.html_safe, new_user_session_path %></li>
               <li style = "margin: 10px; padding:0px;"><%= link_to '<button type="submit" class="btn btn-success">Sign Up</button>'.html_safe, new_user_registration_path %></li>
-              <li style = "margin: 10px; padding:0px;"><%= link_to '<button type="submit" class="btn btn-danger">Admin Login</button>'.html_safe, new_admin_user_session_path %></li>
+              <li style = "margin: 10px; padding:0px;"><%= link_to '<button type="submit" class="btn btn-danger">Admin Portal</button>'.html_safe, new_admin_user_session_path %></li>
               <% else %>
               <li style = "margin: 10px; padding:0px;"><%= link_to '<button type="submit" class="btn btn-success">Log out</button>'.html_safe, destroy_user_session_path,method: :delete  %></li>
               <% end %>
