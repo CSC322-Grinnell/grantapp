@@ -13,5 +13,23 @@ ActiveAdmin.register Feedback do
 #   permitted
 # end
 
+ index do
+      selectable_column
+      column "Program Title" do |feedback|
+          feedback.app.program.title
+      end
+      column "Applicant Email" do |feedback|
+          feedback.app.user.email
+      end
+      column :comment
+      column :score
+      column "Reviewer Email" do |feedback|
+          feedback.user.email
+      end
+     
+      
+      actions
+  end
+
 
 end

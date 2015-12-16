@@ -29,7 +29,13 @@
                       new_feedback_path(@feedback, :app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
         <td><%= app.program.title %></td>
-        <td><%= app.created_at.strftime("%a %b %d, %Y, %I:%M%p") %></td>
+        <td>
+          <% if app.created_at == nil %>
+          <%= app.created_at %>
+          <% else %>
+          <%= app.created_at.strftime("%a %b %d, %Y, %I:%M%p") %>
+          <% end %>
+          </td>
         <% if user_signed_in? && @current_user.role == 'applicant' %>
           <td>
           <%= link_to t('.show', :default => t("helpers.links.show")),
