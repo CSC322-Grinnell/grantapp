@@ -1,0 +1,1583 @@
+[33mcommit 6e1ba24430179e22f6e276d140a691e793e0d426[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 17 19:30:18 2015 +0000
+
+    Final Semester Commit, Typo Fixes
+
+[33mcommit 091202234b0236914a4b7fb73eabe3047be4e168[m
+Merge: f059523 267c433
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Wed Dec 16 03:02:16 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit f059523e7fc8ce93aaef3078a86531f1ca0a3b26[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Wed Dec 16 03:02:14 2015 +0000
+
+    Removed apply button if logged in as reviewer
+
+[33mcommit 267c433d7d5c79e5b8b5134efd72274169a84a6c[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Wed Dec 16 02:56:43 2015 +0000
+
+    showpage translation tag
+
+[33mcommit 0f20bcb84cc32d41ed59f2139f76fc51665a31ba[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Wed Dec 16 02:52:11 2015 +0000
+
+    fixing more missing translation tags
+
+[33mcommit 9ce525cf33c7a468c4680f97025190c06976584f[m
+Merge: 294e4f6 9616f05
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Wed Dec 16 02:46:42 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 294e4f65638523b65632ff78591dd84c5331756f[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Wed Dec 16 02:46:00 2015 +0000
+
+    Admin Portal opens in new tab
+
+[33mcommit 9616f05972c6dd7092e402e584211b33d4a82577[m
+Merge: dcaea14 44cc65c
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Wed Dec 16 02:37:25 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit dcaea141e2cfaf7da11ce182032e53a2415716f6[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Wed Dec 16 02:37:04 2015 +0000
+
+    Changed welcome message
+
+[33mcommit 44cc65c41d5d5c4f2ed79cf164eb2060e9a8addb[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Wed Dec 16 02:35:59 2015 +0000
+
+    fixed time zone bug, dates now show up again
+
+[33mcommit ced1af8bb88cc096a74c577bbcd3b5af7734cec0[m
+Merge: dfaef00 239a7f5
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Wed Dec 16 02:05:11 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit dfaef00967ebd4926b7a586c0c6da9cbf3d9159b[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Wed Dec 16 02:04:37 2015 +0000
+
+    Fixed Feedback displays on active admin to show which app it belongs to, fixed bug on app.created_at (hopefully)
+
+[33mcommit 239a7f52c8047c67c57bbd70da290fae1ca4c12f[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Wed Dec 16 02:03:31 2015 +0000
+
+    fixing 'no translation' tag on no rubric message
+
+[33mcommit 0b037429b41bcb42d850126eba5e7a3b68c08c05[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Wed Dec 16 01:36:20 2015 +0000
+
+    Made homepage and fancified homepage html
+
+[33mcommit 6f67338be7283ae019bba4b6aae8c4111ff62344[m
+Merge: c83a23e dcc55cb
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Dec 14 00:39:44 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit c83a23e75bca46eb1c64bad6e330c4e5edadc652[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Dec 14 00:39:40 2015 +0000
+
+    Added homepage
+
+[33mcommit dcc55cb6003530b9cb21d783476e0af3558ef327[m
+Merge: 169167d f9013ed
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Mon Dec 14 00:36:20 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 169167d5485f18e069a72d8202b642a0f683f422[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Mon Dec 14 00:35:56 2015 +0000
+
+    Changed time zone to central, fixed time display
+
+[33mcommit f9013ed125dbcb30bbe4c7d6c0dbe4c88964f3fb[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Dec 14 00:03:33 2015 +0000
+
+    Added doc, docx, excel file types to the app
+
+[33mcommit 7d3484023e35b4a40b724754bbbb45e893ceba4a[m
+Merge: ad1db12 f79ce5b
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Dec 10 21:09:52 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit ad1db1260c4c1c9dad29a3ed49ae1ba572e94de4[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Dec 10 21:08:30 2015 +0000
+
+    Fixed logo link to homepage
+
+[33mcommit f79ce5bccf286bd6ae11490256fd4d8f9135855e[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 10 20:04:53 2015 +0000
+
+    Changed active admin so admins can view reviewer feedback
+
+[33mcommit 3f7a586d715900a083d82355ef21b09472df632e[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Dec 10 20:02:50 2015 +0000
+
+    Updated time format, made program titles links to apply
+
+[33mcommit 63a8d1c582d96ac353364f0e9371f2cf078f74b3[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 10 18:27:52 2015 +0000
+
+    Added link to all feedback on apps page
+
+[33mcommit 7fd5acdd84b328d5876b308e2ee1858732a7cc3c[m
+Merge: 2c29ef6 8b912db
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Dec 10 18:17:32 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 2c29ef6d2879768585ce2b4df2cab4735bff877f[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Dec 10 18:15:08 2015 +0000
+
+    Made header a link, changed show to apply
+
+[33mcommit 8b912dbb440f2e651ce76ec9495904d8a02b92b7[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 10 18:13:46 2015 +0000
+
+    Added :after_destroy method to app.rb, changed feedback index page
+
+[33mcommit 138d4bc295d9489601472ed2e93ec1d67b2066d0[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 10 08:42:17 2015 +0000
+
+    Added/Fixed Existing Edit/Create/Update Methods for Applications -- Tweaked Feedback Views
+
+[33mcommit b57ba9016cd7fbbae58d67b3b381456f4a4dc1c6[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Sun Dec 6 23:14:06 2015 +0000
+
+    added fix to index
+
+[33mcommit 40aa6a7227f4bd1cc92f755a92b6eb1d9260b7a3[m
+Merge: 06d5637 b4e6bbb
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 3 21:48:16 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 06d5637b179e9fec33b03cb632389618f0e18cc0[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 3 21:47:54 2015 +0000
+
+    Finished feedback model
+
+[33mcommit b4e6bbb05855d2cf1872f837bcc573d61544fdfc[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Dec 3 21:31:53 2015 +0000
+
+    simplified favicon code
+
+[33mcommit f00d1d31aebd8153b90b5de8d57f85beb5e8ada5[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Dec 3 21:26:52 2015 +0000
+
+    Beautiful favicon 10/10 best new site
+
+[33mcommit 23fccd223272486207e389db2fa05b4f577727e9[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Dec 3 20:51:56 2015 +0000
+
+    added expiring URL to user application downloads. Currently lasts 10 minutes
+
+[33mcommit c086ad824b5ed0c971afd383344d98e23758f36b[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 3 20:49:38 2015 +0000
+
+    Added new model for feedback
+
+[33mcommit d6282ebc9666e1f802882eea79aff589a44b4eaf[m
+Merge: 790225e 3f4ed7d
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 3 18:03:26 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 790225e688d421242b6aded47f97773a0be9453c[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 3 18:02:56 2015 +0000
+
+    added cuke scenario for reviewer feedback
+
+[33mcommit 3f4ed7dbbc6a3b86a3212173a87802b008531d57[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Dec 3 18:01:38 2015 +0000
+
+    added expiring url scenario
+
+[33mcommit 260f52220d3998d605466c7d05940f8a91ed5f69[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Dec 3 17:32:16 2015 +0000
+
+    Removed text from app index page
+
+[33mcommit ff1f50bfe3cd5eee3a291cf90b60e1031629f297[m
+Merge: ace1a5b 82fc870
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Nov 23 00:27:47 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 82fc870e5eee253f9a87a8949929203c7f48e85a[m
+Author: Caleb Kumar <kumarcal@grinnell.edu>
+Date:   Mon Nov 23 00:27:25 2015 +0000
+
+    reviewer can no longer edit apps
+
+[33mcommit ace1a5b56a06e58a1836840f422903d43fc7443c[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Nov 23 00:27:13 2015 +0000
+
+    Changed button to be submit, navbar button hover color is now green
+
+[33mcommit 40368940fad963ca5f555a2a27989edcc4daf109[m
+Author: Caleb Kumar <kumarcal@grinnell.edu>
+Date:   Thu Nov 19 21:52:41 2015 +0000
+
+    Made the top bar 22.7% less hideous
+
+[33mcommit fb09e6a1705ac9b22d0e51780b1a00e0f8996934[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Nov 19 18:59:43 2015 +0000
+
+    changed rubric to be button
+
+[33mcommit c32854605863fbdd275d67c7db2afb3e79822f67[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Nov 16 00:34:08 2015 +0000
+
+    adding information to edit page
+
+[33mcommit 106f6a54a25655a7d1067024e07ebb3fd7d6865b[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Nov 16 00:08:10 2015 +0000
+
+    Fixed privacy feature
+
+[33mcommit 49ffdfe039b54d838fe00ac9cc7a52eccab10a8b[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Mon Nov 16 00:03:50 2015 +0000
+
+    Updated cucumber scenarios
+
+[33mcommit f156e361623f8e142b64407afa464f4f3f2eb609[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Sun Nov 15 23:55:55 2015 +0000
+
+    Fixed edit path and updated index view for apps
+
+[33mcommit 4d7ccd626eab0b9d2f789fd372478c3380ab5637[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Nov 12 21:54:40 2015 +0000
+
+    Costume controller validation -> Hidden fields form
+
+[33mcommit 898c4351641ce4b74b1b9ed0eed5ab918a2cf8f9[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Nov 12 18:32:36 2015 +0000
+
+    Removed program title
+
+[33mcommit ba3a3d553c3a7e8768bc932ef3a97b4c86450a4a[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Nov 12 18:30:34 2015 +0000
+
+    Edited new
+
+[33mcommit 9c4186578347d11af05dadc26739448ae2dcfdd2[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Nov 12 18:18:58 2015 +0000
+
+    Made the site more user friendly
+
+[33mcommit 38d6999abdc041c1f10eb3209354bc887ac53770[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Nov 12 17:14:22 2015 +0000
+
+    Deleted duplicate feature
+
+[33mcommit 59960b644b2e088bc27d9bba5890fd5d702fd251[m
+Merge: 808a47b df9f626
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Nov 5 17:48:11 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 808a47bc33970d8346c36e61f0455e7c6fb47128[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Nov 5 17:48:05 2015 +0000
+
+    fixing old cucumber stuff
+
+[33mcommit df9f626f275f228fa7e537470899fb1588787037[m
+Merge: 3b0284d be73f48
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Nov 2 00:33:04 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 3b0284d825d376b9720824c26a60da502aa2a9ab[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Mon Nov 2 00:32:22 2015 +0000
+
+    Added validation for file types via regex
+
+[33mcommit be73f4805af5cfe98f643bd50f9afb1c3c37b19c[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Mon Nov 2 00:29:54 2015 +0000
+
+    Cleaned up and improved cucumber files
+
+[33mcommit 38ebe423b99a7c2ab23186f989441856f1f6b4fe[m
+Author: Caleb Kumar <kumarcal@grinnell.edu>
+Date:   Thu Oct 29 20:17:00 2015 +0000
+
+    Cucumber Scenarios: Program creation and applicant application uploading
+
+[33mcommit 25dc8bbd0aacc029524ccf7eb0aa5eb8df974e23[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Oct 29 20:15:25 2015 +0000
+
+    Iteration 2 - Oodles of bugfixes, fileupload/download, new tabs on some links, prevent crashes and empty downloads
+
+[33mcommit 3b3c0e7953a9e2eccf44ed83a2d5438a73f8510c[m
+Author: Caleb Kumar <kumarcal@grinnell.edu>
+Date:   Thu Oct 29 17:34:33 2015 +0000
+
+    file attach cucumber
+
+[33mcommit 952385fbc0efa050fdeee697c9aa7d1214035f42[m
+Author: Michael Owusu <mkowusu@gmail.com>
+Date:   Thu Oct 29 17:25:25 2015 +0000
+
+    Iteration 2 - added application upload by users and download by assigned reviewers
+
+[33mcommit 7630ac575470d04f31e1342737b82832d4524d26[m
+Merge: 4d80b33 5c63e9c
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Fri Oct 16 01:48:06 2015 +0000
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 4d80b334cf7e69b4c177d90f0bde19cd1dcddc6e[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Fri Oct 16 01:47:44 2015 +0000
+
+    Fixed formastic to require application_form in admin program creation
+
+[33mcommit 5c63e9c0d6c649d155fb52c5647929af1914c82b[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Oct 15 13:56:22 2015 -0500
+
+    Update README.rdoc
+    
+    Changed heroku URL
+
+[33mcommit 4e96605f0ad2de4e26e1cf9892ac50a727e4f1d1[m
+Author: Erin Gaschott <ecgaschott@gmail.com>
+Date:   Thu Oct 15 17:21:19 2015 +0000
+
+    Added downloads for rubric and application form
+
+[33mcommit 560e506575e693a5940ffb8c16ae026f1570c5f6[m
+Author: brunseva <brunseva@grinnell.edu>
+Date:   Sun Oct 11 23:34:12 2015 +0000
+
+    Got file upload to go to AWS bucketgit add .git add . - also added gem 'figaro'
+
+[33mcommit 182602a4261da5747fb95b275c2178031f42747b[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Oct 8 20:56:13 2015 +0000
+
+    Added application_form and rubric to active admin form
+
+[33mcommit d9c0434ac99c46edc9dd21f40cc0f36935a79ddc[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Oct 8 18:47:38 2015 +0000
+
+    Removed parse from app
+
+[33mcommit 1de2a7cb3575ea7caef021c8108dc6b57f46756d[m
+Author: Caleb Kumar <kumarcal@grinnell.edu>
+Date:   Thu Oct 8 18:24:53 2015 +0000
+
+    renamed Cucumber Scenarios
+
+[33mcommit cc044ca52075c9d5f394d92d4444bd8d26f5b3ed[m
+Author: Caleb Kumar <kumarcal@grinnell.edu>
+Date:   Sun Oct 4 22:56:55 2015 +0000
+
+    Added Cucumber tests for file upload
+
+[33mcommit 95ac12695a0ba80b9a7ec46f059af50abb301e5a[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Sep 24 19:55:53 2015 +0000
+
+    Specified Ruby version 1.9.3 in Gemfile
+
+[33mcommit 9c6f321d736c3fa5db31cdf5923d81abf1be0206[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Aug 27 02:55:32 2015 -0500
+
+    Update README.rdoc
+
+[33mcommit 6b3d04c335de869b76792e7f465b0333a9121fe1[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Sat May 9 14:03:57 2015 -0500
+
+    Iteration 4 final (bug fixes)
+
+[33mcommit 9ae55a9e7537b362eb39e998a00904bdc61fefd6[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Sat May 9 13:38:17 2015 -0500
+
+    End of iteration 4 w/ file upload/download disabled
+
+[33mcommit de95f80b9b631c139a4e203c88fdf2dc14a8cf5b[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu May 7 11:16:38 2015 -0500
+
+    new Gemfile.lock without atk
+
+[33mcommit 2354bdaf6fe1d78bb33f534a0e68bd44ca4a1e2a[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu May 7 11:06:20 2015 -0500
+
+    remove unnecessary gems - greenshoes and haml stuff
+
+[33mcommit 3580a8b4d66834e33fc027e07ab119c31d3d9e0a[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu May 7 10:58:45 2015 -0500
+
+    add admin login button to navbar
+
+[33mcommit dd8bf0bb337a6a4712bf9249db8735805b68bb6f[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 23:33:02 2015 -0500
+
+    failing to push to heroku, gem atk
+
+[33mcommit def3569032690a5b03893165f79669ff82213bdb[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 22:18:26 2015 -0500
+
+    file upload testing doesnt pass
+
+[33mcommit e04a274a19740742e7bca1d2b2ef2d3441b4a472[m
+Merge: c0e5f03 72ccc40
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 21:15:36 2015 -0500
+
+    remove haml  _form
+
+[33mcommit 72ccc4000f60ab2f79026181ec3af6bc1a42954a[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 21:13:06 2015 -0500
+
+    fix all offset with JUMBOTRON
+
+[33mcommit c0e5f0389119825b0369e4bd6bb9a053f0092de4[m
+Merge: 831188b 19e14ca
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed May 6 21:10:00 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 831188b3162d8c51f1535a6caf4d2146a8262785[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed May 6 21:09:49 2015 -0500
+
+    Added basic upload/download with parse
+
+[33mcommit ea1e99269382322b3f1c41541c75405086351aa0[m
+Merge: 123c585 19e14ca
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 20:44:24 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp into navbar
+
+[33mcommit 123c585fd2b496b6d935f93a115630b2bb0926d2[m
+Merge: 5d7fd8a 1219f76
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 20:44:16 2015 -0500
+
+    navbar-navbar tag
+
+[33mcommit 5d7fd8aba13668a7809b94361bb4b46182fb94f9[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 20:42:23 2015 -0500
+
+    flash notice
+
+[33mcommit 1219f76626d1d72e2893bb7c32e2ff4dd19542c1[m
+Merge: 986addc d95f9fc
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed May 6 20:40:42 2015 -0500
+
+    fix merge conflict
+
+[33mcommit 986addcbf9289384ed13d8fbfb3f5416bbf88362[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed May 6 20:35:46 2015 -0500
+
+    if user not logged in, then can't see applications
+
+[33mcommit d95f9fc038f311be4c7a2d637f9e1da8862b9f73[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 20:22:17 2015 -0500
+
+    undo adding newlines
+
+[33mcommit 1de03e660885f5a180a79d7230abfb270f918974[m
+Merge: 28c04f3 424589e
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 20:19:57 2015 -0500
+
+    Merge branch 'navbar' of https://github.com/CSC322-Grinnell/grantapp into navbar
+
+[33mcommit 28c04f3368683ded4adf689749597f1ee71c75ee[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed May 6 20:19:29 2015 -0500
+
+    offset everything so it's not covered by the navbar
+
+[33mcommit 424589e29e54c840e8f26617032db8bea18a7fcf[m
+Merge: 6e2d997 c41486b
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed May 6 20:09:59 2015 -0500
+
+    Merge branch 'navbar' of https://github.com/CSC322-Grinnell/grantapp into navbar
+
+[33mcommit 6e2d997c7b6faef195e39b838fd8b9990c800bd3[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed May 6 20:08:17 2015 -0500
+
+    newlines added to index and application views
+
+[33mcommit c41486b8f3c9af1aa11a2f214f6423d972834038[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun May 3 16:40:20 2015 -0500
+
+    fit login/signup horizontally
+
+[33mcommit 19e14ca0169bc7e941f25439ea1f5f4ee5a00107[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Sun May 3 15:58:33 2015 -0500
+
+    merging to navbar
+
+[33mcommit 61ee62a1078a25f41391742ce1f0fdfc101ee196[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun May 3 15:50:52 2015 -0500
+
+    login+signup vs logout
+
+[33mcommit 9f0ec9afaf91426258b3c988e5fcf0bd7aeecbdd[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun May 3 15:31:09 2015 -0500
+
+    add show button
+
+[33mcommit 6bc940190e7525e55fdb7ce2a901645cca86d836[m
+Merge: 03b8f0c d05eb91
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun May 3 15:19:50 2015 -0500
+
+    Merge branch 'navbar' of https://github.com/CSC322-Grinnell/grantapp into navbar
+
+[33mcommit 03b8f0ca3f7084f2c9e862699f5f96ef2d74bab6[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun May 3 15:19:25 2015 -0500
+
+    converted program views to erb
+
+[33mcommit d05eb914fbe4c36011828ea26861ff0316c7db6b[m
+Author: Fengyuan Li <fengyuanli@Fengyuans-MacBook-Pro.local>
+Date:   Sun May 3 15:19:16 2015 -0500
+
+    delete extre temp file
+
+[33mcommit 19de41fa2bb6afddaeb900ab2ec6d7e642746a41[m
+Author: Fengyuan Li <fengyuanli@Fengyuans-MacBook-Pro.local>
+Date:   Thu Apr 30 16:20:07 2015 -0500
+
+    haml to erb
+
+[33mcommit cb144c2887f215b5599f727651fd311658d72579[m
+Merge: 8c13f4a f8ce2a3
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 30 16:17:37 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 8c13f4a8ff4d70f82d5fe5e52b4e52a690221796[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 30 16:16:41 2015 -0500
+
+    Changed two features to pending
+
+[33mcommit f8ce2a35ab9217e8fb571810b0fa8aac94e24790[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 30 15:57:37 2015 -0500
+
+    initial file upload button and managment
+
+[33mcommit 09d0860d9a04af1d95f54b0c773628f8685cd972[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 30 15:52:11 2015 -0500
+
+    start converting to erb
+
+[33mcommit 4843a9cdf9c98cbf82f440e700d5da5bbe6108d3[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 29 21:57:48 2015 -0500
+
+    initial attempt
+
+[33mcommit 435dca4232cf6e86794af81eecee0934a3eedfb2[m
+Merge: 1bda76a 4e18eb8
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 29 21:53:26 2015 -0500
+
+    fix apps controller merge
+
+[33mcommit 1bda76a459e43767b51ab4d9b922c9e00c149b5b[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 29 21:51:49 2015 -0500
+
+    parse file uploads, with TK
+
+[33mcommit 4e18eb813f448f005ed637774625ad8bcac0e746[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 29 21:07:20 2015 -0500
+
+    Download button
+
+[33mcommit 283fe65f0f7d3b1ef3e964884fa0b57f2bb20761[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 29 21:06:44 2015 -0500
+
+    testing for reviewer-review feature
+
+[33mcommit 4f78c3a62ec3ff2d95404404710b378b39b14d8f[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 29 21:05:48 2015 -0500
+
+    download route
+
+[33mcommit 4c9b5434ad491cbdb77e40f1f19030fbfa0f23c8[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 29 21:04:49 2015 -0500
+
+    add download method stub
+
+[33mcommit 899bda89bba809d80dbac3156f71b0158203ffd6[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 26 16:29:51 2015 -0500
+
+    add Review link to app index view
+
+[33mcommit e2661b2bdc9aa8bbc6b6b9c5dc183510cb3f899a[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 26 16:29:22 2015 -0500
+
+    change 'Log in' to 'Log in to apply'
+
+[33mcommit 7a3d1f4c0fa6ce19732fbd32698ce56aafc57e88[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 26 16:28:21 2015 -0500
+
+    edit scenario to have the right link labels
+
+[33mcommit a8d6b6139bc8855101cbb45454867afcf05e65eb[m
+Merge: ccc5f78 403531c
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 26 15:59:54 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp into viewapp
+
+[33mcommit ccc5f78c4f3bb94971d5ebfea6206c8b53103b0b[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 26 15:56:02 2015 -0500
+
+    branch for viewing an app as a reviewer
+
+[33mcommit 403531c81ec001c38ab486eaf5e2f20e1648fa1d[m
+Merge: 67dd7ab 15ff9a5
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 23 15:46:24 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 67dd7ab2e983f75d06c457b5d59998884e4e136b[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 23 15:46:12 2015 -0500
+
+    testing for file uploads story
+
+[33mcommit 15ff9a576d5eb2dc179bc177ff50bc796398226f[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 23 15:42:31 2015 -0500
+
+    add cucumber test for reviewer review apps
+
+[33mcommit 253650a231818d3b771bd1f6e9ad02525d750586[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 23 14:29:39 2015 -0500
+
+    make Rubocop happy
+
+[33mcommit a8aa220c648d00f9a5613fd5a418f7748c90651b[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 23 14:02:50 2015 -0500
+
+    Fixed Hardcoding of add reviewers to program cuke test
+
+[33mcommit d25f07c9a90dcd66dee33e295150aa303e639ddd[m
+Merge: 24158a5 0c53c7e
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 23 13:11:05 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 24158a594e7dd0adb5a68a52ab47e85083fb0363[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 23 13:10:26 2015 -0500
+
+    add heroku link to README
+
+[33mcommit 0c53c7ebb57f60dfb392d067c358f5acb70154e3[m
+Merge: d4392f9 d797b5f
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 22 23:18:56 2015 -0500
+
+    merging reviewer_program_steps.rb
+
+[33mcommit d4392f96ef4add59f6b24fae5cbd1b88a218337e[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 22 23:16:50 2015 -0500
+
+    testing for reviewer privacy
+
+[33mcommit d797b5fb8b20f9ddb0a272cf957d31f263f89ebe[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 22 22:58:20 2015 -0500
+
+    removed extra check
+
+[33mcommit fd66e15c0f9629f3c64297621f05cd9b0d92d735[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 22 22:56:09 2015 -0500
+
+    add cucumber test for adding programs to reviewer
+
+[33mcommit b066795ae1ff209a34d1fe42d07056ee68ef04b7[m
+Merge: e96bcb5 b229ddb
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 19 16:36:12 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit e96bcb55c823027976ca265774527e8f84ec2999[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 19 16:36:04 2015 -0500
+
+    testing for reviewer-program assoc
+
+[33mcommit b229ddb4b97cfd5a2d3096f22b71aa0e3227c5f8[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Apr 19 16:26:23 2015 -0500
+
+    thinking outside the box, reviwers can see multiple apps they are assigned to.
+
+[33mcommit caa6023d2f2c0d772f83e437fd3f81487b93da95[m
+Merge: 02de475 df9418e
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Apr 19 16:10:42 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 02de47508709890452c285867aa49ba5a88339ba[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Apr 19 16:10:37 2015 -0500
+
+    Check_boxes added for HABTM
+
+[33mcommit df9418efa4523c28b869f255618ea13faf984728[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Sun Apr 19 15:14:23 2015 -0500
+
+    rescue from CanCan exceptions
+
+[33mcommit 7486c0a04e447f9fdc9cc30f8d9ad13d1b394408[m
+Merge: ebfbb77 9a70164
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 16 16:17:13 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit ebfbb778896e2f41e8537d597b3b96d7e3c317c9[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 16 16:17:01 2015 -0500
+
+    start testing for reviewer-program association
+
+[33mcommit 9a70164d3e680d3016d114146ef5cb78c0eb795d[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 16 15:41:17 2015 -0500
+
+    removed apply button from apps/index
+
+[33mcommit 29c3eb5f31d4be754fb42d68de02dec7ab130b5d[m
+Merge: 3ef6bb2 f6feb73
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 16 15:24:35 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 3ef6bb22e891c159e2ae1806ccf9b09423a18e1c[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 16 15:23:02 2015 -0500
+
+    Fixed permission management when user has no role
+
+[33mcommit f6feb736ae5005310cefee7eb7bee50bbf43ea2d[m
+Merge: ecbdd4e da51b9c
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 16 15:17:33 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit ecbdd4eef07957797af931638b8605cfc1afba95[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 16 15:16:54 2015 -0500
+
+    testing for applicant privacy
+
+[33mcommit 9052cb6ea2574ed7602d17c3edc0067ff871dfdd[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 16 15:16:26 2015 -0500
+
+    fix warning for Cucumber
+
+[33mcommit da51b9ccb5d0765f2d501787135c28b1ed3068bc[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 16 13:39:47 2015 -0500
+
+    changed default permissions if not loggin in
+
+[33mcommit dcee64553501a0848e2470646880d167371ecc2c[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 16 13:27:25 2015 -0500
+
+    different options for users in program/show
+
+[33mcommit 45b6acced50e10c39a9d6b7aa95b8de71144ffb8[m
+Merge: 70a338f 1653265
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 15 21:50:16 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 70a338fe63f9b934b653d314946d407f803a6874[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 15 21:49:57 2015 -0500
+
+    testing for apply button story
+
+[33mcommit 1653265ab75345333014a635a10755a6a1b9c8d7[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 15 21:40:21 2015 -0500
+
+    program_show-apps-button
+
+[33mcommit 8b302ea62253559871cf3659312a69f002582285[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 15 21:01:33 2015 -0500
+
+    reviewer can only see apps for assigned program
+
+[33mcommit 3df6fcad153c6c3a472a466cc0f4e3d4e2bf1ca5[m
+Merge: 3209192 b5f8e47
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Sun Apr 12 16:16:53 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 320919216197e59ae244a110fd88359d595f07ab[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Sun Apr 12 16:16:44 2015 -0500
+
+    start test for apply button
+
+[33mcommit b5f8e47148e72b70f6289364367751e4ee7c53d7[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Apr 12 16:11:27 2015 -0500
+
+    Cucumber tests for applicant privacy
+
+[33mcommit 50b7024a06bea269de919a382995cddca18507e1[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Apr 9 15:37:34 2015 -0500
+
+    Added simpecov to cuke
+
+[33mcommit 919add64c6d4eb6745f340801bebeccf484175ce[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 9 15:35:43 2015 -0500
+
+    Fixed offesnes for Rubocop
+
+[33mcommit 47b86f9a9b2236a3392bc9be8da62f5ba847cf48[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Apr 9 13:44:24 2015 -0500
+
+    remove all .rb~ file in app
+
+[33mcommit d8446570b793c1c83882db36b76aa93f343c1082[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Apr 9 13:38:00 2015 -0500
+
+    project_development need to go
+
+[33mcommit baa291e95227e57db2936581f26930cb1941292d[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 8 22:58:04 2015 -0500
+
+    deleted project_test
+
+[33mcommit 2445852a9d033a540bfe442a05fdf8d1552362c7[m
+Merge: 44ba082 b3991f0
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 8 22:54:41 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit 44ba08208fc159bb83eefe5277af13a1881509ef[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 8 22:54:35 2015 -0500
+
+    Added has_and_belongs_to_many to programs and users
+
+[33mcommit b3991f08ed9d2a4fd8ade4b846eda5c956f40c5c[m
+Merge: cb2682f 1f438f9
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 8 22:52:14 2015 -0500
+
+    Merge branch 'master' of https://github.com/VBashlovkina/grantapp
+    
+    Conflicts:
+    	project_development
+
+[33mcommit cb2682f11eaa09d61fa36974b2ba43838bf9f8d1[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 8 22:51:22 2015 -0500
+
+    project development needs to go
+
+[33mcommit 570169b7bd53a65f4c5d26a5f169e6c5d4fe091b[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 8 22:50:15 2015 -0500
+
+    fix apply button
+
+[33mcommit 1f438f94bbc03c1aad76ed002b484b41024bb053[m
+Merge: b1cd7ac e877f4f
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 8 20:26:16 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit b1cd7ac5cd68a2ce827af93d38b2ad8d4e041eef[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 8 20:25:44 2015 -0500
+
+    ignore project_development and project_test
+
+[33mcommit e877f4f443ed459c344b38795fdf752e98569335[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 8 20:24:26 2015 -0500
+
+    Started working on active admin forms
+
+[33mcommit ff73527278e7a6fb36454f8f5f6a43039279448d[m
+Merge: d867568 80d1ca3
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 8 20:20:19 2015 -0500
+
+    merging views
+
+[33mcommit d86756861b90611ed4c74c8d1363835469408f69[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Apr 8 20:14:32 2015 -0500
+
+    apply button initial attempt: does not work yet
+
+[33mcommit 80d1ca3c818d25b147e1cecc3a77e42317dd9a12[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 8 20:12:40 2015 -0500
+
+    add default role to users
+
+[33mcommit ff8d27383857629a6e8f441e9c405e2fe6cf222b[m
+Merge: 9e0dd7d 65bb981
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 2 16:08:54 2015 -0500
+
+    merged app controller
+
+[33mcommit 9e0dd7de92514f78209dbaafd3c6ea72ebe4dd85[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 2 16:07:03 2015 -0500
+
+    worked with apply button
+
+[33mcommit 65bb981a7b49c897ada040733d6453903c872995[m
+Merge: bd65b1b 883b756
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 2 15:35:37 2015 -0500
+
+    Merge branch 'master' of https://github.com/CSC322-Grinnell/grantapp
+
+[33mcommit bd65b1b945696834a707a710243a2396295e9a6e[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 2 15:35:15 2015 -0500
+
+    Added dropdown menu for selecting role to active admin
+
+[33mcommit 883b75629f2c0253b6ea6153af32db7fa3a805a9[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 2 14:35:16 2015 -0500
+
+    add mock field to apps
+
+[33mcommit 51d5486a6775073f23b66d6b1cfcbae56a4be171[m
+Merge: e35f53f 66a1ac3
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 2 14:20:14 2015 -0500
+
+    Merge branch 'master' of https://github.com/VBashlovkina/grantapp
+
+[33mcommit e35f53f68a60e031e294b60b9a444ce7933bd9f6[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 2 14:19:57 2015 -0500
+
+    Fix application display
+
+[33mcommit 66a1ac3ce5dde99d0ec188b1a7512f62f4537dd3[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 2 14:19:04 2015 -0500
+
+    added an apply link
+
+[33mcommit 128753827711f6ff8672970d5822f5d346be8a0d[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Apr 2 13:38:28 2015 -0500
+
+    testing remote chamge
+
+[33mcommit ade544376607bebb0a752cb80e7a9db07228b773[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Apr 2 13:18:29 2015 -0500
+
+    added load_and_auth for programs and apps
+
+[33mcommit 362170b4d5b9144e5b078ff154194087de26f241[m
+Merge: a112b45 8cd4726
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 1 22:09:36 2015 -0500
+
+    Merge branch 'master' of https://github.com/VBashlovkina/grantapp
+
+[33mcommit a112b45cf04292b555e76e6ccb6a9d95aa4cb46e[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Apr 1 22:08:08 2015 -0500
+
+    fixed ability.rb
+
+[33mcommit 8cd47260678fbe5f89dec0f8e8b1bfc39190d7e1[m
+Author: Samee Zahid <sameescouser24@gmail.com>
+Date:   Wed Apr 1 22:01:15 2015 -0500
+
+    add deployment instructions
+
+[33mcommit b7c7ad6e22dbf742942d189c524ae465c05aac1d[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 1 21:48:25 2015 -0500
+
+    add README that makes sense
+
+[33mcommit 6f3c27833becc22aa2e65e82bd65f630e334080c[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 1 21:37:59 2015 -0500
+
+    remove emacs-tilded Gemfile
+
+[33mcommit c4029203412632c07fbb5825a426c4e3e97a71e7[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 1 21:36:49 2015 -0500
+
+    remove weird nested grantapp thing
+
+[33mcommit 724ca0eb3b3110c6ca8438a89d650af210edab11[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 1 21:35:08 2015 -0500
+
+    removed irrelevant features
+
+[33mcommit 86f68732e55cdfecb3b32343c18d5b616b7acc19[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Apr 1 21:32:51 2015 -0500
+
+    passing cucumber tests
+
+[33mcommit 0f72af939752f5adac925441ad1043224609a32b[m
+Merge: 5c4e0e4 9ce273a
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Wed Apr 1 20:52:48 2015 -0500
+
+    Gemfiles
+
+[33mcommit 5c4e0e4d0e9e9ba803551fa5bae0e5941231a93d[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Wed Apr 1 20:48:36 2015 -0500
+
+    working Gemfiles
+
+[33mcommit 63e03bef427dcc401caa5562fe1af31c7c83c3a6[m
+Author: Fengyuan Li <lifengyu@grinnell.edu>
+Date:   Thu Mar 12 16:47:27 2015 -0500
+
+    Delete .nfs0000000011a2506200000a8f
+
+[33mcommit 72beb7bcc4b4ad980180c5042acaf7288bbc3bce[m
+Author: Fengyuan Li <lifengyu@grinnell.edu>
+Date:   Thu Mar 12 16:43:33 2015 -0500
+
+    add feature tests
+
+[33mcommit 739f497772f8a2fc83d61d340752c5b3510444ba[m
+Merge: 78539b9 8d662d0
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Mar 12 16:29:45 2015 -0500
+
+    add features tests
+
+[33mcommit 9ce273aad4b28e2d9b9cf2eda187621ed416c198[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Mar 12 16:26:21 2015 -0500
+
+    add features tests
+
+[33mcommit 8d662d043775a938781389a97cf736a7852eb266[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Thu Mar 12 15:53:20 2015 -0500
+
+    Initialized CanCan
+
+[33mcommit de0b068b28b22f1d994986277f1b69fc43281c4e[m
+Merge: 88ff942 6583bc1
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Mar 11 22:34:51 2015 -0500
+
+    discard all changes on master, make old-master branch the new master
+
+[33mcommit 78539b9eb20fe4bcc0f6baa7b75d78d69d517730[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Wed Mar 11 22:30:37 2015 -0500
+
+    delete .sqlite3
+
+[33mcommit 6583bc1f6688ed8d3e7ff67d323970749c972f4c[m
+Merge: 88ff942 847fb01
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Mar 11 21:48:12 2015 -0500
+
+    merging sqlite3-revert to master
+
+[33mcommit 88ff942e3d8ad07ad85ea76c8f825bee05810122[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Mar 11 21:43:21 2015 -0500
+
+    implement user login with Devise
+
+[33mcommit cf793ca964cfb61f22ee4ef608af9a3192dac292[m
+Merge: 83d8d6d a026d2f
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Mar 11 20:34:58 2015 -0500
+
+    merging Gemfile.lock
+
+[33mcommit 83d8d6d240f76c1b77c711380de514d53a9e3171[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Mar 11 20:33:06 2015 -0500
+
+    merging Gemfile.lock
+
+[33mcommit ce2959224c1c74d39c62638e55feadd6e02e0aee[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Mar 11 20:32:34 2015 -0500
+
+    start to configure Devise
+
+[33mcommit a026d2fc1095b005214a978dd1f393a54fc9834b[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Mar 11 20:31:45 2015 -0500
+
+    Delete Application Once and for all?
+
+[33mcommit 563a65a2342005493b44dc2f8b6b0eadb13beabb[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 16:07:23 2015 -0600
+
+    added Program form in erb
+
+[33mcommit a9b385760925fe01b0d0a06709449db21b1e3901[m
+Merge: 03d530c 6fba35f
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 15:42:21 2015 -0600
+
+    merging
+
+[33mcommit 03d530c334bc556c6c5e09a138fa6f03e55b5036[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 15:40:30 2015 -0600
+
+    remove project_development
+
+[33mcommit 809b1841afffec450116f2b79ef6acc94e6ab087[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 15:39:40 2015 -0600
+
+    lock trouble
+
+[33mcommit 6fba35f62bf7aeef9012f043b73a4de6d379ccd1[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Mar 5 15:29:29 2015 -0600
+
+    Delete applications_controller.rb
+
+[33mcommit 36fa45de9792f97b9ef7ddd10109df99b6f7523b[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Mar 5 15:25:57 2015 -0600
+
+    we initialized cancan and user resource remove route
+
+[33mcommit 2e1db27af7577560fb7f169e111870a599aa3a09[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 15:08:59 2015 -0600
+
+    add cucumber
+
+[33mcommit 1d676c656c33144f4be73f8b57f3dc007f80c0b3[m
+Merge: f31fc65 1bc64bb
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Mar 5 14:43:47 2015 -0600
+
+    merging
+
+[33mcommit f31fc658b7ff4bdf47bb11fe1b30ba2a6b453163[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Mar 5 14:38:24 2015 -0600
+
+    cancan initialized
+
+[33mcommit 1bc64bb88c88271392b8be0be8bfd16b1ee908f0[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 14:33:38 2015 -0600
+
+    delete erb views
+
+[33mcommit 159da8dd21c8a77cb6d99ae9535d7c2d65b2526f[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Mar 5 14:31:03 2015 -0600
+
+    add new haml views
+
+[33mcommit 038fa93056aa304b878979a2d8cdb94b630db10e[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:50:27 2015 -0600
+
+    delete applications view
+
+[33mcommit 220f9034077a3f7b8150866b5b7d51c7c0b01266[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:50:27 2015 -0600
+
+    add haml views
+
+[33mcommit 9b0eb31414ffc82a6a790da8dd5d3fba21b53284[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Mar 4 21:38:25 2015 -0600
+
+    updated git ignore to ignore ~
+
+[33mcommit f16a7977a50dfb3a76bc50d18bb5717668c0c1ab[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Mar 4 21:37:25 2015 -0600
+
+    fixed various naming issues related to converting application to app
+
+[33mcommit 55552d24ec9643e49363ae880cc58eb26b07253a[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Wed Mar 4 20:29:56 2015 -0600
+
+    reverted to sqlite3 from pg
+
+[33mcommit 01a8b6fa33a60275f319a33877202fd63ad759bd[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Sun Mar 1 15:33:54 2015 -0600
+
+    Initial Postgre Branch
+
+[33mcommit 847fb01021e19a68ac5fd00151f78ff425d2d1e5[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:57:49 2015 -0600
+
+    change InheritedResources to ApplicationController
+
+[33mcommit 17ed3cb9cd1cbea7fee2b8c58fc1831387a81794[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:52:21 2015 -0600
+
+    delete erb views
+
+[33mcommit 5662c096c5d6f4800f5d87c5f71fc2345ab1b43f[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:50:27 2015 -0600
+
+    add haml views
+
+[33mcommit fe696868e2d0356737457b508067741c13144552[m
+Merge: 430f8fc 0a070a8
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:49:24 2015 -0600
+
+    delete dev.sqlite3
+
+[33mcommit 430f8fc0c895ade4deb17b3109a2f18a828a4968[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:46:54 2015 -0600
+
+    add dev.sqlite3
+
+[33mcommit 0a070a8e509795c359e08aec621e393309d6aa24[m
+Merge: d81af8a b72fa72
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Feb 26 15:34:06 2015 -0600
+
+    remove cruft
+
+[33mcommit d81af8a62dd140b48b30cbf2a6bddd089f782575[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Feb 26 15:24:23 2015 -0600
+
+    deleted and added deadline column
+
+[33mcommit b72fa7246ac026a29750fce4e1853aa821fd8266[m
+Author: Marcel Champagne <voiceofmarcel@gmail.com>
+Date:   Thu Feb 26 15:08:13 2015 -0600
+
+    fix production.rb
+
+[33mcommit 35193ec03fd12a32ef0e95dd29a5a9538397fdb7[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Feb 26 15:01:44 2015 -0600
+
+    fix heroku deployment
+
+[33mcommit 0dbdaa49abce569f2e12be936a16fcd3c0d4e67d[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:00:40 2015 -0600
+
+    false->true
+
+[33mcommit 72a88128d65970e732632f8acc7076db4097336f[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 15:00:11 2015 -0600
+
+    false->true
+
+[33mcommit bdd0a03679cbadd61311f49235f9843b22127b15[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 14:59:40 2015 -0600
+
+    false->true
+
+[33mcommit 71c86855cf651cee61a54aa004d6817c3d6f076b[m
+Author: Fengyuan Li <lifengyu@cs.grinnell.edu>
+Date:   Thu Feb 26 14:57:43 2015 -0600
+
+    false->true
+
+[33mcommit 21a6b5439a4bad8d1cf7b09acd1aa99519425584[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 25 22:23:24 2015 -0600
+
+    edit gemfile for Heroku deployment
+
+[33mcommit 03c1cc7a45941a8bf85ea64efc63fce802e898e8[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 25 22:16:32 2015 -0600
+
+    add devise back
+
+[33mcommit f716befb479d87ee1a94d430213013a48533255e[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 25 22:15:30 2015 -0600
+
+    add devise back
+
+[33mcommit 607bb83e3ac14377a39bf6e26a3f05a9a977f62d[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 25 22:12:31 2015 -0600
+
+    remove devise
+
+[33mcommit 562b34e4f11cefecfd20c29235b615c4c41075c0[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 25 22:03:14 2015 -0600
+
+    Gemfile change
+
+[33mcommit bf729a0a352e194d74ba72af2b33165378817700[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 25 22:00:23 2015 -0600
+
+    Gemfile change
+
+[33mcommit a58d6d4aeacdfc2277ec67940f125b96ac0b7d42[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Feb 25 21:34:45 2015 -0600
+
+    add rubocop
+
+[33mcommit 06f9a342978416e025f8ff8a4bfc7e5eba6410c0[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Feb 25 21:09:07 2015 -0600
+
+    change default route to program index
+
+[33mcommit 7222e47fa0e7f9571ca3ff5fdcc10b405675fe23[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Feb 22 16:29:18 2015 -0600
+
+    remove cruft
+
+[33mcommit 3455f91d563c0cca92b75a5237d65708f896acab[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Feb 22 16:27:33 2015 -0600
+
+    merged application model
+
+[33mcommit a260ccb20167a3f2141e5795e2c9ba66d9970be3[m
+Author: Marcel Champagne <champagn@cs.grinnell.edu>
+Date:   Sun Feb 22 16:20:22 2015 -0600
+
+    add Application model and associations
+
+[33mcommit 1e806d6e270b6c16d31199872711f2fb0c51c70b[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 15:47:13 2015 -0600
+
+    permit program params
+
+[33mcommit 53f0f1a8527a2b8226251ef811431d7f143a16da[m
+Merge: 270aa81 50e07ca
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 15:32:06 2015 -0600
+
+    Merge pull request #1 from VBashlovkina/change_deadline_type
+    
+    Change deadline type and permit user params
+
+[33mcommit 270aa817cebb08967a5d4f0bc9d560ce58cfda8c[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 15:22:27 2015 -0600
+
+    change .gitignore
+
+[33mcommit 50e07cad010f82cd40fbec43cb4ab1e146af2fff[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 15:14:44 2015 -0600
+
+    permitted user params
+
+[33mcommit ff9d5d6ddc824a41ee0dcea1947cc47c9389909e[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 15:01:07 2015 -0600
+
+    changed deadline type to datetime
+
+[33mcommit ce248e9f6df2b18d35563ef6947b5a73955f299c[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 14:34:34 2015 -0600
+
+    add Program model
+
+[33mcommit 21b783b951d0903ce3dfae714277a1449fc0199d[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 14:18:21 2015 -0600
+
+    add User to ActiveAdmin
+
+[33mcommit c94624504413f2bda4780b98b48689dc63b15eda[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Thu Feb 19 13:56:11 2015 -0600
+
+    add User
+
+[33mcommit ac48de0c17fd07045f353a70833f28f89ae46cf2[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Thu Feb 19 13:35:53 2015 -0600
+
+    add devise
+
+[33mcommit 8ddacc0b16778cb9dcb64feb6f8deb41be5b7564[m
+Author: hansunho <hansunho@grinnell.edu>
+Date:   Wed Feb 18 21:08:29 2015 -0600
+
+    Installing Active Admin
+
+[33mcommit 7945f6d1f22b3fb3157aa3ee6bbf17944195f5f6[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Feb 18 20:37:45 2015 -0600
+
+    initial commit
+
+[33mcommit 443b5457121774f18c9954b029d028f6ef5a0468[m
+Author: Vasilisa Bashlovkina <bashlovk@grinnell.edu>
+Date:   Wed Feb 18 20:33:24 2015 -0600
+
+    Initial commit
