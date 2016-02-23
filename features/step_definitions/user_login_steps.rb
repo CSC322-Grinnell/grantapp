@@ -28,3 +28,15 @@ And /^I log in as a user with email "(.*?)" and password "(.*?)"$/ do |email, pa
   fill_in "user_password", :with => password
   click_button("Log in")
 end
+
+And /^I should see a form for "(.*?)"$/ do |form_label|
+  page.should have_form(form_label)
+end
+
+Then /^I should see a button with "(.*?)"/ do |label|
+  page.should have_button(label)
+end
+
+Then /^I should not see a button with "(.*?)"/ do |label|
+  page.should_not have_button(label)
+end

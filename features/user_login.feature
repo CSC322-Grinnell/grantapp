@@ -20,6 +20,7 @@ Scenario: log in with valid credentials
   When I go to the user log in page
   And I log in as a user with email "test0@test.com" and password "1234abcd"
   Then I should be on the home page
+  Then I should not see a button with "Log in"
 
 Scenario: log in with invalid password
   When I go to the user log in page
