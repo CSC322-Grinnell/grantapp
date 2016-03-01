@@ -27,7 +27,7 @@ module NavigationHelpers
     when /^the admin log\s?in page$/
       new_admin_user_session_path
 
-    when /^the user log\s?in page$/
+    when /^the user sign\s?in page$/
       new_user_session_path
 
     when /^admin dashboard$/
