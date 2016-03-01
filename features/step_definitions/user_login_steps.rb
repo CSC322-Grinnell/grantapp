@@ -29,7 +29,7 @@ When /^I go to the user sign in page/ do
 end
 
 And /^I sign in as a user with email "(.*?)" and password "(.*?)"$/ do |email, password|
-  fill_in "user_email", :with => email
+  fill_in "user_mail", :with => email
   fill_in "user_password", :with => password
   click_button("Log in")
 end
