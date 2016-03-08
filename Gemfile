@@ -24,7 +24,7 @@ end
 
 
 # Twitter Bootstrap for UI and navigation bar
-gem "bootstrap-sass"
+gem 'bootstrap-sass'
 
 # File Uploads
 gem 'paperclip'

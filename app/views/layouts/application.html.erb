@@ -5,19 +5,23 @@
   <title><%= "Greater Poweshiek Community Foundation: Grant Management"%></title>
   <!-- <title><%= content_for?(:title) ? "Greater Poweshiek C-omunity Foundation: Grant Management" : yield(:title) %></title> -->
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
 
 <body>
-    <%= render 'layouts/header' %>
-    <div class ="jumbotron center">
+    <%= render 'layouts/navbar' %>
+    <div class ="container">
       <div class="row">
-          <div class="col-lg-9" style = "margin-top: 40px;">
+          <!--<div class="col-lg-9" style = "margin-top: 40px;"> -->
             <%= yield %>
-          </div>
       </div><!--/row-->
-    </div> <!-- /jumbotron center -->
-    <%= render 'layouts/footer' %>
+    </div> <!-- /container -->
+    <div class="container">
+      <%= render 'layouts/footer' %>
+    </div> <!-- container -->
 </body>
 
 </html>
