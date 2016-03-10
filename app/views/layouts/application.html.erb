@@ -14,14 +14,9 @@
 <body>
     <%= render 'layouts/navbar' %>
     <div class ="container">
-      <div class="row">
-          <!--<div class="col-lg-9" style = "margin-top: 40px;"> -->
-            <%= yield %>
-      </div><!--/row-->
-    </div> <!-- /container -->
-    <div class="container">
+      <%= yield %>
       <%= render 'layouts/footer' %>
-    </div> <!-- container -->
+    </div> <!-- /container -->
 </body>
 
 </html>
