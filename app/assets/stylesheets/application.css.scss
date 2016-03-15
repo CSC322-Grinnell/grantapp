@@ -1420,6 +1420,7 @@ a.bg-danger:focus {
   padding-bottom: 9.5px;
   margin: 42px 0 21px;
   border-bottom: 1px solid #e6e6e6;
+  text-align: center;
 }
 ul,
 ol {
@@ -4968,9 +4969,15 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: inherit;
+  background-color: #ffffff;
+}
+.jumbotron-second {
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: inherit;
   background-color: #e6e6e6;
 }
@@ -4992,18 +4999,29 @@ a.badge:focus {
   padding-left: 15px;
   padding-right: 15px;
 }
+.container .jumbotron-second,
+.container-fluid .jumbotron-second {
+  border-radius: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .jumbotron .container {
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+  .container .jumbotron-second,
+  .container-fluid .jumbotron-second {
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
