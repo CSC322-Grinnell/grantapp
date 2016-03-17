@@ -1,9 +1,12 @@
-<h2>My Feedback</h2>
+<div class="page-header">
+  <h2>My Feedback</h2>
+</div>
 
-<table class="table table-striped">
+<table class="table table-striped sortable">
   <thead>
     <tr>
-      <th>Application</th>
+      <th>Applicant</th>
+      <th>Program</th>
       <th>Comment</th>
       <th>Score</th>
       <th>Actions</th>
@@ -14,7 +17,8 @@
   <tbody>
     <% @feedbacks.each do |feedback| %>
       <tr>
-        <td><%= feedback.app.user.email %>'s application for  <%= feedback.app.program.title %></td>
+        <td><%= feedback.app.user.email %></td>
+        <td><%= feedback.app.program.title %></td>
         <td><%= feedback.comment %></td>
         <td><%= feedback.score %></td>
         <td>

@@ -5,7 +5,7 @@
     <%= link_to "View My Feedback", feedbacks_path, :class => 'btn btn-default btn' %>
     <% end %></h2>
 </div>
-<table class="table table-striped">
+<table class="table table-striped sortable">
   <thead>
     <tr>
       <% if user_signed_in? && @current_user.role == 'reviewer' %>
