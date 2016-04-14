@@ -17,11 +17,11 @@
 <table class="table table-striped sortable">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:title) %></th>
-      <th><%= model_class.human_attribute_name(:short_description) %></th>
-      <th><%= model_class.human_attribute_name(:deadline) %></th>
-      <th><%= model_class.human_attribute_name(:rubric) %></th>
-      <th><%=t 'Application Form' %></th>
+      <th><div class="btn btn-default"><%= model_class.human_attribute_name(:title) %> <i class="fa fa-sort-alpha-asc"></div></th>
+      <th><div class="btn btn-default"><%= model_class.human_attribute_name(:short_description) %></div></th>
+      <th><div class="btn btn-default" data-defaultsign="LLL"><%= model_class.human_attribute_name(:deadline) %> <i class="fa fa-calendar-o" aria-hidden="true"></i></div></th>
+      <th><div class="btn btn-default"><%= model_class.human_attribute_name(:rubric) %></div></th>
+      <th><div class="btn btn-default"><%=t 'Application Form' %></div></th>
       <% if user_signed_in? && @current_user.role == 'applicant' %>
         <th><%=t ' ' %></th>
       <% end %>
@@ -46,7 +46,6 @@
         <% if user_signed_in? && @current_user.role == 'applicant' %>
           <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
-
       </tr>
     <% end %>
   </tbody>
