@@ -22,6 +22,9 @@ group :development, :test do
   #gem 'spring'
 end
 
+#Rails bootstrap sortable
+gem 'momentjs-rails'
+gem 'rails_bootstrap_sortable'
 
 # Twitter Bootstrap for UI and navigation bar
 gem 'bootstrap-sass'
