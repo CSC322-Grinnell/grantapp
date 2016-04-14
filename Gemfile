@@ -22,12 +22,11 @@ group :development, :test do
   #gem 'spring'
 end
 
-#Rails bootstrap sortable
-gem 'momentjs-rails'
-gem 'rails_bootstrap_sortable'
 
 # Twitter Bootstrap for UI and navigation bar
-gem 'bootstrap-sass'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 # File Uploads
 gem 'paperclip'
@@ -42,6 +41,8 @@ end
 #Use CanCan for user authorization
 gem "cancan"
 
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
