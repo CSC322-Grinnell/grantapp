@@ -15,8 +15,8 @@ Rails.application.routes.draw do
   devise_for :users
 
   
-  get '/', :to => 'homepage#index', as: :home_page
-  root :to => 'homepage#index'
+  get '/', :to => 'programs#index', as: :home_page
+  root :to => 'programs#index'
   ActiveAdmin.routes(self)
 
   # post 'apps/upload' => 'apps#upload'
