@@ -1,4 +1,15 @@
 <%- model_class = Program -%>
+<div class="row">
+	<div class="col-lg-12">
+		<h3 class="well text-center">
+				Welcome to Greater Poweshiek Community Foundation's Grant Application System!
+		</h3>
+		<% if !user_signed_in? %>
+		<h4 class="well text-center">Please log in or sign up to apply.</h4>
+		<% end %>
+	</div>
+</div>
+
 
 <div class="page-header">
   <h2><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h2>
