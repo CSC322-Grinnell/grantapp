@@ -3,40 +3,39 @@
   <h2><%=t 'Applications' %></h2>
   <h2>  <% if user_signed_in? && @current_user.role == 'reviewer' %>
     <%= link_to "View My Feedback", feedbacks_path, :class => 'btn btn-default btn' %>
-    <% end %>
-  </h2>
+    <% end %></h2>
 </div>
-<table class="table table-striped sortable">
+<table class="table table-striped">
   <thead>
     <tr>
       <% if user_signed_in? && @current_user.role == 'reviewer' %>
         <th><%= model_class.human_attribute_name(:user_id) %></th>
         <th><%=t '.actions', :default => t("helpers.actions") %></th>
       <% end %>
-      <th><div class="btn btn-default">Program <i class="fa fa-sort-alpha-asc" aria-hidden="true"></i></div></th>
-      <th><div class="btn btn-default" data-defaultsign="LLL">Created at <i class="fa fa-calendar-o" aria-hidden="true"></i></div></th>
+      <th><%= model_class.human_attribute_name(:program_id) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
       <% if user_signed_in? && @current_user.role == 'applicant' %>
         <th><%=t '.actions', :default => t("helpers.actions") %></th>
       <% end %>
-      <th>Application</th>
+      <th><%=t "Application"%></th>
     </tr>
   </thead>
-  
   <tbody>
     <% @apps.each do |app| %>
       <tr>
         <% if user_signed_in? && @current_user.role == 'reviewer' %>
           <td><%= app.user.email %></td>
-          <td><%= link_to 'Feedback', new_feedback_path(@feedback, :app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
+          <td>            <%= link_to 'Feedback',
+                      new_feedback_path(@feedback, :app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
-        <td><%= app.program.title %> </td>
+        <td><%= app.program.title %></td>
         <td>
           <% if app.created_at == nil %>
           <%= app.created_at %>
           <% else %>
-          <%= app.created_at.strftime("%B %-d, %Y %l:%M %p") %>
+          <%= app.created_at.strftime("%a %b %d, %Y, %I:%M%p") %>
           <% end %>
-        </td>
+          </td>
         <% if user_signed_in? && @current_user.role == 'applicant' %>
           <td>
           <%= link_to 'Show',
