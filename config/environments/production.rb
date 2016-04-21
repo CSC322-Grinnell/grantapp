@@ -15,14 +15,14 @@ Rails.application.configure do
   config.action_controller.perform_caching = true
     
   # config/environments/production.rb
-  #config.paperclip_defaults = {
-  #:storage => :s3,
-  #:s3_credentials => {
-  #  :bucket => ENV['grant-applications'],
-  #  :access_key_id => ENV['AKIAJSHTIZEOOIJFP6GA'],
-  #  :secret_access_key => ENV['IWbDbcxq1V0qY8F3r0o19Y0R4U+7f8PgoRb0K4p']
-  #  }
-  #}
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => 'grant-applications',
+    :access_key_id => 'AKIAJEZ6EH74EDJVUEWQ',
+    :secret_access_key => 'LWU0WYOnQuMKMzSbFB7XJaWnx7kFnkJ16iRh4FXY'
+    }
+  }
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
