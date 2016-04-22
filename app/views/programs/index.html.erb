@@ -18,7 +18,7 @@
   <thead>
     <tr>
       <th><div class="btn btn-default"><%= model_class.human_attribute_name(:title) %> <i class="fa fa-sort-alpha-asc"></div></th>
-      <th><div class="btn btn-default"><%= model_class.human_attribute_name(:short_description) %></div></th>
+      <th><div class="btn btn-default">Description</div></th>
       <th><div class="btn btn-default" data-defaultsort="LLL">
         <%= model_class.human_attribute_name(:deadline) %> <i class="fa fa-calendar-o" aria-hidden="true"></i></div>
       </th>
@@ -32,33 +32,40 @@
   <tbody>
     
     <% @programs.each do |program| %>
-      <tr>
-        <td>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="<%= program.title %>">
-            <%= link_to program.title, program_path(program) %>
-          </button>
-        </td>
-        <td><%= program.short_description %></td>
-        <td data-dateformat="LLL">
-          <% if program.deadline == nil %>
-            <%= program.deadline %>
+      
+        <tr>
+          <td>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#<%= program.title %>">
+              <%= program.title %>
+            </button>
+          </td>
+          <td>
+            <%= program.short_description %>
+            <div id="<%= program.title %>" class="collapse">
+              <%= program.long_description %>
+            </div>
+          </td>
+          <td data-dateformat="LLL">
+            <% if program.deadline == nil %>
+              <%= program.deadline %>
+            <% else %>
+              <%= program.deadline.strftime("%B %-d, %Y %l:%M %p") %>
+            <% end %> 
+          </td>
+          <% if program.rubric.exists? %>
+            <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
           <% else %>
-            <%= program.deadline.strftime("%B %-d, %Y %l:%M %p") %>
-          <% end %> 
-        </td>
-        <% if program.rubric.exists? %>
-          <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <% else %>
-          <td>No Rubric Uploaded</td>
-        <% end %>
-        <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <% if user_signed_in? && @current_user.role == 'applicant' %>
-          <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
-        <% end %>
-      </tr>
-      <tr id="<%= program.title %>" class="collapse">
+            <td>No Rubric Uploaded</td>
+          <% end %>
+          <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
+          <% if user_signed_in? && @current_user.role == 'applicant' %>
+            <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
+          <% end %>
+          
+
         
-      </tr>
+        </tr>
+
     <% end %>
   </tbody>
 </table>
