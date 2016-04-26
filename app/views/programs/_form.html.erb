@@ -1,6 +1,6 @@
 <%= form_for @program, :html => { :class => "form-horizontal program" } do |f| %>
 
-    <% if @program.errors.any? %>
+  <% if @program.errors.any? %>
     <div id="error_expl" class="panel panel-danger">
       <div class="panel-heading">
         <h3 class="panel-title"><%= pluralize(@program.errors.count, "error") %> prohibited this program from being saved:</h3>
@@ -57,7 +57,6 @@
     </div>
     <%= error_span(@program[:tags]) %>
   </div>
-
 
   <%= f.submit nil, :class => 'btn btn-primary' %>
   <%= link_to t('.cancel', :default => t("helpers.links.cancel")),

@@ -18,8 +18,10 @@
   <thead>
     <tr>
       <th><div class="btn btn-default"><%= model_class.human_attribute_name(:title) %> <i class="fa fa-sort-alpha-asc"></div></th>
-      <th><div class="btn btn-default"><%= model_class.human_attribute_name(:short_description) %></div></th>
-      <th><div class="btn btn-default" data-defaultsign="LLL"><%= model_class.human_attribute_name(:deadline) %> <i class="fa fa-calendar-o" aria-hidden="true"></i></div></th>
+      <th><div class="btn btn-default">Description</div></th>
+      <th><div class="btn btn-default" data-defaultsort="LLL">
+        <%= model_class.human_attribute_name(:deadline) %> <i class="fa fa-calendar-o" aria-hidden="true"></i></div>
+      </th>
       <th><div class="btn btn-default"><%= model_class.human_attribute_name(:rubric) %></div></th>
       <th><div class="btn btn-default"><%=t 'Application Form' %></div></th>
       <% if user_signed_in? && @current_user.role == 'applicant' %>
@@ -28,25 +30,40 @@
     </tr>
   </thead>
   <tbody>
+    
     <% @programs.each do |program| %>
-      <tr>
-        <td><%= link_to program.title, program_path(program) %></td>
-        <td><%= program.short_description %></td>
-        <td><% if program.deadline == nil %>
-          <%= program.deadline %>
+      
+        <tr>
+          <td>
+            <!-- removing whitespace and #'s from data-target and its corresponding id fields prevents the collapse breaking -->
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#<%= program.title.delete(' ').delete('#') %>">
+              <%= program.title %>
+            </button>
+          </td>
+          <td>
+            <%= program.short_description %>
+            <div id="<%= program.title.delete(' ').delete('#') %>" class="collapse">
+              <%= program.long_description %>
+            </div>
+          </td>
+          <td data-dateformat="LLL">
+            <% if program.deadline == nil %>
+              <%= program.deadline %>
+            <% else %>
+              <%= program.deadline.strftime("%B %-d, %Y %l:%M %p") %>
+            <% end %> 
+          </td>
+          <% if program.rubric.exists? %>
+            <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
           <% else %>
-          <%= program.deadline.strftime("%a %b %d, %Y, %I:%M%p") %>
-          <% end %> </td>
-        <% if program.rubric.exists? %>
-          <td><%= link_to "Download", program.rubric.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <% else %>
-          <td>No Rubric Uploaded</td>
-        <% end %>
-        <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
-        <% if user_signed_in? && @current_user.role == 'applicant' %>
-          <td><%= link_to  "Apply", new_app_path(@app, :program_id => program.id), :class => 'btn btn-default btn-xs' %></td>
-        <% end %>
-      </tr>
+            <td>No Rubric Uploaded</td>
+          <% end %>
+          <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
+          <% if user_signed_in? && @current_user.role == 'applicant' %>
+            <td><%= link_to  "Apply", new_app_path(@app, :program_id => program.id), :class => 'btn btn-default btn-xs' %></td>
+          <% end %>
+        </tr>
+
     <% end %>
   </tbody>
 </table>

@@ -265,3 +265,18 @@ Then /^show me the page$/ do
 end
 
 # :nocov:
+
+
+You can implement step definitions for undefined steps with these snippets:
+
+When(/^I enter a comment$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+When(/^I click submit$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then(/^I should see the comment$/) do
+  pending # express the regexp above with the code you wish you had
+end
