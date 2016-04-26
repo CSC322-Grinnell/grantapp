@@ -35,13 +35,14 @@
       
         <tr>
           <td>
-            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#<%= program.title %>">
+            <!-- removing whitespace and #'s from data-target and its corresponding id fields prevents the collapse breaking -->
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#<%= program.title.delete(' ').delete('#') %>">
               <%= program.title %>
             </button>
           </td>
           <td>
             <%= program.short_description %>
-            <div id="<%= program.title %>" class="collapse">
+            <div id="<%= program.title.delete(' ').delete('#') %>" class="collapse">
               <%= program.long_description %>
             </div>
           </td>
@@ -61,9 +62,6 @@
           <% if user_signed_in? && @current_user.role == 'applicant' %>
             <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
           <% end %>
-          
-
-        
         </tr>
 
     <% end %>
