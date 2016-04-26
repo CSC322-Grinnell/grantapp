@@ -30,11 +30,11 @@
           <td><%= link_to 'Feedback', new_feedback_path(@feedback, :app_id => app.id), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
         <td><%= app.program.title %> </td>
-        <td>
+        <td data-dateformat="LLL">
           <% if app.created_at == nil %>
-          <%= app.created_at %>
+            <%= app.created_at %>
           <% else %>
-          <%= app.created_at.strftime("%B %-d, %Y %l:%M %p") %>
+            <%= app.created_at.strftime("%B %-d, %Y %l:%M %p") %>
           <% end %>
         </td>
         <% if user_signed_in? && @current_user.role == 'applicant' %>
@@ -55,5 +55,3 @@
     <% end %>
   </tbody>
 </table>
-
-<!-- link_to t('.new', :default => t("helpers.links.new")),new_app_path,:class => 'btn btn-primary' %> -->
