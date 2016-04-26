@@ -44,7 +44,7 @@
         <% end %>
         <td><%= link_to "Download", program.application_form.url(:original, false), :target => "_blank", :class => 'btn btn-default btn-xs' %></td>
         <% if user_signed_in? && @current_user.role == 'applicant' %>
-          <td><%= link_to  "Apply", program_path(program), :class => 'btn btn-default btn-xs' %></td>
+          <td><%= link_to  "Apply", new_app_path(@app, :program_id => program.id), :class => 'btn btn-default btn-xs' %></td>
         <% end %>
       </tr>
     <% end %>
