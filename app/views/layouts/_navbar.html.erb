@@ -32,7 +32,7 @@ data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 
         <% end %>
         <% if user_signed_in? %>
-          <li style="padding-top:15px; color:white"><%= @current_user.email %></li>
+          <li style="padding-top:15px; padding-left: 15px; color:white"><%= @current_user.email %></li>
           <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %></li>
         <% end %>
       </ul>
