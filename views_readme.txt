@@ -1,5 +1,6 @@
 This text file describes the views files in app/views
 
+=========================APPS FOLDER=========================
 New.html.erb: Renders the header of a newly started application page, then calls the rendering of the general 
 _form.html.erb that presumably is the omni-applicable subpage used for all application creating, editing, 
 and perhaps destroying.
@@ -25,3 +26,30 @@ are allowed to show, edit or destroy applications in this table (unclear on if t
 edit/destroy applications they themselves haven’t made in the first place, which would be BAD), and 
 reviewers have access to the application owner’s email and can give feedback by clicking a button and 
 navigating off of this page.
+================================================================================
+
+=========================DEVISE FOLDER==========================================
+Confirmations: Resends confirmation message, though I don't understand the content
+of the html
+
+Mailer: Contains the three possible emails that are sent to users regarding password
+authentication -- Initial email confirmation, reset password instructions, and unlocking
+account instructions after their account has been locked due to too many failed login
+attempts
+
+Passwords: Contains forms for requesting a link to reset a forgotten password (new.html.erb)
+and for actually replacing an old forgotten password with a new one (edit.html.erb)
+
+Registrations: Looks like edit.html.erb shows the current state of a user's profile
+(confirmed/unconfirmed, ability to change password) and new.html.erb is used to
+sign up for a new account?
+
+Sessions: This html is for the login page, which we can see from rails server. Probably
+should add a "forgotten password?" link to this page.
+
+Shared: Has the html encoding for a bunch of links, such as Login, Signup, Forgot password?,
+didn't receive (confirmation/unlock) instructions?. Likely referenced from other html files,
+hence being stored in a shared folder that they all share.
+
+Unlocks: Page used to send an unlock instruction email to the user.
+================================================================================

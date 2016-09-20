@@ -1,6 +1,6 @@
 <%= form_for @app, :html => { :class => "form-horizontal app" } do |f| %>
 
-    <% if @app.errors.any? %>
+  <% if @app.errors.any? %>
     <div id="error_expl" class="panel panel-danger">
       <div class="panel-heading">
         <h3 class="panel-title"><%= pluralize(@app.errors.count, "error") %> prohibited this app from being saved:</h3>
