@@ -52,4 +52,72 @@ didn't receive (confirmation/unlock) instructions?. Likely referenced from other
 hence being stored in a shared folder that they all share.
 
 Unlocks: Page used to send an unlock instruction email to the user.
-================================================================================
+
+=========================== HOME FOLDER and ADMIN FOLDER ===============================
+The Home Page
+
+/homepage/index.html.erb
+	It is a static page with very little inline ruby code
+	It can only display the sign in button only if the user is not signed in
+No calls for external files
+
+Under Admin Users
+
+/admin_users/confirmations/new.html.erb
+	We have the new admin user file which is mostly html embedded in ruby
+It generates a form to create the user
+It has a link to the links file in the links directory
+
+/admin_users/shared/_links.html.erb
+	Contains the links to login, Sign Up and ***password retrieval***
+Entirely ruby code with a few html tags
+Displays the login link if the user is currently not logged in
+There are also links for registration, confirmation instructions, unlock instructions and sign in options probably to sign in with a social network
+
+/admin_users/passwords/edit.html.erb
+	A mixture of both ruby and html
+Generates a form with two text boxes for password and password confirmation with no autocomplete
+A submit button to submit the edited password
+	
+/admin_users/passwords/new.html.erb
+	A mixture of both ruby and html
+Used for password retrieval for the admin
+Generates a form with the email input text field
+The submit button sends password retrieval information
+
+/admin_users/registrations/new.html.erb
+	A mixture
+	Used to register new admin users
+	There is a signup submit button
+
+/admin_users/registrations/edit.html.erb
+	A mixture
+	Provides the form to update admin user information
+	Has an update form button to submit the changes to the server
+	Also provides a button to cancel the account
+
+
+/admin_users/sessions/new.html.erb
+	Mixture
+	Contains a login form with email and password text box
+	Also contains a “keep me signed in” checkbox
+	Also renders the links in “/admin_users/shared/_links.html.erb”
+	
+/admin_users/unlocks/new.html.erb
+	Mixture
+	Resends unlock instructions
+	Has a file with an email input text box
+	Also renders the links in “/admin_users/shared/_links.html.erb”
+
+/admin_users/mailer/confirmation_instructions.html.erb
+Mixture
+	Link to confirm email
+
+/admin_users/mailer/reset_password_instructions.html.erb	
+	Mixture
+	Contains reset password instructions
+	Link to change the password
+
+/admin_users/mailer/unlock_instructions.html.erb
+	Mixture
+	Instructions to unlock the user’s account which would have been locked due to massive unsuccessful login attempts
