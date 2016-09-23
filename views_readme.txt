@@ -52,8 +52,9 @@ didn't receive (confirmation/unlock) instructions?. Likely referenced from other
 hence being stored in a shared folder that they all share.
 
 Unlocks: Page used to send an unlock instruction email to the user.
+================================================================================
 
-=========================== HOME FOLDER and ADMIN FOLDER ===============================
+=========================== HOME FOLDER and ADMIN FOLDER =======================
 The Home Page
 
 /homepage/index.html.erb
@@ -121,3 +122,22 @@ Mixture
 /admin_users/mailer/unlock_instructions.html.erb
 	Mixture
 	Instructions to unlock the user’s account which would have been locked due to massive unsuccessful login attempts
+================================================================================
+
+================================/users/passwords================================
+Edit: Change password page, has a hidden auth token to allow resetting. Has labels
+and fields for new password and password confirmation, and then has an action
+button to submit the password change
+
+New: "Forgot your password?" page. Has an email field and a submit button which user
+can click to send password reset authentication token (which is hidden) to.
+================================================================================
+
+================================/users/registrations============================
+asdf.new: Sign up page for new users (email, password, password confirmation).
+
+edit.html: Editing user profile settings page. Can change password while logged in,
+can update email address, but both of these operations require the current user's
+password for verification/security. Final option is to cancel account, which calls
+"delete" method.
+================================================================================
