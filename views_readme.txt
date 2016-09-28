@@ -121,3 +121,109 @@ Mixture
 /admin_users/mailer/unlock_instructions.html.erb
 	Mixture
 	Instructions to unlock the user’s account which would have been locked due to massive unsuccessful login attempts
+
+
+=============================== The views folder =====================================================
+The Home Page
+
+/homepage/index.html.erb
+	It is a static page with very little inline ruby code
+	It can only display the sign in button only if the user is not signed in
+No calls for external files
+
+Under Admin Users
+
+/admin_users/confirmations/new.html.erb
+	We have the new admin user file which is mostly html embedded in ruby
+It generates a form to create the user
+It has a link to the links file in the links directory
+
+/admin_users/shared/_links.html.erb
+	Contains the links to login, Sign Up and ***password retrieval***
+Entirely ruby code with a few html tags
+Displays the login link if the user is currently not logged in
+There are also links for registration, confirmation instructions, unlock instructions and sign in options probably to sign in with a social network
+
+/admin_users/passwords/edit.html.erb
+	A mixture of both ruby and html
+Generates a form with two text boxes for password and password confirmation with no autocomplete
+A submit button to submit the edited password
+	
+/admin_users/passwords/new.html.erb
+	A mixture of both ruby and html
+Used for password retrieval for the admin
+Generates a form with the email input text field
+The submit button sends password retrieval information
+
+/admin_users/registrations/new.html.erb
+	A mixture
+	Used to register new admin users
+	There is a signup submit button
+
+/admin_users/registrations/edit.html.erb
+	A mixture
+	Provides the form to update admin user information
+	Has an update form button to submit the changes to the server
+	Also provides a button to cancel the account
+
+
+/admin_users/sessions/new.html.erb
+	Mixture
+	Contains a login form with email and password text box
+	Also contains a “keep me signed in” checkbox
+	Also renders the links in “/admin_users/shared/_links.html.erb”
+	
+/admin_users/unlocks/new.html.erb
+	Mixture
+	Resends unlock instructions
+	Has a file with an email input text box
+	Also renders the links in “/admin_users/shared/_links.html.erb”
+
+/admin_users/mailer/confirmation_instructions.html.erb
+Mixture
+	Link to confirm email
+
+/admin_users/mailer/reset_password_instructions.html.erb	
+	Mixture
+	Contains reset password instructions
+	Link to change the password
+
+/admin_users/mailer/unlock_instructions.html.erb
+	Mixture
+Instructions to unlock the user’s account which would have been locked due to massive unsuccessful login attempts
+
+
+This is for the programs folder
+	
+/programs/_form.html.rb
+	It’s a mixture of both html and ruby
+	It’s undocumented and confusing and contains a form
+
+/programs/edit.html.ruby
+	It is a mixture of html and ruby
+Has a header
+	Ir renders a partial form
+
+/programs/index.html.rb
+	Mixture
+	Has an html table to show probably the grant applications
+It shows the apply button if the user is logged in 
+
+/programs/new.html.erb
+	There is a header that probably shows the title
+	It renders a partial form
+	It doesn’t make sense at all
+
+/programs/show.html.erb
+	Contains a table
+	Mixture of both html and ruby
+	It shows the apply button if the current user is an applicant
+	Contains a link to view forms
+	If the user is not logged in, it gives a link that tells the user to log in
+
+/users/confirmations/new.html.erb
+	Contains the resend confirmation instructions prompt
+	Users can view this page if they didn’t receive their confirmation instructions
+	Contains a form with their email
+	
+	
