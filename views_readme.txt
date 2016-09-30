@@ -141,3 +141,55 @@ can update email address, but both of these operations require the current user'
 password for verification/security. Final option is to cancel account, which calls
 "delete" method.
 ================================================================================
+
+================================/users/shared===================================
+_links.html.erb: Makes sure all devise funcality is being used or prompts its 
+use (log in to session, register, recover password, confirm acct, unlock acct, 
+omniauthable log in)
+
+
+================================================================================
+
+
+=============================/users/* (no subfolder)============================
+
+_form.html.erb: 
+Form builder for user form (uses form-horizontal, meaning prompt and user input
+appear on same line)
+Check for errors and throw messages accordingly. 
+Displays labels and take input for:
+first_name, last_name, email, organization, phone_number, address, role, 
+encrypted_password, reset_password_token, remember_created_at, 
+remember_sign_in_at, current_sign_in_at, last_sign_in_at, current_sign_in_ip, 
+last_sign_in_ip. 
+Ability to submit (button?)
+
+edit.html.erb:
+Allows you to edit user info. 
+Renders _form.html.erb
+
+index.html.erb:
+Shows a table of all users (Fields listed in form), links to edit and destroy 
+users and make a new user. 
+
+index.json.jbuilder:
+Builds the index page in json array. 
+Extracts the following fields: user, :id, :first_name, :last_name, :email, 
+:organization, :phone_number, :address, :role
+Creates links to edit, destroy, new user. 
+
+new.html.erb:
+Allows you to made a new user.
+Renders _form.html.erb
+
+show.html.erb:
+Show information for one user (Fields listed in form), links to edit and destroy
+user and make a new user. 
+
+show.json.jsbuilder:
+Builds the show.html.erb page in json
+Extracts the following fields: @user, :id, :first_name, :last_name, :email, 
+:organization, :phone_number, :address, :role, :created_at, :updated_at
+
+
+================================================================================
