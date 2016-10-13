@@ -54,7 +54,7 @@ hence being stored in a shared folder that they all share.
 Unlocks: Page used to send an unlock instruction email to the user.
 ================================================================================
 
-=========================== HOME FOLDER and ADMIN FOLDER =======================
+================================= HOME FOLDER ==================================
 The Home Page
 
 /homepage/index.html.erb
@@ -62,7 +62,8 @@ The Home Page
 	It can only display the sign in button only if the user is not signed in
 No calls for external files
 
-Under Admin Users
+
+============================== ADMIN FOLDER ====================================
 
 /admin_users/confirmations/new.html.erb
 	We have the new admin user file which is mostly html embedded in ruby
@@ -122,6 +123,43 @@ Mixture
 /admin_users/mailer/unlock_instructions.html.erb
 	Mixture
 	Instructions to unlock the user’s account which would have been locked due to massive unsuccessful login attempts
+
+
+=========================== PROGRAMS FOLDER ====================================
+
+This is for the programs folder
+	
+/programs/_form.html.rb
+	It’s a mixture of both html and ruby
+	It’s undocumented and confusing and contains a form
+
+/programs/edit.html.ruby
+	It is a mixture of html and ruby
+Has a header
+	Ir renders a partial form
+
+/programs/index.html.rb
+	Mixture
+	Has an html table to show probably the grant applications
+It shows the apply button if the user is logged in 
+
+/programs/new.html.erb
+	There is a header that probably shows the title
+	It renders a partial form
+	It doesn’t make sense at all
+
+/programs/show.html.erb
+	Contains a table
+	Mixture of both html and ruby
+	It shows the apply button if the current user is an applicant
+	Contains a link to view forms
+	If the user is not logged in, it gives a link that tells the user to log in
+
+/users/confirmations/new.html.erb
+	Contains the resend confirmation instructions prompt
+	Users can view this page if they didn’t receive their confirmation instructions
+	Contains a form with their email
+	
 ================================================================================
 
 ================================/users/passwords================================
@@ -141,3 +179,56 @@ can update email address, but both of these operations require the current user'
 password for verification/security. Final option is to cancel account, which calls
 "delete" method.
 ================================================================================
+
+================================/users/shared===================================
+_links.html.erb: Makes sure all devise funcality is being used or prompts its 
+use (log in to session, register, recover password, confirm acct, unlock acct, 
+omniauthable log in)
+
+
+================================================================================
+
+=============================/users/* (no subfolder)============================
+
+_form.html.erb: 
+Form builder for user form (uses form-horizontal, meaning prompt and user input
+appear on same line)
+Check for errors and throw messages accordingly. 
+Displays labels and take input for:
+first_name, last_name, email, organization, phone_number, address, role, 
+encrypted_password, reset_password_token, remember_created_at, 
+remember_sign_in_at, current_sign_in_at, last_sign_in_at, current_sign_in_ip, 
+last_sign_in_ip. 
+Ability to submit (button?)
+
+edit.html.erb:
+Allows you to edit user info. 
+Renders _form.html.erb
+
+index.html.erb:
+Shows a table of all users (Fields listed in form), links to edit and destroy 
+users and make a new user. 
+
+index.json.jbuilder:
+Builds the index page in json array. 
+Extracts the following fields: user, :id, :first_name, :last_name, :email, 
+:organization, :phone_number, :address, :role
+Creates links to edit, destroy, new user. 
+
+new.html.erb:
+Allows you to made a new user.
+Renders _form.html.erb
+
+show.html.erb:
+Show information for one user (Fields listed in form), links to edit and destroy
+user and make a new user. 
+
+show.json.jsbuilder:
+Builds the show.html.erb page in json
+Extracts the following fields: @user, :id, :first_name, :last_name, :email, 
+:organization, :phone_number, :address, :role, :created_at, :updated_at
+
+
+================================================================================
+
+

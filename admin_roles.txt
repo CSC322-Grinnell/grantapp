@@ -1,0 +1,313 @@
+URL: */admin
+TITLE BAR: “Dashboard” 
+MESSAGE BAR: “Signed in successfully.”
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard (Signed in successful message disappears)
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: “Welcome to Active Admin. This is the default dashboard page.
+To add dashboard sections, checkout 'app/admin/dashboard.rb'"
+
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+
+URL: */admin/dashboard
+TITLE BAR: “Dashboard” 
+MESSAGE BAR: null
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: “Welcome to Active Admin. This is the default dashboard page.
+To add dashboard sections, checkout 'app/admin/dashboard.rb'”
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+URL: */admin/admin_users
+TITLE BAR: “(ADMIN/)Admin Users” 
+	New Admin User button 
+MESSAGE BAR: null
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: 
+1. Table of admin users with:
+	Fields: Id, Email, Current Sign In At, Sign In Count, Created At, 
+	Hyperlinks: View, Edit, Delete 
+2. Batch Actions button:
+	Delete selected
+3. Filters table:
+	Email: Contains, Equals, Starts with, Ends with + [type in field]
+	Current sign in at: [input calendar date] to [input calendar date]
+	Sign in count: Equals, Greater than, Less than + [type in field]
+	Created at: [input calendar date] to [input calendar date]
++Buttons: Filter, Clear Filters 
++Search Status table:
+	Scope: [current scope]
+	Current filters: [list of current filters]
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+URL: */admin/apps
+TITLE BAR: “(ADMIN/)Apps” 
+MESSAGE BAR: null
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: 
+1. Message: “No Apps found”
+2. Batch Actions button:
+	Drop-down
+3. Filters table:
+	User: drop-down menu
+	Program: drop-down menu
+	Feedback: drop-down menu
+	Created at: [input calendar date] to [input calendar date]
+	Updated at: [input calendar date] to [input calendar date]
+	Text: Contains, Equals, Starts with, Ends with + [type in field]
+	User app file name: Contains, Equals, Starts with, Ends with + [type in field]
+	User app content type: Contains, Equals, Starts with, Ends with + [type in field]
+	User app file size: Equals, Greater than, Less than + [type in field]
+	User app updated at: [input calendar date] to [input calendar date]
++Buttons: Filter, Clear Filters 
++Search Status table:
+	Scope: [current scope]
+	Current filters: [list of current filters]
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+URL: */admin/programs
+TITLE BAR: “(ADMIN/)programs” 
+	New Program button 
+MESSAGE BAR: null
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: 
+1. Message: “There are no Programs yet. Create one [hyperlink]”
+2. Batch Actions button:
+	Drop-down
+3. Filters table:
+	Apps: drop-down menu
+	Users: drop-down menu
+	Title: Contains, Equals, Starts with, Ends with + [type in field]
+	Short Description: Contains, Equals, Starts with, Ends with + [type in field]
+	Long Description: Contains, Equals, Starts with, Ends with + [type in field]
+	Deadline: [input calendar date] to [input calendar date]
+	Picture: Contains, Equals, Starts with, Ends with + [type in field]
+	Tags: Contains, Equals, Starts with, Ends with + [type in field]
+	Created at: [input calendar date] to [input calendar date]
+	Updated at: [input calendar date] to [input calendar date]
+	Application form file name: Contains, Equals, Starts with, Ends with + [type in field]
+	Application form content type: Contains, Equals, Starts with, Ends with + [type in field]
+	Application form file size: Equals, Greater than, Less than + [type in field]
+	Application form updated at: [input calendar date] to [input calendar date]
+	Rubric file name: Contains, Equals, Starts with, Ends with + [type in field]
+	Rubric content type: Contains, Equals, Starts with, Ends with + [type in field]
+	Rubric file size: Equals, Greater than, Less than + [type in field]
+	Rubric updated at: [input calendar date] to [input calendar date]
++Buttons: Filter, Clear Filters 
++Search Status table:
+	Scope: [current scope]
+	Current filters: [list of current filters]
+
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+URL: */admin/feedbacks
+TITLE BAR: “(ADMIN/)Feedbacks” 
+	New Feedback button 
+MESSAGE BAR: null
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: 
+1. Message: “There are no Feedbacks yet. Create one [hyperlink]”
+2. Batch Actions button:
+	Drop-down
+3. Filters table:
+	User: drop-down menu
+	App: drop-down menu
+	Comment: Contains, Equals, Starts with, Ends with + [type in field]
+	Score: Equals, Greater than, Less than + [type in field]
+	Created at: [input calendar date] to [input calendar date]
+	Updated at: [input calendar date] to [input calendar date]
++Buttons: Filter, Clear Filters 
++Search Status table:
+	Scope: [current scope]
+	Current filters: [list of current filters]
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+
+
+URL: */admin/users
+TITLE BAR: “(ADMIN/)Users” 
+MESSAGE BAR: null
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: 
+1. Users table:
+	Fields: First name, Last name, Email, Role 
+2. Batch Actions button:
+	Drop-down
+3. Filters table:
+	Apps: drop-down menu
+	Programs: drop-down menu
+	First name: Contains, Equals, Starts with, Ends with + [type in field]
+	Last name: Contains, Equals, Starts with, Ends with + [type in field]
+	Email: Contains, Equals, Starts with, Ends with + [type in field]
+	Organization: Contains, Equals, Starts with, Ends with + [type in field]
+	Phone number: Contains, Equals, Starts with, Ends with + [type in field]
+	Address: Contains, Equals, Starts with, Ends with + [type in field]
+	Role: Contains, Equals, Starts with, Ends with + [type in field]
+	Created at: [input calendar date] to [input calendar date]
+	Updated at: [input calendar date] to [input calendar date]
+	Encrypted password: Contains, Equals, Starts with, Ends with + [type in field]
+	Reset password token: Contains, Equals, Starts with, Ends with + [type in field]
+	Reset password sent at: [input calendar date] to [input calendar date]
+	Remember created at: [input calendar date] to [input calendar date]
+	Current sign in at: [input calendar date] to [input calendar date]
+	Last sign in at: [input calendar date] to [input calendar date]
+	Current sign in IP: Contains, Equals, Starts with, Ends with + [type in field]
+	Last sign in IP: Contains, Equals, Starts with, Ends with + [type in field]
++Buttons: Filter, Clear Filters 
++Search Status table:
+	Scope: [current scope]
+	Current filters: [list of current filters]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+—————————————————————————————————————————————————————————————————————
+
+
+
+
+URL: */
+TITLE BAR: “” 
+MESSAGE BAR:
+LINK BAR: 
+	•	LOGO
+	•	
+	•	Dashboard -> /admin/dashboard 
+	•	Admin Users -> /admin/admin_users
+	•	Applications -> /admin/apps
+	•	Programs -> /admin/programs
+	•	Reviewer Feedback -> /admin/feedbacks
+	•	Users -> /admin/users
+	•	
+	•	email address
+	•	Logout
+
+
+BODY: “”
+
+
+—————————————————————————————————————————————————————————————————————

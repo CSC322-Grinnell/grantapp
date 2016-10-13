@@ -28,7 +28,6 @@ if app.update_attributes(app_params), redirect_to app_path(@app)
 else redirect_to edit_app_path and alert the user that the method failed because of an invalid file type
 Download:
 redirect_to apps_path
-
 See end of file for explanation of action controller parameters and require/permit methods.
 
 
