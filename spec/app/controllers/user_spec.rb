@@ -1,5 +1,5 @@
-require 'rails_helper.rb'
-require 'spec_helper.rb'
+require_relative '../../rails_helper.rb'
+require_relative '../../spec_helper.rb'
 
 RSpec.describe User do
     describe "#signin" do
@@ -14,6 +14,10 @@ RSpec.describe User do
                 expect(@user.first_name).to eql("Joe")
                 expect(@user.last_name).to eql("Shmoe")
             end
+        end
+        
+        describe "relationships" do
+            it { should have_many(:apps) }
         end
     end
 
