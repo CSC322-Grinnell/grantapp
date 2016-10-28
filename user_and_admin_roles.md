@@ -21,7 +21,7 @@
 + See all users, edit their permissions between applicant and reviewer
   + Can edit or delete them
 + See all feedbacks (who form, what for, secores, comments)
-  + _Fix: Can change any details of feedback and delete feedback_
+  + __Fix: Can change any details of feedback and delete feedback__
 + Can view, edit, delete programs. Currently only role that can create and modify programs.
 + Can view, edit, delete all applications
-  + _Fix: Ability to edit and delete applications_
+  + __Fix: Ability to edit and delete applications__
