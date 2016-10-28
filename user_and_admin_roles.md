@@ -1,7 +1,7 @@
 #### H4 Applicant capabilities (default user role)
 + View programs listed
   + Sorting only works on the programs and applications pages sometimes and when all fields are filled 
-  + _Fix: Only allow program creation by admins when all fields are filled_
+  + __Fix: Only allow program creation by admins when all fields are filled__
 + Download application form and rubric from program 
 + Can apply by uploading a pdf application 
 + Can see and edit (replace, delete) existing applications
@@ -10,12 +10,12 @@
 #### H4 Reviewer capabilities (role assigned by admin)
 + View programs listed
   + Sorting only works on the programs and applications pages sometimes and when all fields are filled 
-  + _Fix: Only allow program creation by admins when all fields are filled_
+  + __Fix: Only allow program creation by admins when all fields are filled__
 + Download application form and rubric from program 
 + Once assigned to program can see all applications submitted for that program
 + Can download application pdfs
 + Can write, submit, and edit, and delete feedback 
-  + _Fix: Can write multiple feedback for same application (fix?)_
+  + __Fix: Can write multiple feedback for same application (fix?)__
 
 #### H4 Admin capabilities (default admin role)
 + See all users, edit their permissions between applicant and reviewer
