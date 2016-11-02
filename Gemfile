@@ -44,6 +44,7 @@ group :development, :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'rspec'
+  gem 'rspec-rails'
   gem 'debugger'
   gem 'gherkin'
   gem 'multi_test', '>= 0.1.2' 
