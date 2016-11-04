@@ -5,10 +5,14 @@ require 'spec_helper.rb'
 feature 'User signs in' do
     
     before do
-        @user = User.new(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password");
+        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password");
+        # FactoryGirl.create(@user);
     end
     
+    #given!(:user) { FactoryGirl.create(:user) }
+    
     scenario 'with valid email and password' do
+        puts(@user.last_name);
         visit "/users/sign_in"
         fill_in "Email", :with => "user@example.com"
         fill_in "Password", :with => "password"
@@ -31,6 +35,6 @@ feature 'User signs in' do
         fill_in "Email", :with => 'not an email'
         fill_in 'Password', :with => 'password'
         click_button "Log in"
-        expect(page).to have_text('error')
+        expect(page).to have_text('Invalid email or password')
     end
 end
