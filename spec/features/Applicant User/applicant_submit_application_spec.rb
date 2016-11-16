@@ -5,7 +5,7 @@ feature 'User applies to program' do
     
     before do
 
-        @pdf = File.new(Rails.root + "spec/fixtures/test.pdf")
+        @pdf = File.new(Rails.root + "spec/fixtures/testUpload.pdf")
         
         @datetime = DateTime.new(1970, 1, 1)
         @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password",
@@ -24,10 +24,16 @@ feature 'User applies to program' do
     end
     
     scenario 'User uploads application' do
+        visit "/apps/new"
+        
     end
     
     scenario 'User deletes application' do
-        
+        @application = App.create(user: @user, program: @program, user_app: @pdf)
+        visit "/apps"
+        expect(page).to have_content @program.title
+        click_on("Delete")
+        expect(page).not_to have_content @program.title
     end
     
     scenario 'User modifies application' do
