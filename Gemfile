@@ -60,5 +60,5 @@ group :production do
   gem 'rails_12factor'
 end
 
-
-
+# Gem for test coverage
+gem 'simplecov', :require => false, :group => :test
