@@ -11,12 +11,13 @@ feature 'Reviewer programs' do
     # Create a user in the mock database to test signing in with valid credentials
     before do
         #Create program
-        @pdf = File.new(Rails.root + "spec/fixtures/test_program.pdf")
-        @datetime = DateTime.new(1970, 1, 1)
-        @program = Program.create(title:"TestProgram", short_description:"Short", long_description:"Long", deadline: @datetime, application_form: @pdf)
-        
+        my_pdf = File.new(Rails.root + "spec/fixtures/test_pdf.pdf")
+        my_datetime = DateTime.new(1970, 1, 1)
         #Create user
-        @user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", role: "reviewer")
+        my_user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", role: "reviewer")
+        my_program = Program.create(title: "newProgram", short_description: "Short", long_description: "Long",
+                            deadline: my_datetime, application_form: my_pdf)
+                            
         
         #Sign in user
         visit "/users/sign_in"
@@ -29,12 +30,17 @@ feature 'Reviewer programs' do
         expect(page).to have_content "Programs"
     end
     
-    scenario 'sort programs' do 
-        #find(@).click
+    scenario 'edit programs' do 
+        
     end
     
-    scenario 'view long description' do
-        click_on(@program.title)
+    scenario 'sort programs' do 
+        #click_button("Title ")
+        #click_on("Description")
+    end
+    
+    scenario 'show long description' do
+        click_button("newProgram")
         expect(page).to have_content "Long"
     end
     
