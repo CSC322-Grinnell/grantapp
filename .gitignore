@@ -37,3 +37,7 @@ build/
 
 # Ignore application configuration
 /config/application.yml
+
+
+# Test coverage gem
+coverage
