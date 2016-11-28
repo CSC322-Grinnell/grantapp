@@ -25,8 +25,7 @@ feature 'Reviewer feedback' do
         # Create feedback
         @my_feedback = Feedback.create(user: @reviewer_user, app: @my_application, comment: "well done.", score: 10)
         
-        
-        
+
     end
     
     # Sign in user and navigate to feedback
@@ -36,6 +35,7 @@ feature 'Reviewer feedback' do
         fill_in "Password", :with => "password"
         click_button "Log in"
     end
+    
     
     # Modify feedback
     scenario 'user modifies feedback' do
