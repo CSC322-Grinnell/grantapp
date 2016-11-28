@@ -91,7 +91,7 @@ feature 'User navigates from applications page' do
         @datetime = DateTime.new(1970, 1, 1)
         @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password",
                             role: "applicant")
-        @program = Program.create(title: "newProgram", short_description: "Test", long_description: "This is a test.",
+        @program = Program.create(title: "New Program", short_description: "Test", long_description: "This is a test.",
                             deadline: @datetime, application_form: @pdf)
         visit "/users/sign_in"
         fill_in "Email", :with => "user@example.com"
@@ -104,6 +104,15 @@ feature 'User navigates from applications page' do
        click_link("Home")
        expect(page).to have_content "Programs"
        expect(current_path).to have_content "/"
+    end
+    
+    scenario 'Navigate to application details page' do
+       @testPDF = File.new(Rails.root + "spec/fixtures/testUpload.pdf")
+       @application = App.create(user: @user, program: @program, user_app: @testPDF)
+       visit "/apps"
+       click_on("Show")
+       expect(page).to have_content "Application For " + @application.program.title
+       expect(current_path).to have_content "/apps/" + @application.program_id.to_s
     end
     
     scenario 'User signs out' do

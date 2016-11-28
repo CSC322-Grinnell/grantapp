@@ -37,6 +37,11 @@ feature 'User applies to program' do
     end
     
     scenario 'User modifies application' do
+        @application = App.create(user: @user, program: @program, user_app: @pdf)
+        @replacePdf = File.new(Rails.root + "spec/fixtures/test.pdf")
+        visit "/apps"
+        expect(page).to have_content @program.title
+        click_on("Edit")
         
     end
     
