@@ -13,12 +13,10 @@ feature 'Reviewer signs in' do
     end
     
     scenario 'with valid email and password' do
-        puts(@user.last_name);
         visit "/users/sign_in"
         fill_in "Email", :with => "reviewer@example.com"
         fill_in "Password", :with => "password"
         click_button "Log in"
-        puts(current_path)
         # The only view difference between applicant and reviewer
         expect(page).to have_content "View Applications"
     end
