@@ -41,3 +41,4 @@ build/
 
 # Test coverage gem
 coverage
+public/system/programs/
