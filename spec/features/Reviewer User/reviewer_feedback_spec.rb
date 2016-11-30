@@ -25,16 +25,17 @@ feature 'Reviewer feedback' do
         # Create feedback
         @my_feedback = Feedback.create(user: @reviewer_user, app: @my_application, comment: "well done.", score: 10)
         
+        
+        
     end
     
-    # Sign in user
+    # Sign in user and navigate to feedback
     before do 
         visit "/users/sign_in"
         fill_in "Email", :with => "reviewer@example.com"
         fill_in "Password", :with => "password"
         click_button "Log in"
     end
-    
     
     # Modify feedback
     scenario 'user modifies feedback' do
@@ -43,8 +44,19 @@ feature 'Reviewer feedback' do
     end
     
     # Delete feedback
+    ## DO NOT WORK ##
+    # Reviewer user is not assigned to any programs so cannot view feedback page
     scenario 'user deletes feedback' do
+
+        #visit "/feedbacks"
         
+        #expect(page).to have_content "My Feedback"
+        #expect(page).to have_content @my_feedback["comment"]
+        
+        #@my_feedback.delete 
+
+        # Check if my feedback page still has comment from feedback that was deleted 
+        #expect(page).not_to have_content @my_feedback["comment"]
     end
     
 end
