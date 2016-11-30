@@ -24,8 +24,13 @@ feature 'User applies to program' do
     end
     
     scenario 'User uploads application' do
-        visit "/apps/new"
-        
+        visit "/apps"
+        expect(page).not_to have_content @program.title
+        visit "/apps/new?program_id=" + @program.id.to_s
+        attach_file("app_user_app", Rails.root + "spec/fixtures/testUpload.pdf")
+        click_button("Submit")
+        visit "/apps"
+        expect(page).to have_content @program.title
     end
     
     scenario 'User deletes application' do
