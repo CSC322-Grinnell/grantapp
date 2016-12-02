@@ -13,6 +13,7 @@ class Program < ActiveRecord::Base
   validates_attachment :rubric, content_type: { content_type: ['text/plain', 'application/pdf', 'application/msword', 'application/vnd.ms-excel',     
                                                                                  'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                                                                                  'application/vnd.openxmlformats-officedocument.wordprocessingml.document']}
-  
-  
+  #scope :by_reviewer { |reviewer| where(reviewer_id: reviewer.id)}
+  #Preparation for sorting out the programs reviewers can see on home page
+  #to only be the ones they're assigned to
 end

@@ -1,0 +1,21 @@
+URL: */
+TITLE BAR: “” 
+MESSAGE BAR:
+LINK BAR: 
+•	LOGO
+•	Home->reloads home
+•	Admin Portal-> loads the admin portal
+•	SignUp -> /users/sign_up (if user is logged out)
+•	SignIn -> /users/sign_in (if user is logged out)
+•	Sign Out (if logged in)
+
+BODY: 
+•	Application Name -> show application name long description under the descriptions menu 
+•	Download (rubric) -> downloads the rubric
+•	Download (application form) -> downloads the application form
+
+FOOTER: 
+•	Facebook-> loads the GPF facebook page
+•	Confidentiality Policy-> opens a pdf of the confidentiality policy of GPF
+•	Privacy Policy-> opens the privacy policy of the GPCF
+
