@@ -13,7 +13,7 @@ https://grant-app.herokuapp.com/
 * Clone the repository at https://github.com/CSC322-Grinnell/grantapp
     *_It is advised that you create a development branch for easier version control_
 * Use Ruby's gem bundler with the command-line instruction 
-    <code> bundle </code>
+    <code> bundle install </code>
 * Create the database for the current Rails environment 
     <code> rake db:create </code>
 * Run migrations for the current environment that have not run yet. 

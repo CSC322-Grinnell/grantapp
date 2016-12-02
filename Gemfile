@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.0.0"
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -28,7 +28,6 @@ gem 'rubocop'
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'devise'
-gem 'simplecov'
 #local environment variable shenanigans for using bucket without pushing secret AWS key to Git
 gem 'figaro', "~> 0.7.0"
 #Use CanCan for user authorization
@@ -45,7 +44,8 @@ group :development, :test do
   gem 'cucumber-rails-training-wheels'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'byebug'
+  #Uncomment this gem if using rails 2.0.0 or later
+  #gem 'byebug'
   gem 'gherkin'
   gem 'multi_test', '>= 0.1.2' 
   gem 'database_cleaner'
