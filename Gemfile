@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.0.0"
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -45,7 +45,6 @@ group :development, :test do
   gem 'cucumber-rails-training-wheels'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'byebug'
   gem 'gherkin'
   gem 'multi_test', '>= 0.1.2' 
   gem 'database_cleaner'
