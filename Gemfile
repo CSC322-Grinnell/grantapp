@@ -63,3 +63,7 @@ end
 
 # Gem for test coverage
 gem 'simplecov', :require => false, :group => :test
+
+
+# Ruby parser gem needed for ruby 2.3.0
+gem 'parser', '~> 2.2', '>= 2.2.3.0'
