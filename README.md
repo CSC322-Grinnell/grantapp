@@ -52,7 +52,7 @@ In addition to the previous instructions, you will need to follow these steps to
     ``` git push heroku yourbrach:master ```
     if you are on another branch. 
 
-**Running the test suite** \n
+**Running the test suite**
     ```
     rspec spec/
     ```
