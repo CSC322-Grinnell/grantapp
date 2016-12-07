@@ -1,4 +1,4 @@
-== README == 
+## README ##
 
 This is a simple grant application management service for Greater Poweshiek Community Foundation, deployed at 
 https://grant-app.herokuapp.com/
@@ -45,7 +45,8 @@ In addition to the previous instructions, you will need to follow these steps to
 - Add your public key so that you can deploy code to your heroku apps
     ```
     heroku keys:add
-    ```
+    ``` 
+    and enter 'y' to add the key. 
     You can check which keys are associated with your heroku account with
         ```
         heroku keys 
