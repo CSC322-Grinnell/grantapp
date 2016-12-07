@@ -25,7 +25,9 @@ feature 'Reviewer feedback' do
         # Create feedback
         @my_feedback = Feedback.create(user: @reviewer_user, app: @my_application, comment: "well done.", score: 10)
         
-
+        # Add reviewer user to program using programs_user
+        @reviewer_user.program_ids = [@my_program.id]
+        @reviewer_user.save
     end
     
     # Sign in user and navigate to feedback
@@ -43,20 +45,22 @@ feature 'Reviewer feedback' do
         @my_feedback["score"] = 5
     end
     
+    
+
+    
     # Delete feedback
     ## DO NOT WORK ##
     # Reviewer user is not assigned to any programs so cannot view feedback page
     scenario 'user deletes feedback' do
-
         #visit "/feedbacks"
         
-        #expect(page).to have_content "My Feedback"
-        #expect(page).to have_content @my_feedback["comment"]
+        expect(page).to have_content "My Feedback"
+        expect(page).to have_content @my_feedback["comment"]
         
-        #@my_feedback.delete 
+        @my_feedback.delete
 
         # Check if my feedback page still has comment from feedback that was deleted 
-        #expect(page).not_to have_content @my_feedback["comment"]
+        expect(page).not_to have_content @my_feedback["comment"]
     end
     
 end
