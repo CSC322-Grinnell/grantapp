@@ -50,65 +50,10 @@ In addition to the previous instructions, you will need to follow these steps to
     ``` git push heroku master ```
     or 
     ``` git push heroku yourbrach:master ```
-- 
+    if you are on another branch. 
 
-
-*Running the test suite*
+**Running the test suite** \n
     ```
     rspec spec/
     ```
 will run all tests in the spec folder. 
-
-*Pushing changes to Heroku*
-    ```
-    git push heroku master 
-    ```
-
-
-
-
-
-
-
-
-*Old Version*
-
-* Configuration
-bundle-install-user for MathLan
-
-* Database creation initialization
-rake db:create
-
-* Database initialization
-rake db:migrate
-
-* How to run the test suite
-bundle exec rake cucumber
-
-* Deployment instructions
-If you don't have heroku, install the gem:
-
-<code>gem install --user-install 'heroku'</code>
-
-You now need to set up ssh keys to securely talk to Heroku. 
-
-<code>ssh-keygen -t rsa</code>
-
-<code>heroku login</code>
-
-<code>heroku keys:add</code>
-
-Then add our remote heroku link:
-
-<code>heroku git:remote -a aqueous-depths-5210</code>
-
-To push changes, do:
-
-<code>git push heroku master</code>
-
-
-
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
