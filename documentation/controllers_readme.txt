@@ -57,7 +57,7 @@ Inherits from InheritedResources::Base
 load_and_authorize_resource (method automatically loads authorizes controller resources)
 Defines program parameters.
 Require: :program
-Permit: :title, :short_description, :long_description, :deadline, :picture, :tags, :application_form, :rubric
+Permit: :title, :short_description, :long_description, :deadline, :tags, :application_form, :rubric
 See end of file for explanation of action controller parameters and require/permit methods.
 
 

@@ -156,7 +156,6 @@ BODY:
 	Short Description: Contains, Equals, Starts with, Ends with + [type in field]
 	Long Description: Contains, Equals, Starts with, Ends with + [type in field]
 	Deadline: [input calendar date] to [input calendar date]
-	Picture: Contains, Equals, Starts with, Ends with + [type in field]
 	Tags: Contains, Equals, Starts with, Ends with + [type in field]
 	Created at: [input calendar date] to [input calendar date]
 	Updated at: [input calendar date] to [input calendar date]
