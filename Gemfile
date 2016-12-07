@@ -22,7 +22,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Used for admin side management
 gem 'activeadmin', github:'activeadmin'
 # Enforce Ruby style guidelines
-gem 'rubocop'
+#gem 'rubocop'
+gem 'rubocop', '~> 0.46.0', require: false
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 # Use Unicorn as the app server
