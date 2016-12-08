@@ -5,7 +5,6 @@ class CreatePrograms < ActiveRecord::Migration
       t.string :short_description
       t.string :long_description
       t.datetime :deadline
-      t.string :picture
       t.string :tags
 
       t.timestamps null: false
