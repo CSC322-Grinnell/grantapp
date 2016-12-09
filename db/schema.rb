@@ -78,6 +78,7 @@ ActiveRecord::Schema.define(version: 20151203205227) do
     t.string   "short_description"
     t.string   "long_description"
     t.datetime "deadline"
+    t.string   "picture"
     t.string   "tags"
     t.datetime "created_at",                    null: false
     t.datetime "updated_at",                    null: false
