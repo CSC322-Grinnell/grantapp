@@ -8,11 +8,10 @@ Rails.application.routes.draw do
   # Make it so you cannot go to users page manually
   #resources :users
 
-
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   
-  devise_for :users
+  devise_for :users, controllers: { registrations: 'users/registrations' }
 
   
   get '/', :to => 'programs#index', as: :home_page
