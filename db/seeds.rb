@@ -8,5 +8,7 @@
 
 user = User.create({ first_name: 'Alice',
  last_name: 'Copenhagen', email: 'user@example.com', role:'Applicant' })
+ 
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
 grant = Program.create({title: 'Football', tags: 'sports'})
