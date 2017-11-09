@@ -32,7 +32,7 @@ ActiveAdmin.register Feedback do
   end
    form do |f| 
     f.inputs do
-      f.input :user, as: :select, collection: User.all.collect{|p| [p.first_name + " " + p.last_name, p.id]}
+      f.input :user, as: :select, collection: User.all.collect{|p| [p.first_name||"" + " " + p.last_name||"", p.id]}
       f.input :app, as: :select, collection: App.all.collect{|p| [p.program_id, p.id]}
       f.input :comment
       f.input :score
