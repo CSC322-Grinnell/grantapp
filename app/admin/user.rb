@@ -15,7 +15,9 @@ ActiveAdmin.register User do
   #   permitted = [:permitted, :attributes]
   #   permitted << :other if resource.something?
   #   permitted
-  
+  show do
+    attributes_table :first_name, :last_name, :address, :email, :organization, :phone_number, :role, :current_sign_in_at, :sign_in_count, :created_at
+  end
   # end
   index do
       selectable_column
