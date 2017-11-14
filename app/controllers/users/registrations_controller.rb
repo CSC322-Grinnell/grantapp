@@ -5,7 +5,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # GET /resource/sign_up
   
   def sign_up_params
-    params.require(:user).permit(:first_name, :last_name, :organization, :address, :phone_number, :email, :password, :password_confirmation)
+    params.require(:user).permit(:first_name, :last_name, :organization, :address, :phone_number, :email, :city, :state, :zip_code, :password, :password_confirmation)
   end 
   #this code lets devise track the different values during an account information update
   #def account_update_params
