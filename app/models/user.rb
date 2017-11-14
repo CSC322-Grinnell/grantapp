@@ -8,11 +8,11 @@ class User < ActiveRecord::Base
   has_many :apps
   has_and_belongs_to_many :programs
   accepts_nested_attributes_for :programs
-  validates_presence_of :first_name
-  validates_presence_of :last_name
-  validates_presence_of :phone_number
-  validates_presence_of :email
-  validates_presence_of :address
+  validates_presence_of :first_name, :last_name, :phone_number, :organization
+  validates_presence_of :address, :state, :city
+  validates_length_of :phone_number, :is => 10
+  validates_length_of :zip_code, :is => 5
+  validates_numericality_of :phone_number, :zip_code
   
   
 end

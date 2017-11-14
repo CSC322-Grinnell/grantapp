@@ -3,7 +3,7 @@ ActiveAdmin.register User do
   actions :all, :except => [:new]
   permit_params :first_name, :last_name,
                 :email, :organization, :phone_number, :address,
-                :role, program_ids: []
+                :city, :state, :zip_code, program_ids: []
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
@@ -16,7 +16,7 @@ ActiveAdmin.register User do
   #   permitted << :other if resource.something?
   #   permitted
   show do
-    attributes_table :first_name, :last_name, :address, :email, :organization, :phone_number, :role, :current_sign_in_at, :sign_in_count, :created_at
+    attributes_table :first_name, :last_name, :address, :state, :city, :zip_code, :email, :organization, :phone_number, :current_sign_in_at, :sign_in_count, :created_at
   end
   # end
   index do
@@ -24,7 +24,9 @@ ActiveAdmin.register User do
       column :first_name
       column :last_name
       column :email
-      column :role
+      column :state
+      column :city
+      column :zip_code
       actions
   end
   form do |f| 
@@ -35,7 +37,9 @@ ActiveAdmin.register User do
       f.input :organization
       f.input :phone_number
       f.input :address
-      f.input :role,  as: :select, collection: ['applicant', 'reviewer']
+      f.input :state,  as: :select, collection: ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana','Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'] 
+      f.input :city
+      f.input :zip_code
       f.inputs 'Review Privileges' do
         f.input :program_ids, :as => :check_boxes,
                 :collection => Program.all, :label => 'Program'
