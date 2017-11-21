@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :reviewers
   resources :feedbacks
 
   resources :programs
@@ -12,8 +13,6 @@ Rails.application.routes.draw do
 
   
   devise_for :users, controllers: { registrations: 'users/registrations' }
-
-  
   get '/', :to => 'programs#index', as: :home_page
   root :to => 'programs#index'
   ActiveAdmin.routes(self)

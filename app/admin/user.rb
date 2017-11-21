@@ -36,10 +36,13 @@ ActiveAdmin.register User do
       f.input :email
       f.input :organization
       f.input :phone_number
+      f.input :role, as: :select, collection: ['applicant', 'reviewer']
       f.input :address
       f.input :state,  as: :select, collection: ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana','Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'] 
       f.input :city
       f.input :zip_code
+      
+      
       f.inputs 'Review Privileges' do
         f.input :program_ids, :as => :check_boxes,
                 :collection => Program.all, :label => 'Program'
