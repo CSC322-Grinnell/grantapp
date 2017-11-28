@@ -10,7 +10,8 @@ class FeedbacksController < InheritedResources::Base
   public
   
     def new
-      @app = params[:app_id]
+      # @app = params[:app_id]
+      @app = params.require(:feedback).permit(:user_id, :app_id, :comment, :score)
       @user = @current_user
     end
     

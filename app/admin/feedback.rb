@@ -13,6 +13,8 @@ ActiveAdmin.register Feedback do
 #   permitted
 # end
 
+permit_params :user_id, :app_id, :comment, :score
+
  index do
       selectable_column
       column "Program Title" do |feedback|
@@ -32,8 +34,8 @@ ActiveAdmin.register Feedback do
   end
    form do |f| 
     f.inputs do
-      f.input :user, as: :select, collection: User.all.collect{|p| [p.first_name + " " + p.last_name, p.id]}
-      f.input :app, as: :select, collection: App.all.collect{|p| [p.program_id, p.id]}
+      f.input :user_id, as: :select, collection: User.all.collect{|p| [p.first_name + " " + p.last_name, p.id]}
+      f.input :app_id, as: :select, collection: App.all.collect{|p| [p.program_id, p.id]}
       f.input :comment
       f.input :score
 
