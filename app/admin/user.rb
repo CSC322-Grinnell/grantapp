@@ -27,6 +27,7 @@ ActiveAdmin.register User do
       column :state
       column :city
       column :zip_code
+      column :current_sign_in_at
       actions
   end
   form do |f| 
