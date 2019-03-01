@@ -51,4 +51,10 @@ In addition to the previous instructions, you will need to follow these steps to
     ```
     rspec spec/
     ```
+
+**Migrating Files**
+    ```
+    rake db:schema:load Runs the migration activity
+    rake db:seed        Runs the seed data
+    ```
 will run all tests in the spec folder.

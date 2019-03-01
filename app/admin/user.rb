@@ -3,7 +3,7 @@ ActiveAdmin.register User do
   actions :all, :except => [:new]
   permit_params :first_name, :last_name,
                 :email, :organization, :phone_number, :address,
-                :city, :state, :zip_code, program_ids: []
+                :city, :role, :state, :zip_code, program_ids: []
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #

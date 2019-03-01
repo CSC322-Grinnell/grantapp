@@ -16,7 +16,7 @@ Rails.application.configure do
     
   # config/environments/production.rb
   config.paperclip_defaults = {
-  :storage => :s3,
+  :storage => :filesystem,
   :s3_credentials => {
     :bucket => ENV['S3_BUCKET'],
     :access_key_id => ENV['S3_KEY'],

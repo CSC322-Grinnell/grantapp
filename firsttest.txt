@@ -1,0 +1,274 @@
+.F................FFFFFF.FFF...F..FFFFF.....F.FFF.F..F..F..*
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) Users::ProfileHelper add some examples to (or delete) /home/ubuntu/workspace/spec/helpers/users/profile_helper_spec.rb
+     # Not yet implemented
+     # ./spec/helpers/users/profile_helper_spec.rb:14
+
+Failures:
+
+  1) User signs in with valid email and password
+     Failure/Error: expect(page).to have_content "Welcome"
+       expected to find text "Welcome" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal × Invalid email or password. Log in Email Password Remember me Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
+     # ./spec/features/Admin User/admin_signs_in_spec.rb:15:in `block (2 levels) in <top (required)>'
+
+  2) User navigates from home page Navigate to User Applications
+     Failure/Error: click_link("Your Applications")
+     Capybara::ElementNotFound:
+       Unable to find link "Your Applications"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:23:in `block (2 levels) in <top (required)>'
+
+  3) User navigates from home page Navigate to Applying Page
+     Failure/Error: click_link("Apply")
+     Capybara::ElementNotFound:
+       Unable to find link "Apply"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:29:in `block (2 levels) in <top (required)>'
+
+  4) User navigates from home page User signs out
+     Failure/Error: click_link("Sign Out")
+     Capybara::ElementNotFound:
+       Unable to find link "Sign Out"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:35:in `block (2 levels) in <top (required)>'
+
+  5) User navigates from applying page Navigate to Home page
+     Failure/Error: click_link("Cancel")
+     Capybara::ElementNotFound:
+       Unable to find link "Cancel"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:66:in `block (2 levels) in <top (required)>'
+
+  6) User navigates from applying page Navigate to User Applications
+     Failure/Error: click_link("Your Applications")
+     Capybara::ElementNotFound:
+       Unable to find link "Your Applications"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:72:in `block (2 levels) in <top (required)>'
+
+  7) User navigates from applying page User signs out
+     Failure/Error: click_link("Sign Out")
+     Capybara::ElementNotFound:
+       Unable to find link "Sign Out"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:78:in `block (2 levels) in <top (required)>'
+
+  8) User navigates from applications page Navigate to application details page
+     Failure/Error: click_on("Show")
+     Capybara::ElementNotFound:
+       Unable to find link or button "Show"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:13:in `click_link_or_button'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:113:in `block (2 levels) in <top (required)>'
+
+  9) User navigates from applications page User signs out
+     Failure/Error: click_link("Sign Out")
+     Capybara::ElementNotFound:
+       Unable to find link "Sign Out"
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+     # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+     # ./spec/features/Applicant User/applicant_navigation_spec.rb:119:in `block (2 levels) in <top (required)>'
+
+  10) User applies to program User shows long description
+      Failure/Error: click_button(@program.title)
+      Capybara::ElementNotFound:
+        Unable to find button "newProgram"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:37:in `click_button'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Applicant User/applicant_navigations_spec.rb:22:in `block (2 levels) in <top (required)>'
+
+  11) User signs in with valid email and password
+      Failure/Error: expect(page).to have_content "Your Applications"
+        expected to find text "Your Applications" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal × Invalid email or password. Log in Email Password Remember me Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
+      # ./spec/features/Applicant User/applicant_signs_in_spec.rb:21:in `block (2 levels) in <top (required)>'
+
+  12) User applies to program User shows long description
+      Failure/Error: click_button(@program.title)
+      Capybara::ElementNotFound:
+        Unable to find button "newProgram"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:37:in `click_button'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Applicant User/applicant_submit_application_spec.rb:22:in `block (2 levels) in <top (required)>'
+
+  13) User applies to program User uploads application
+      Failure/Error: expect(page).not_to have_content @program.title
+        expected not to find text "newProgram" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal × You are not authorized to access this page. Welcome to Greater Poweshiek Community Foundation's Grant Application System! Please log in or sign up to apply. Programs Title Description Deadline Rubric Application Form newProgram Test This is a test. December 31, 1969 6:00 PM No Rubric Uploaded Download Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
+      # ./spec/features/Applicant User/applicant_submit_application_spec.rb:28:in `block (2 levels) in <top (required)>'
+
+  14) User applies to program User deletes application
+      Failure/Error: click_on("Delete")
+      Capybara::ElementNotFound:
+        Unable to find link or button "Delete"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:13:in `click_link_or_button'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Applicant User/applicant_submit_application_spec.rb:40:in `block (2 levels) in <top (required)>'
+
+  15) User applies to program User modifies application
+      Failure/Error: click_on("Edit")
+      Capybara::ElementNotFound:
+        Unable to find link or button "Edit"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:13:in `click_link_or_button'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Applicant User/applicant_submit_application_spec.rb:49:in `block (2 levels) in <top (required)>'
+
+  16) Visitor signs up with valid email and password
+      Failure/Error: expect(page).to have_text('Welcome')
+        expected to find text "Welcome" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal Hi Sign up 10 errors prohibited this user from being saved: First name can't be blankLast name can't be blankPhone number can't be blankPhone number is the wrong length (should be 10 characters)Phone number is not a numberOrganization can't be blankAddress can't be blankCity can't be blankZip code is the wrong length (should be 5 characters)Zip code is not a number First name Last name Email Organization Phone number Address City State Alabama Alaska Arizona Arkansas California Colorodo Connecticut Deleware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Zip code Password Password confirmation Log in Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
+      # ./spec/features/Applicant User/visitor_signs_up_spec.rb:12:in `block (2 levels) in <top (required)>'
+
+  17) Reviewer navigates navigate home to applications
+      Failure/Error: click_link "View Applications"
+      Capybara::ElementNotFound:
+        Unable to find link "View Applications"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Reviewer User/reviewer_navigation_spec.rb:24:in `block (2 levels) in <top (required)>'
+
+  18) Reviewer navigates navigate application to my feedback
+      Failure/Error: click_link "View Applications"
+      Capybara::ElementNotFound:
+        Unable to find link "View Applications"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Reviewer User/reviewer_navigation_spec.rb:36:in `block (2 levels) in <top (required)>'
+
+  19) Reviewer navigates navigate application to new feedback
+      Failure/Error: click_link "View Applications"
+      Capybara::ElementNotFound:
+        Unable to find link "View Applications"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Reviewer User/reviewer_navigation_spec.rb:42:in `block (2 levels) in <top (required)>'
+
+  20) Reviewer navigates navigate feedback to applications
+      Failure/Error: click_link "View Applications"
+      Capybara::ElementNotFound:
+        Unable to find link "View Applications"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:27:in `click_link'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Reviewer User/reviewer_navigation_spec.rb:51:in `block (2 levels) in <top (required)>'
+
+  21) Reviewer programs view programs
+      Failure/Error: expect(page).to have_content "Programs"
+        expected to find text "Programs" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal × Invalid email or password. Log in Email Password Remember me Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
+      # ./spec/features/Reviewer User/reviewer_programs_spec.rb:30:in `block (2 levels) in <top (required)>'
+
+  22) Reviewer programs show long description
+      Failure/Error: click_button("newProgram")
+      Capybara::ElementNotFound:
+        Unable to find button "newProgram"
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:41:in `block in find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/base.rb:84:in `synchronize'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/finders.rb:30:in `find'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/node/actions.rb:37:in `click_button'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/session.rb:676:in `block (2 levels) in <class:Session>'
+      # /usr/local/rvm/gems/ruby-2.3.4/gems/capybara-2.4.4/lib/capybara/dsl.rb:51:in `block (2 levels) in <module:DSL>'
+      # ./spec/features/Reviewer User/reviewer_programs_spec.rb:43:in `block (2 levels) in <top (required)>'
+
+  23) Reviewer signs in with valid email and password
+      Failure/Error: expect(page).to have_content "View Applications"
+        expected to find text "View Applications" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal × Invalid email or password. Log in Email Password Remember me Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
+      # ./spec/features/Reviewer User/reviewer_signs_in_spec.rb:21:in `block (2 levels) in <top (required)>'
+
+Finished in 9.84 seconds (files took 7 seconds to load)
+60 examples, 23 failures, 1 pending
+
+Failed examples:
+
+rspec ./spec/features/Admin User/admin_signs_in_spec.rb:10 # User signs in with valid email and password
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:22 # User navigates from home page Navigate to User Applications
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:28 # User navigates from home page Navigate to Applying Page
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:34 # User navigates from home page User signs out
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:60 # User navigates from applying page Navigate to Home page
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:71 # User navigates from applying page Navigate to User Applications
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:77 # User navigates from applying page User signs out
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:109 # User navigates from applications page Navigate to application details page
+rspec ./spec/features/Applicant User/applicant_navigation_spec.rb:118 # User navigates from applications page User signs out
+rspec ./spec/features/Applicant User/applicant_navigations_spec.rb:21 # User applies to program User shows long description
+rspec ./spec/features/Applicant User/applicant_signs_in_spec.rb:15 # User signs in with valid email and password
+rspec ./spec/features/Applicant User/applicant_submit_application_spec.rb:21 # User applies to program User shows long description
+rspec ./spec/features/Applicant User/applicant_submit_application_spec.rb:26 # User applies to program User uploads application
+rspec ./spec/features/Applicant User/applicant_submit_application_spec.rb:36 # User applies to program User deletes application
+rspec ./spec/features/Applicant User/applicant_submit_application_spec.rb:44 # User applies to program User modifies application
+rspec ./spec/features/Applicant User/visitor_signs_up_spec.rb:6 # Visitor signs up with valid email and password
+rspec ./spec/features/Reviewer User/reviewer_navigation_spec.rb:23 # Reviewer navigates navigate home to applications
+rspec ./spec/features/Reviewer User/reviewer_navigation_spec.rb:35 # Reviewer navigates navigate application to my feedback
+rspec ./spec/features/Reviewer User/reviewer_navigation_spec.rb:41 # Reviewer navigates navigate application to new feedback
+rspec ./spec/features/Reviewer User/reviewer_navigation_spec.rb:50 # Reviewer navigates navigate feedback to applications
+rspec ./spec/features/Reviewer User/reviewer_programs_spec.rb:29 # Reviewer programs view programs
+rspec ./spec/features/Reviewer User/reviewer_programs_spec.rb:42 # Reviewer programs show long description
+rspec ./spec/features/Reviewer User/reviewer_signs_in_spec.rb:15 # Reviewer signs in with valid email and password
+
+Coverage report generated for RSpec to /home/ubuntu/workspace/coverage. 25 / 51 LOC (49.02%) covered.
