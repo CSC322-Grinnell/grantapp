@@ -8,11 +8,18 @@ https://grant-app.herokuapp.com/
 - Ruby version: 2.3.0
 - Rails version: 4.2.0
 
+**AWS S3**
+
+The application uses AWS S3 to store document files.
+
+The AWS S3 credentials are stored in environment variables managed by the [Figaro gem](https://github.com/laserlemon/figaro). The credentials are stored in `config/application.yml`, and this file should never be commited to GitHub. The file is included in `.gitignore`, which will prevent it from being accidentally committed.
+
 **Cloning and Configuration Instructions**
 - Clone the repository at https://github.com/CSC322-Grinnell/grantapp
     - _It is advised that you create a development branch for easier version control_
 - Set up the application
     ``` bin/setup ```
+- Request access to the AWS S3 credentials and copy to `config/application.yml`
 - At this point you should be able to run the website on the local rails server.
     ``` bin/rails server ```
 
