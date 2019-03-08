@@ -1,0 +1,5 @@
+# Add application configuration variables here, as shown below.
+
+S3_BUCKET: 'bucket'
+S3_KEY: 'key'
+S3_SECRET: 'secret'
