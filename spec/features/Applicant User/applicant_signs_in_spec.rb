@@ -9,7 +9,7 @@ feature 'User signs in' do
     
     # Creating user in mock database to test signing in with valid credentials
     before do
-        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password", role: "applicant");
+        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address", role: "applicant");
     end
     
     scenario 'with valid email and password' do

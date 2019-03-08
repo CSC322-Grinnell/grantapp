@@ -11,7 +11,7 @@ feature 'Reviewer applications' do
         @pdf = File.new(Rails.root + "spec/fixtures/test_program.pdf")
         @datetime = DateTime.new(1970, 1, 1)
         @program = Program.create(title:"TestProgram", short_description:"Short", long_description:"Long", deadline: @datetime, application_form: @pdf)
-        @user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", role: "reviewer")
+        @user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address", role: "reviewer");
         @applicant = User.create(first_name: "Applicant", last_name: "Example", email: "applicant@example.com", password: "password")
         @application = App.create(user: @applicant, program: @program, user_app: @pdf)  
         

@@ -9,7 +9,7 @@ feature 'Reviewer navigates' do
     
     # Create a user in the mock database to test signing in with valid credentials
     before do
-        @user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", role: "reviewer");
+        @user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address", role: "reviewer");
     end
     
     # Sign in user

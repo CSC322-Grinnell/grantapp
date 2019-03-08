@@ -2,9 +2,8 @@ require 'rails_helper.rb'
 require 'spec_helper.rb'
 
 feature 'User signs in' do
-    
     before do
-        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password");
+        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address");
     end
     
     scenario 'with valid email and password' do

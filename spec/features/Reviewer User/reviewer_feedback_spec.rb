@@ -10,8 +10,8 @@ feature 'Reviewer feedback' do
     # Create an applicant user and a reviewer user in the mock database 
     before do
         #Create users
-        @applicant_user = User.create(first_name: "Appplicant", last_name: "Example", email: "applicant@example.com", password: "password", role: "applicant");
-        @reviewer_user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", role: "reviewer");
+        @applicant_user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address", role: "applicant");
+        @reviewer_user = User.create(first_name: "Reviewer", last_name: "Example", email: "reviewer@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address", role: "reviewer");
         #Create program
         my_pdf = File.new(Rails.root + "spec/fixtures/test_pdf.pdf")
         my_datetime = DateTime.new(1970, 1, 1)

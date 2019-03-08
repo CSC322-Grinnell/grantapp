@@ -1,0 +1,12 @@
+...........................................................*
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) Users::ProfileHelper add some examples to (or delete) /home/ubuntu/workspace/spec/helpers/users/profile_helper_spec.rb
+     # Not yet implemented
+     # ./spec/helpers/users/profile_helper_spec.rb:14
+
+Finished in 11.43 seconds (files took 5.91 seconds to load)
+60 examples, 0 failures, 1 pending
+
+Coverage report generated for RSpec to /home/ubuntu/workspace/coverage. 47 / 63 LOC (74.6%) covered.

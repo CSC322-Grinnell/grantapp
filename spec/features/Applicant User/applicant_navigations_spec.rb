@@ -8,8 +8,7 @@ feature 'User applies to program' do
         @pdf = File.new(Rails.root + "spec/fixtures/test.pdf")
         
         @datetime = DateTime.new(1970, 1, 1)
-        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password",
-                            role: "applicant")
+        @user = User.create(first_name: "Bob", last_name: "Example", email: "user@example.com", password: "password", organization: "test", phone_number: "1234567890", state: "IO", city: "Grinnell", zip_code: "50112", address: "test_address", role: "applicant");
         @program = Program.create(title: "newProgram", short_description: "Test", long_description: "This is a test.",
                             deadline: @datetime, application_form: @pdf)
         visit "/users/sign_in"
