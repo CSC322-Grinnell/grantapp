@@ -10,10 +10,9 @@ class FeedbacksController < InheritedResources::Base
   public
   
     def new
-       # @app = params[:app_id]
-      @app = params.permit(:user_id, :app_id, :comment, :score) #removed .require(:feedback) as it was blocking the ability to do feebacks. 
+      @app = params[:app_id]
       @user = @current_user
-    end
+    end    
     
     def edit
       @app = @feedback.app.id

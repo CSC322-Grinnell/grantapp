@@ -46,7 +46,7 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   #Uncomment this gem if using rails 2.0.0 or later
-  #gem 'byebug'
+  gem 'byebug'
   gem 'gherkin'
   gem 'multi_test', '>= 0.1.2' 
   gem 'database_cleaner'

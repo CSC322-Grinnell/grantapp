@@ -1,6 +1,6 @@
 #
 class Program < ActiveRecord::Base
-  has_many :apps
+  has_many :app
   has_and_belongs_to_many :users
   has_attached_file :application_form
   has_attached_file :rubric

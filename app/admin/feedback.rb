@@ -1,5 +1,6 @@
 ActiveAdmin.register Feedback do
     menu label: "Reviewer Feedback"
+    permit_params :app, :comment, :score
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -40,6 +41,7 @@ ActiveAdmin.register Feedback do
     end
     f.actions
   end
+  
 
 
 end
