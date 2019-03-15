@@ -32,7 +32,7 @@ feature 'Admin deletes an existed project' do
         ret = @my_program.valid?
         assert_equal false, ret 
         
-        #expect(page).to have_content @my_program.title
+        expect(page).to have_content @my_program.title
         
     end
     
