@@ -242,7 +242,7 @@ Failures:
         expected to find text "View Applications" in "Toggle navigation Grant Management System Home Sign Up Sign In Admin Portal × Invalid email or password. Log in Email Password Remember me Contact Information Greater Poweshiek Community Foundation gpcf@greaterpcf.org 641.236.5518P.O. Box 3441510 Penrose StreetGrinnell, IA 50112 The National Standards Seal by our name indicates official confirmation from the Council on Foundations that we have met the most rigorous standards in philanthropy. It affirms our commitment to financial security, transparency and accountability. The Greater Poweshiek Community Foundation received this seal of approval in January 2010. Confidentiality Policy Privacy Policy Join Us On Facebook Facebook ©2016 Greater Poweshiek Community Foundation | All Rights Reserved"
       # ./spec/features/Reviewer User/reviewer_signs_in_spec.rb:21:in `block (2 levels) in <top (required)>'
 
-Finished in 9.84 seconds (files took 7 seconds to load)
+Finished in 11.93 seconds (files took 8.3 seconds to load)
 60 examples, 23 failures, 1 pending
 
 Failed examples:

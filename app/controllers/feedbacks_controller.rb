@@ -12,8 +12,12 @@ class FeedbacksController < InheritedResources::Base
     def new
       @app = params[:app_id]
       @user = @current_user
+fix-feedback
     end
 
+=======
+    end
+master
     def edit
       @app = @feedback.app.id
       @user = @feedback.user
