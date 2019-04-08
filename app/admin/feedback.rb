@@ -1,6 +1,6 @@
 ActiveAdmin.register Feedback do
     menu label: "Reviewer Feedback"
-    permit_params :app, :comment, :score
+    permit_params :app, :comment, :score, :app_id, :user, :user_id
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -13,11 +13,11 @@ ActiveAdmin.register Feedback do
 #   permitted << :other if resource.something?
 #   permitted
 # end
-
  index do
       selectable_column
       column "Program Title" do |feedback|
           feedback.app.program.title
+          
       end
       column "Applicant Email" do |feedback|
           feedback.app.user.email
