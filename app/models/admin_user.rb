@@ -6,4 +6,5 @@ class AdminUser < ActiveRecord::Base
          
   has_many :feedback
   validates_presence_of :email
+
 end

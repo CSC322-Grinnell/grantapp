@@ -116,6 +116,7 @@ GEM
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
     docile (1.1.5)
+    enum (1.0.0)
     erubis (2.7.0)
     execjs (2.5.2)
     figaro (0.7.0)
@@ -310,6 +311,7 @@ DEPENDENCIES
   cucumber-rails-training-wheels
   database_cleaner
   devise
+  enum (~> 1.0)
   figaro (~> 0.7.0)
   gherkin
   jbuilder (~> 2.0)
