@@ -6,5 +6,9 @@ class AdminUser < ActiveRecord::Base
          
   has_many :feedback
   validates_presence_of :email
+  
+  def sadmin_user? (admin_user)
+    self.role == "secondary_admin_users"
+  end
 
 end

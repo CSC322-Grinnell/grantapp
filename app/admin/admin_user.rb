@@ -1,7 +1,8 @@
 ActiveAdmin.register AdminUser do
   permit_params :email, :password, :password_confirmation, :role
+  
+  menu :if => proc{ can? :manage, AdminUser }
 
-  if can? :manage, @admin_users
     index do
       selectable_column
       id_column
@@ -32,5 +33,4 @@ ActiveAdmin.register AdminUser do
       end
       f.actions
     end
-  end
 end

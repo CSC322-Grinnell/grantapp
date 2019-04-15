@@ -20,18 +20,18 @@ class Ability
   
   #Defining admin_user abilities. 
   def initialize(admin_users)
-    # user ||= User.new # guest user( not logged in)
+     #admin_users ||= User.new # guest user( not logged in)
     if admin_users.nil?
       can :read, Program
     elsif admin_users.role == 'admin_users'
       can :manage, App, admin_users: admin_users
       can :manage, Program
       can :manage, User
-      can :manage, Admin_users
+      can :manage, AdminUser
       can :manage, Feedback, admin_users: admin_users
     elsif admin_users.role == 'secondary_admin_users'
       can :manage, App, admin_users: admin_users
-      can :manage. Program
+      can :manage, Program
       can :manage, User
       can :manage, Feedback, admin_users: admin_users
     else
