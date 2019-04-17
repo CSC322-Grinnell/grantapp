@@ -3,7 +3,8 @@ class AdminUser < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
-         
+
+  enum role: [:admin, :secondary]
   has_many :feedback
   validates_presence_of :email
 end
