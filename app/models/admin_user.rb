@@ -6,5 +6,5 @@ class AdminUser < ActiveRecord::Base
 
   enum role: [:admin, :secondary]
   has_many :feedback
-  validates_presence_of :email
+  validates :email, :role, presence: true
 end
