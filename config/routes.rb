@@ -12,7 +12,7 @@ Rails.application.routes.draw do
 
   get 'users/profile', to: 'users/profile#show'
   
-  devise_for :users, controllers: { registrations: 'users/registrations' }
+  devise_for :users, controllers: { registrations: 'users/registrations', confirmations: 'confirmations' }
   get '/', :to => 'programs#index', as: :home_page
   root :to => 'programs#index'
   ActiveAdmin.routes(self)
