@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'password_resets/new'
+
+  get 'password_resets/edit'
+
   resources :feedbacks
 
   resources :programs
@@ -16,6 +20,9 @@ Rails.application.routes.draw do
   get '/', :to => 'programs#index', as: :home_page
   root :to => 'programs#index'
   ActiveAdmin.routes(self)
+  
+  resources :password_resets,     only: [:new, :create, :edit, :update]
+    
 
   # post 'apps/upload' => 'apps#upload'
   get 'apps/:id/download' => 'apps#download', as: :download

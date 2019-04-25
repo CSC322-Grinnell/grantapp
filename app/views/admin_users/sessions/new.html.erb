@@ -8,6 +8,7 @@
 
   <div class="field">
     <%= f.label :password %><br />
+    <%= link_to "(forgot password)", new_password_reset_path %>
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 
