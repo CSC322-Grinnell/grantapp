@@ -11,8 +11,8 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   get 'users/profile', to: 'users/profile#show'
-  
-  devise_for :users, controllers: { registrations: 'users/registrations', confirmations: 'confirmations' }
+
+  devise_for :users, controllers: { registrations: 'users/registrations' }
   get '/', :to => 'programs#index', as: :home_page
   root :to => 'programs#index'
   ActiveAdmin.routes(self)
