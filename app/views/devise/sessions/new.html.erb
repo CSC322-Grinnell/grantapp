@@ -8,6 +8,7 @@
 
   <div class="form-group">
     <%= f.label :password, class: "control-label" %><br />
+    <%= link_to "(forgot password)", new_user_password_path %>
     <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
   </div>
 
