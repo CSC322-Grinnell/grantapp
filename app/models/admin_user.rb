@@ -6,5 +6,7 @@ class AdminUser < ActiveRecord::Base
 
   enum role: [:admin, :secondary]
   has_many :feedback
+  has_and_belongs_to_many :program
+  accepts_nested_attributes_for :program
   validates :email, :role, presence: true
 end

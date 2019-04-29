@@ -1,10 +1,11 @@
 ActiveAdmin.register AdminUser do
-  permit_params :email, :role, :password, :password_confirmation
+  permit_params :email, :role, :password, :password_confirmation, program_ids: []
 
   index do
     selectable_column
     id_column
     column :email
+    column :role
     column :current_sign_in_at
     column :sign_in_count
     column :created_at
@@ -26,6 +27,11 @@ ActiveAdmin.register AdminUser do
       f.input :role
       f.input :password
       f.input :password_confirmation
+      
+    f.inputs 'Program Privileges' do
+        f.input :program_ids, :as => :check_boxes,
+                :collection => Program.all, :label => 'Program'
+      end
     end
     f.actions
   end
