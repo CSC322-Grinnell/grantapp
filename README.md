@@ -1,11 +1,10 @@
 ## README ##
 
-This is a simple grant application management service for Greater Poweshiek Community Foundation, deployed at
-https://grant-app.herokuapp.com/
+This is a simple grant application management service for Greater Poweshiek Community Foundation
 
 **Repository Properties**
 
-- Ruby version: 2.3.0
+- Ruby version: 2.3.4
 - Rails version: 4.2.0
 
 **AWS S3**
