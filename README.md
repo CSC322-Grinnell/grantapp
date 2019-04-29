@@ -3,6 +3,8 @@
 This is a simple grant application management service for Greater Poweshiek Community Foundation, deployed at
 https://grant-app.herokuapp.com/
 
+Note: the deployed version is outdated. 
+
 **Repository Properties**
 
 - Ruby version: 2.3.0
