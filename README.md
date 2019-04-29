@@ -24,6 +24,7 @@ The AWS S3 credentials are stored in environment variables managed by the [Figar
 
 
 In addition to the previous instructions, you will need to follow these steps to deploy to and securely talk to Heroku.
+**Not deployed to Heroku yet**
 - Generate a public SSH key
     ``` ssh-keygen -t rsa ```
     Press 'enter' at the first prompt to use the default file location to save the key.
@@ -60,14 +61,19 @@ In addition to the previous instructions, you will need to follow these steps to
     rspec spec/ (For results to show in terminal)
     rspec spec/ > firstest.txt (For results to show in firsttest)
     ```
+    will run all tests in the spec folder.
 
 **Migrating Files**
     ```
     rake db:schema:load Runs the migration activity
     rake db:seed        Runs the seed data
     rake db:migrate     Runs the migration itself
+    
+    Need to change the databse in some way? Adding columns/tables?
+    
+    rake db:
     ```
-will run all tests in the spec folder.
+    
 
 
 **Database Location**
