@@ -81,5 +81,7 @@ will run all tests in the spec folder.
     
 **Important links**
     GitHub repository: ```https://github.com/CSC322-Grinnell/grantapp```
+    
     Trello to-do list: ```https://trello.com/b/sED2CyqL/to-do```
+    
     Future to-do list and project details: ```https://docs.google.com/document/d/11GJwlD3gYYGqRp_eNDNVN-jdvLylvZ2GmtHiwM5_bPo/edit?usp=sharing```
