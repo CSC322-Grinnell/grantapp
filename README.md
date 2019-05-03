@@ -65,8 +65,8 @@ In addition to the previous instructions, you will need to follow these steps to
 
 **Migrating Files**  
     
-    ```rake db:schema:load```   Runs the migration activity 
-    ```rake db:seed```         Runs the seed data  ```
+    ```rake db:schema:load```  Runs the migration activity 
+    ```rake db:seed```         Runs the seed data 
     ```rake db:migrate```      Runs the migration itself  
     
 will run all tests in the spec folder.
