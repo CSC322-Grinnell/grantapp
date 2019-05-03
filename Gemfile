@@ -7,12 +7,13 @@ gem 'rails', '4.2.0'
 gem 'momentjs-rails'
 gem 'rails_bootstrap_sortable'
 # Twitter Bootstrap for UI and navigation bar
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 # File Uploads
 gem 'paperclip'
 gem 'aws-sdk', '< 2.0'
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '4.3.3'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -20,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Used for admin side management
-gem 'activeadmin', github:'activeadmin'
+gem 'activeadmin', '1.4.3'
 # Enforce Ruby style guidelines
 #gem 'rubocop'
 gem 'rubocop', '~> 0.46.0', require: false
@@ -48,7 +49,7 @@ group :development, :test do
   #Uncomment this gem if using rails 2.0.0 or later
   gem 'byebug'
   gem 'gherkin'
-  gem 'multi_test', '>= 0.1.2' 
+  gem 'multi_test', '>= 0.1.2'
   gem 'database_cleaner'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'

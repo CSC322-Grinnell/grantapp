@@ -1,7 +1,8 @@
 #
 class Program < ActiveRecord::Base
   has_many :app
-  has_and_belongs_to_many :users
+  has_and_belongs_to_many :user
+  has_and_belongs_to_many :admin_users
   has_attached_file :application_form
   has_attached_file :rubric
   
