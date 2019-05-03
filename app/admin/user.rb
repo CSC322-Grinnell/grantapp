@@ -19,6 +19,8 @@ ActiveAdmin.register User do
     attributes_table :first_name, :last_name, :address, :state, :city, :zip_code, :email, :organization, :phone_number, :current_sign_in_at, :sign_in_count, :created_at
   end
   # end
+  
+  # Creates the table with the following columns. 
   index do
       selectable_column
       column :first_name
@@ -30,6 +32,8 @@ ActiveAdmin.register User do
       column :current_sign_in_at
       actions
   end
+  
+  #Handles the editing of the user. 
   form do |f| 
     f.inputs do
       f.input :first_name
@@ -43,7 +47,7 @@ ActiveAdmin.register User do
       f.input :city
       f.input :zip_code
       
-      
+      #Handles the editing part that deals with if a user is a reviewer or not. 
       f.inputs 'Review Privileges' do
         f.input :program_ids, :as => :check_boxes,
                 :collection => Program.all, :label => 'Program'

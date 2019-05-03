@@ -56,7 +56,7 @@ In addition to the previous instructions, you will need to follow these steps to
     ``` git push heroku yourbrach:master ```
     if you are on another branch.
 
-** Currently not deployed to heroku, only on this cloud9 filesystem **
+** Currently not deployed to heroku**
 
 **Running the test suite**
     ```

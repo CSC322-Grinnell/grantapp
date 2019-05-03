@@ -1,3 +1,4 @@
+# Creates the tab in admin portal for Programs
 ActiveAdmin.register Program do
   # See permitted parameters documentation:
   # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
@@ -10,6 +11,7 @@ ActiveAdmin.register Program do
   #   permitted << :other if resource.something?
   #   permitted
   # end
+  # Creates the table with the following columns. 
     index do
       selectable_column
       column :title
@@ -19,6 +21,7 @@ ActiveAdmin.register Program do
       actions
   end
   
+  #Handles the editing of Programs, must input the following information. 
   form do |f| 
     f.inputs do
       f.input :title
