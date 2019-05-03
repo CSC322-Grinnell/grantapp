@@ -72,6 +72,7 @@ GEM
       sass (~> 3.4)
       thor
     builder (3.2.2)
+    byebug (9.1.0)
     cancan (1.6.10)
     capybara (2.4.4)
       mime-types (>= 1.16)
@@ -301,6 +302,7 @@ DEPENDENCIES
   activeadmin!
   aws-sdk (< 2.0)
   bootstrap-sass
+  byebug
   cancan
   capybara
   coffee-rails (~> 4.1.0)
