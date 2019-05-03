@@ -11,11 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20190412132408) do
-=======
-ActiveRecord::Schema.define(version: 20190424155923) do
->>>>>>> d4ea3f1ff870a392f004ffcc663344a57c8a8d2c
+ActiveRecord::Schema.define(version: 20190503155433) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
@@ -45,7 +41,6 @@ ActiveRecord::Schema.define(version: 20190424155923) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "role",                   default: 0
   end
 
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true
@@ -101,15 +96,11 @@ ActiveRecord::Schema.define(version: 20190424155923) do
     t.string   "rubric_content_type"
     t.integer  "rubric_file_size"
     t.datetime "rubric_updated_at"
-    t.integer  "program_id"
-    t.integer  "user_id"
   end
 
-  create_table "programs_users", force: :cascade do |t|
-    t.integer  "program_id"
-    t.integer  "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table "programs_users", id: false, force: :cascade do |t|
+    t.integer "program_id"
+    t.integer "user_id"
   end
 
   create_table "reviewers", force: :cascade do |t|
@@ -138,24 +129,6 @@ ActiveRecord::Schema.define(version: 20190424155923) do
   add_index "reviewers", ["email"], name: "index_reviewers_on_email", unique: true
   add_index "reviewers", ["reset_password_token"], name: "index_reviewers_on_reset_password_token", unique: true
 
-  create_table "secondary_admin_users", force: :cascade do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
-    t.string   "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
-    t.datetime "current_sign_in_at"
-    t.datetime "last_sign_in_at"
-    t.string   "current_sign_in_ip"
-    t.string   "last_sign_in_ip"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "secondary_admin_users", ["email"], name: "index_secondary_admin_users_on_email", unique: true
-  add_index "secondary_admin_users", ["reset_password_token"], name: "index_secondary_admin_users_on_reset_password_token", unique: true
-
   create_table "users", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
@@ -178,10 +151,14 @@ ActiveRecord::Schema.define(version: 20190424155923) do
     t.string   "city"
     t.string   "zip_code"
     t.string   "role",                   default: "applicant"
+    t.string   "confirmation_token"
+    t.datetime "confirmed_at"
+    t.datetime "confirmation_sent_at"
     t.string   "reset_digest"
     t.datetime "reset_sent_at"
   end
 
+  add_index "users", ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
   add_index "users", ["email"], name: "index_users_on_email", unique: true
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
 

@@ -3,7 +3,12 @@ class AdminUser < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
-<<<<<<< HEAD
+
+  enum role: [:admin, :secondary]
+  has_many :feedback
+  has_and_belongs_to_many :program
+  accepts_nested_attributes_for :program
+  validates :email, :role, presence: true
          
     attr_accessor :remember_token, :activation_token, :reset_token
    
@@ -31,12 +36,4 @@ class AdminUser < ActiveRecord::Base
     UserMailer.password_reset(self).deliver_now
   end
   
-=======
-
-  enum role: [:admin, :secondary]
-  has_many :feedback
-  has_and_belongs_to_many :program
-  accepts_nested_attributes_for :program
-  validates :email, :role, presence: true
->>>>>>> d4ea3f1ff870a392f004ffcc663344a57c8a8d2c
 end
