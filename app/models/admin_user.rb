@@ -3,15 +3,7 @@ class AdminUser < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
-<<<<<<< HEAD
 
-  enum role: [:admin, :secondary]
-  has_many :feedback
-  has_and_belongs_to_many :program
-  accepts_nested_attributes_for :program
-  validates :email, :role, presence: true
-=======
->>>>>>> 176838f17e32f5f274ee31544922c9c4f8313062
          
     attr_accessor :remember_token, :activation_token, :reset_token
    
