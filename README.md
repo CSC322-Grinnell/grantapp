@@ -58,31 +58,27 @@ In addition to the previous instructions, you will need to follow these steps to
 
 ** Currently not deployed to heroku, only on this cloud9 filesystem **
 
-**Running the test suite**
-    ```
-    rspec spec/ (For results to show in terminal)
-    rspec spec/ > firstest.txt (For results to show in firsttest)
-    ```
+**Running the test suite**  
+    
+    ```rspec spec/ (For results to show in terminal)```  
+    ```rspec spec/ > firstest.txt (For results to show in firsttest)```
 
-**Migrating Files**
-    ```
-    rake db:schema:load Runs the migration activity
-    rake db:seed        Runs the seed data
-    rake db:migrate     Runs the migration itself
-    ```
+**Migrating Files**  
+    
+    ```rake db:schema:load```  Runs the migration activity 
+    ```rake db:seed```         Runs the seed data 
+    ```rake db:migrate```      Runs the migration itself  
+    
 will run all tests in the spec folder.
 
 
-**Database Location**
-    ```
+**Database Location**  
     project_development inside ~/workspace. 
     NOT THE ONE IN db!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     project_test right under it is for test data or seed data...project_production is lost in space, no idea what it is...
-    ```
-    
-**Important links**
-    ```
-    GitHub repository: https://github.com/CSC322-Grinnell/grantapp
-    trello to-do list: https://trello.com/b/sED2CyqL/to-do
-    ```
 
+    
+**Important links**  
+    GitHub repository: ```https://github.com/CSC322-Grinnell/grantapp```  
+    Trello to-do list: ```https://trello.com/b/sED2CyqL/to-do```  
+    Future to-do list and project details: ```https://docs.google.com/document/d/11GJwlD3gYYGqRp_eNDNVN-jdvLylvZ2GmtHiwM5_bPo/edit?usp=sharing```

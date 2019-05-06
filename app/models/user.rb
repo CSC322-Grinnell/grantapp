@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
 
   attr_accessor :remember_token, :activation_token, :reset_token, :confirmable
 
+
   has_many :app
   has_many :feedback
   has_and_belongs_to_many :program
