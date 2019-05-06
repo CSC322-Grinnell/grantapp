@@ -24,8 +24,8 @@ ActiveAdmin.register Feedback do
       end
       column :comment
       column :score
-      column "Reviewer Email" do |feedback|
-          feedback.user.email
+      column "Reviewer Title" do |feedback|
+          feedback.user.role                   #Does not work if an admin makes a feedback. 
       end
      
       
