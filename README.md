@@ -61,8 +61,8 @@ In addition to the previous instructions, you will need to follow these steps to
 ## Running the test suite ##  
 **The following commands run the full test suite:**
 
-    ```rspec spec/ (For results to show in terminal)```  
-    ```rspec spec/ > firstest.txt (For results to show in firsttest)```
+    rspec spec/ (For results to show in terminal)  
+    rspec spec/ > firstest.txt (For results to show in firsttest)
 
 
 ## Migrating Files ## 
