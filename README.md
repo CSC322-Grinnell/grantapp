@@ -1,22 +1,21 @@
-## README ##
+# README #
 
-This is a simple grant application management service for Greater Poweshiek Community Foundation, deployed at
-https://grant-app.herokuapp.com/
+This is a simple grant application management service for Greater Poweshiek Community Foundation. The purpose of this website is to allow users to upload their grant proposals to the site. Once submitted, secondary admins (a team of reviewers approved by GPCF) can rank proposals and provide optional feedback. An outdated/legacy version of the website is currently deployed at https://grant-app.herokuapp.com/
 
-Note: the deployed version is outdated. 
 
-**Repository Properties**
+## Repository Properties ##
 
-- Ruby version: 2.3.0
+- Ruby version: 2.3.4
 - Rails version: 4.2.0
 
-**AWS S3**
+
+## AWS S3 ##
 
 The application uses AWS S3 to store document files.
 
-The AWS S3 credentials are stored in environment variables managed by the [Figaro gem](https://github.com/laserlemon/figaro). The credentials are stored in `config/application.yml`, and this file should never be commited to GitHub. The file is included in `.gitignore`, which will prevent it from being accidentally committed.
+The AWS S3 credentials are stored in environment variables managed by the [Figaro gem](https://github.com/laserlemon/figaro). The credentials are stored in `config/application.yml`, and this file should never be committed to GitHub. The file is included in `.gitignore`, which will prevent it from being accidentally committed.
 
-**Cloning and Configuration Instructions**
+## Cloning and Configuration Instructions ##
 - Clone the repository at https://github.com/CSC322-Grinnell/grantapp
     - _It is advised that you create a development branch for easier version control_
 - Set up the application
@@ -25,6 +24,8 @@ The AWS S3 credentials are stored in environment variables managed by the [Figar
 - At this point you should be able to run the website on the local rails server.
     ``` bin/rails server ```
 
+## Heroku ##
+**Note: The current (as of spring 2019) version is not deployable to heroku, due to Rails being outdated.**
 
 In addition to the previous instructions, you will need to follow these steps to deploy to and securely talk to Heroku.
 - Generate a public SSH key
@@ -56,29 +57,27 @@ In addition to the previous instructions, you will need to follow these steps to
     ``` git push heroku yourbrach:master ```
     if you are on another branch.
 
-** Currently not deployed to heroku, only on this cloud9 filesystem **
 
-**Running the test suite**  
-    
+## Running the test suite ##  
+**The following commands run the full test suite:**
+
     ```rspec spec/ (For results to show in terminal)```  
     ```rspec spec/ > firstest.txt (For results to show in firsttest)```
 
-**Migrating Files**  
+
+## Migrating Files ## 
     
-    ```rake db:schema:load```  Runs the migration activity 
-    ```rake db:seed```         Runs the seed data 
-    ```rake db:migrate```      Runs the migration itself  
-    
-will run all tests in the spec folder.
+    rake db:schema:load  Runs the migration activity 
+    rake db:seed         Runs the seed data 
+    rake db:migrate      Runs the migration itself  
 
 
-**Database Location**  
-    project_development inside ~/workspace. 
-    NOT THE ONE IN db!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    project_test right under it is for test data or seed data...project_production is lost in space, no idea what it is...
+## Database Location ##
+Project_development is inside ~/workspace.  **Note: this is not the one in db.**
+
+project_test  is for test data or seed data... project_production is lost in space, no idea what it is...
 
     
-**Important links**  
-    GitHub repository: ```https://github.com/CSC322-Grinnell/grantapp```  
-    Trello to-do list: ```https://trello.com/b/sED2CyqL/to-do```  
-    Future to-do list and project details: ```https://docs.google.com/document/d/11GJwlD3gYYGqRp_eNDNVN-jdvLylvZ2GmtHiwM5_bPo/edit?usp=sharing```
+## Important links ##  
+    Trello to-do list: https://trello.com/b/sED2CyqL/to-do  
+    Future to-do list and project details: https://docs.google.com/document/d/11GJwlD3gYYGqRp_eNDNVN-jdvLylvZ2GmtHiwM5_bPo/edit?usp=sharing
