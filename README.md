@@ -79,5 +79,5 @@ Additionally, project_test  is for test data or seed data; project_production is
 
     
 ## Important links ##  
-    Trello to-do list: https://trello.com/b/sED2CyqL/to-do  
-    Future to-do list and project details: https://docs.google.com/document/d/11GJwlD3gYYGqRp_eNDNVN-jdvLylvZ2GmtHiwM5_bPo/edit?usp=sharing
+Trello to-do list: https://trello.com/b/sED2CyqL/to-do  
+Future to-do list and project details: https://docs.google.com/document/d/11GJwlD3gYYGqRp_eNDNVN-jdvLylvZ2GmtHiwM5_bPo/edit?usp=sharing
