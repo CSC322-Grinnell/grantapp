@@ -1,6 +1,6 @@
 # README #
 
-This is a simple grant application management service for Greater Poweshiek Community Foundation. The purpose of this website is to allow users to upload their grant proposals to the site. Once submitted, secondary admins (a team of reviewers approved by GPCF) can rank proposals and provide optional feedback. An outdated/legacy version of the website is currently deployed at https://grant-app.herokuapp.com/
+This is a simple grant application management service for Greater Poweshiek Community Foundation. The purpose of this website is to allow users to upload their grant proposals to the site. Once submitted, secondary admins (the host or coordinator of a grant approved by GPCF super admins) can appoint certain users to be reviewers of proposals. Reviewers then rank proposals and can provide optional feedback to the submitter. An outdated/legacy version of the website is currently deployed at https://grant-app.herokuapp.com/
 
 
 ## Repository Properties ##
@@ -73,9 +73,9 @@ In addition to the previous instructions, you will need to follow these steps to
 
 
 ## Database Location ##
-Project_development is inside ~/workspace.  **Note: this is not the one in db.**
+Project_development is inside ~/workspace.  **Note: this is not the one in db, which was a stumbling block for 2019 production.**
 
-project_test  is for test data or seed data... project_production is lost in space, no idea what it is...
+Additionally, project_test  is for test data or seed data; project_production is currently lost.
 
     
 ## Important links ##  
