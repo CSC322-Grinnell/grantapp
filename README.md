@@ -1,6 +1,6 @@
 # README #
 
-This is a simple grant application management service for Greater Poweshiek Community Foundation. The purpose of this website is to allow users to upload their grant proposals to the site. Once submitted, secondary admins (the host or coordinator of a grant approved by GPCF super admins) can appoint certain users to be reviewers of proposals. Reviewers then rank proposals and can provide optional feedback to the submitter. An outdated/legacy version of the website is currently deployed at https://grant-app.herokuapp.com/
+This is a simple grant application management service for Greater Poweshiek Community Foundation. The purpose of this website is to allow users to upload their grant proposals to the site. Once submitted, secondary admins (the host or coordinator of a grant approved by GPCF super admins) can appoint certain users to be reviewers of proposals. Reviewers then rank proposals and their feedback can be provided to the user by a secondary admin. An outdated/legacy version of the website is currently deployed at https://grant-app.herokuapp.com/
 
 
 ## Repository Properties ##
